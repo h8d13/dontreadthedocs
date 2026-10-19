@@ -1,5 +1,5 @@
 ---
-title: Template
+title: Title
 description: Template
 ---
 
