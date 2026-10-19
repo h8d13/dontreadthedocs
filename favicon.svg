@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+	<rect width="32" height="32" rx="6" fill="#121212"/>
+	<g fill="#ebebeb" font-family="ui-monospace, 'Liberation Mono', monospace"
+		font-size="14" font-weight="700" text-anchor="middle">
+		<text x="9.5" y="15">D</text>
+		<text x="22.5" y="15">R</text>
+		<text x="9.5" y="28">T</text>
+		<text x="22.5" y="28">D</text>
+	</g>
+</svg>

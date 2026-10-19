@@ -1,5 +1,5 @@
-title: dontreadthedocs
-permalink: /:year/:month/:day/:title/
+title: DRTD
+permalink: :title/
 exclude:
   - LICENSE
   - "*.py"
