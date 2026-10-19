@@ -6,7 +6,7 @@ layout: default
 	<li>
 		<a href="{{ post.url | relative_url }}">
 			<span class="title">{{ post.title }}</span>
-			{% if post.description %}<span class="desc">{{ post.description }}</span>{% endif %}
+			{% if post.description %}<span class="desc">{% include inline.html text=post.description %}</span>{% endif %}
 			<span class="meta">{{ post.date | date: "%Y-%m-%d" }}</span>
 		</a>
 	</li>

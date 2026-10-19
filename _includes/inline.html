@@ -1,0 +1,2 @@
+{%- comment -%} markdownify wraps in <p>, invalid inside <p>/<span> {%- endcomment -%}
+{{- include.text | markdownify | remove: "<p>" | remove: "</p>" | strip -}}

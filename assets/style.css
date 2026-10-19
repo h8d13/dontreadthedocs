@@ -229,7 +229,7 @@ article > .lead {
 	border-bottom: 1px solid var(--fd-border);
 }
 
-.prose code {
+code {
 	font-family: var(--mono);
 	font-size: 13px;
 	padding: 3px;
