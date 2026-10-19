@@ -1,0 +1,276 @@
+/*
+ * Dark palette and prose values lifted from fumadocs (MIT, (c) 2023 Fuma):
+ * packages/radix-ui/css/lib/default-colors.css (.dark)
+ * packages/tailwind/src/typography/styles.ts
+ * Code colors follow shiki github-dark, fumadocs' default code theme.
+ */
+
+:root {
+	color-scheme: dark;
+	--fd-background: hsl(0, 0%, 7.04%);
+	--fd-foreground: hsl(0, 0%, 92%);
+	--fd-muted: hsl(0, 0%, 12.9%);
+	--fd-muted-foreground: hsla(0, 0%, 70%, 0.8);
+	--fd-card: hsl(0, 0%, 9.8%);
+	--fd-border: hsla(0, 0%, 40%, 20%);
+	--fd-primary: hsl(0, 0%, 98%);
+	--fd-secondary: hsl(0, 0%, 12.9%);
+	--fd-accent: hsla(0, 0%, 40.9%, 30%);
+	--prose-body: color-mix(in oklab, var(--fd-foreground) 90%, transparent);
+	--sans: ui-sans-serif, system-ui, sans-serif;
+	--mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+*, ::before, ::after {
+	box-sizing: border-box;
+	border-color: var(--fd-border);
+}
+
+html {
+	scrollbar-gutter: stable;
+}
+
+body {
+	margin: 0;
+	background: var(--fd-background);
+	color: var(--fd-foreground);
+	font-family: var(--sans);
+	font-size: 16px;
+	line-height: 1.75;
+	-webkit-font-smoothing: antialiased;
+}
+
+header, main {
+	max-width: 46rem;
+	margin: 0 auto;
+	padding: 0 1.25rem;
+}
+
+header {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid var(--fd-border);
+	margin-bottom: 2.5rem;
+}
+
+header a {
+	color: var(--fd-foreground);
+	font-weight: 600;
+	text-decoration: none;
+}
+
+main {
+	padding-bottom: 4rem;
+}
+
+.meta {
+	color: var(--fd-muted-foreground);
+	font-size: 0.875rem;
+}
+
+/* post list, styled after fumadocs <Card> */
+.posts {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 0.75rem;
+}
+
+.posts a {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+	padding: 1rem;
+	border: 1px solid var(--fd-border);
+	border-radius: 0.75rem;
+	background: var(--fd-card);
+	color: var(--fd-foreground);
+	text-decoration: none;
+	transition: background-color 0.2s;
+}
+
+.posts a:hover {
+	background: var(--fd-accent);
+}
+
+.posts .title {
+	font-weight: 500;
+}
+
+.posts .desc {
+	color: var(--fd-muted-foreground);
+	font-size: 0.875rem;
+}
+
+/* post page */
+article > h1 {
+	font-size: 1.875rem;
+	font-weight: 600;
+	line-height: 1.2;
+	margin: 0 0 0.5rem;
+}
+
+article > .lead {
+	color: var(--fd-muted-foreground);
+	font-size: 1.125rem;
+	margin: 0 0 2rem;
+}
+
+.prose {
+	color: var(--prose-body);
+}
+
+.prose > :first-child {
+	margin-top: 0;
+}
+
+.prose h2, .prose h3, .prose h4 {
+	color: var(--fd-foreground);
+	font-weight: 600;
+}
+
+.prose h2 {
+	font-size: 1.5em;
+	margin: 2em 0 1em;
+	line-height: 1.33;
+}
+
+.prose h3 {
+	font-size: 1.25em;
+	margin: 1.6em 0 0.6em;
+	line-height: 1.6;
+}
+
+.prose h4 {
+	margin: 1.5em 0 0.5em;
+}
+
+.prose p, .prose ul, .prose ol {
+	margin: 1.25em 0;
+}
+
+.prose ul, .prose ol {
+	padding-inline-start: 1.625em;
+}
+
+.prose li {
+	margin: 0.5em 0;
+}
+
+.prose li::marker {
+	color: var(--fd-muted-foreground);
+}
+
+.prose strong {
+	color: var(--fd-foreground);
+	font-weight: 500;
+}
+
+.prose a {
+	color: var(--fd-foreground);
+	font-weight: 500;
+	text-decoration: underline;
+	text-decoration-color: var(--fd-primary);
+	text-decoration-thickness: 1.5px;
+	text-underline-offset: 3.5px;
+	transition: opacity 0.2s;
+}
+
+.prose a:hover {
+	opacity: 0.8;
+}
+
+.prose hr {
+	border: 0;
+	border-top: 1px solid var(--fd-border);
+	margin: 3em 0;
+}
+
+.prose blockquote {
+	margin: 1.6em 0;
+	padding-inline-start: 1em;
+	border-inline-start: 0.25rem solid var(--fd-border);
+	color: var(--fd-foreground);
+	font-weight: 500;
+}
+
+.prose img {
+	max-width: 100%;
+	border-radius: 0.5rem;
+}
+
+.prose table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	background: var(--fd-card);
+	border: 1px solid var(--fd-border);
+	border-radius: 0.5rem;
+	overflow: hidden;
+	font-size: 0.875em;
+}
+
+.prose th, .prose td {
+	text-align: start;
+	padding: 0.625rem;
+	border-inline-start: 1px solid var(--fd-border);
+}
+
+.prose th {
+	background: var(--fd-muted);
+}
+
+.prose th:first-child, .prose td:first-child {
+	border-inline-start: none;
+}
+
+.prose tr:not(:last-child) td, .prose thead th {
+	border-bottom: 1px solid var(--fd-border);
+}
+
+.prose code {
+	font-family: var(--mono);
+	font-size: 13px;
+	padding: 3px;
+	border: 1px solid var(--fd-border);
+	border-radius: 5px;
+	background: var(--fd-muted);
+	color: var(--fd-foreground);
+}
+
+/* code blocks: kramdown + rouge output */
+.prose pre {
+	margin: 1.5em 0;
+	padding: 0.875rem 1rem;
+	overflow-x: auto;
+	background: var(--fd-secondary);
+	border: 1px solid var(--fd-border);
+	border-radius: 0.75rem;
+	font-size: 13px;
+	line-height: 1.7;
+}
+
+.prose pre code {
+	padding: 0;
+	border: 0;
+	background: none;
+}
+
+.highlight .c, .highlight .c1, .highlight .cm, .highlight .cs,
+.highlight .cd, .highlight .ch, .highlight .cpf { color: #8b949e; }
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kr,
+.highlight .kp, .highlight .ow, .highlight .o, .highlight .cp { color: #ff7b72; }
+.highlight .kt, .highlight .kc, .highlight .no, .highlight .nb,
+.highlight .bp, .highlight .na, .highlight .m, .highlight .mi,
+.highlight .mf, .highlight .mh, .highlight .mo, .highlight .il { color: #79c0ff; }
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb,
+.highlight .sd, .highlight .se, .highlight .sh, .highlight .si,
+.highlight .sx, .highlight .sr, .highlight .ss, .highlight .sa { color: #a5d6ff; }
+.highlight .nf, .highlight .fm { color: #d2a8ff; }
+.highlight .nc, .highlight .nv, .highlight .vi, .highlight .vg,
+.highlight .nn { color: #ffa657; }
+.highlight .nt { color: #7ee787; }
+.highlight .gd { color: #ffa198; background: rgba(200, 10, 100, 0.12); }
+.highlight .gi { color: #aff5b4; background: rgba(14, 180, 100, 0.1); }
+.highlight .err { color: #f85149; }

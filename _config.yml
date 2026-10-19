@@ -1,0 +1,10 @@
+title: dontreadthedocs
+permalink: /:year/:month/:day/:title/
+exclude:
+  - LICENSE
+  - "*.py"
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
