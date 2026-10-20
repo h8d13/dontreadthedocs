@@ -71,14 +71,22 @@ function link(href, ...children) {
 	return a;
 }
 
+// ?hl= is picked up by highlight.js on the note page
+function hit(note, s) {
+	const term = terms.find((t) => s.low.includes(t));
+	const href = note.url + "?hl=" + encodeURIComponent(term)
+		+ (s.id && "#" + s.id);
+	return el("li", "", link(href,
+		el("span", "title", s.title || "Intro"), snippet(s)));
+}
+
 // same markup as _includes/cards.html
 function card(note) {
 	const tags = note.tags.map((t) => el("span", "tag", t));
 	const hits = note.sections
 		.filter((s) => terms.some((t) => s.low.includes(t)))
 		.slice(0, MAX_HITS)
-		.map((s) => el("li", "", link(note.url + (s.id && "#" + s.id),
-			el("span", "title", s.title || "Intro"), snippet(s))));
+		.map((s) => hit(note, s));
 	return el("li", "",
 		link(note.url,
 			el("span", "title", note.title),

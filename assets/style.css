@@ -374,6 +374,23 @@ code {
 .highlight .gi { color: #aff5b4; background: rgba(14, 180, 100, 0.1); }
 .highlight .err { color: #f85149; }
 
+/* search hit landing (highlight.js): over the text so it stays
+ * translucent; shadow pads the line box */
+.flash {
+	position: absolute;
+	pointer-events: none;
+	border-radius: 0.25rem;
+	animation: flash 2s ease-out;
+}
+
+@keyframes flash {
+	from {
+		background: color-mix(in oklab, var(--fd-primary) 15%, transparent);
+		box-shadow: 0 0 0 0.25rem
+			color-mix(in oklab, var(--fd-primary) 15%, transparent);
+	}
+}
+
 /* toc: inline box on narrow screens, fixed right of main on wide */
 html {
 	scroll-behavior: smooth;
