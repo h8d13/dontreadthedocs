@@ -62,6 +62,8 @@ RESTRICTED DELETION FLAG OR STICKY BIT
 ```
 
 Meaning any files with sticky/setgid AND ACLs that went through `libarchive` in the last
-two years may have lost those bits.
+two years may have lost those bits. Funnily enough it is used by projects like:
+
+Package-manager `pacman`, especially to preserve permissions.
 
 ---
