@@ -1,4 +1,5 @@
 ---
+date: 2026-10-20
 title: Regression
 description: Found a bug in `libarchive`
 tags: [bugs]

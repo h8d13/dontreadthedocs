@@ -2,7 +2,8 @@
 layout: default
 ---
 <ul class="posts">
-	{% for post in site.posts %}
+	{%- assign notes = site.notes | sort: "date" | reverse -%}
+	{% for post in notes %}
 	<li>
 		<a href="{{ post.url | relative_url }}">
 			<span class="title">{{ post.title }}</span>

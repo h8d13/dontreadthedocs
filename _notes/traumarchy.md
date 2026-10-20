@@ -1,4 +1,5 @@
 ---
+date: 2026-10-20
 title: Traumarchy
 description: Licensing weirdness and AI.
 tags: [arch]

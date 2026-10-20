@@ -8,8 +8,11 @@ case "$2" in
 	*) echo "unsupported arg: $2"; exit 1 ;;
 esac
 
-NEW_PATH="./_posts/$(date +%F)-"$1""$IGN".md"
+NEW_PATH="./_notes/$1$IGN.md"
+# slug is the whole filename now, no date prefix to keep names apart
+[ -e "$NEW_PATH" ] && { echo "exists: $NEW_PATH"; exit 1; }
 
-sed "s|^title: Title$|title: $NEW_NAME|" tmpl.md > "$NEW_PATH"
+sed -e "s|^title: Title$|title: $NEW_NAME|" \
+	-e "s|^date: Date$|date: $(date +%F)|" tmpl.md > "$NEW_PATH"
 
-$EDITOR $NEW_PATH
+$EDITOR "$NEW_PATH"

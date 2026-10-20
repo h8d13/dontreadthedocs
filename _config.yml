@@ -1,10 +1,18 @@
 title: DRTD
 permalink: :title/
+collections:
+  notes:
+    output: true
+    permalink: /:title/
 exclude:
   - LICENSE
   - "*.py"
+  - "*.sh"
+  - readme
+  - tmpl.md
+  - imgdumps.md
 defaults:
   - scope:
-      type: posts
+      type: notes
     values:
       layout: post

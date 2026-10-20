@@ -3,12 +3,15 @@ layout: default
 title: Tags
 permalink: /tags/
 ---
-{% assign tags = site.tags | sort %}
+{%- comment -%} site.tags only covers _posts: rebuild from notes {%- endcomment -%}
+{%- assign notes = site.notes | sort: "date" | reverse -%}
+{%- assign tags = notes | map: "tags" | compact | uniq | sort -%}
 {% for tag in tags %}
-<section class="tag-group" id="{{ tag[0] | slugify }}">
-	<h2>{{ tag[0] }}</h2>
+<section class="tag-group" id="{{ tag | slugify }}">
+	<h2>{{ tag }}</h2>
 	<ul class="posts">
-		{% for post in tag[1] %}
+		{%- assign tagged = notes | where_exp: "n", "n.tags contains tag" -%}
+		{% for post in tagged %}
 		<li>
 			<a href="{{ post.url | relative_url }}">
 				<span class="title">{{ post.title }}</span>

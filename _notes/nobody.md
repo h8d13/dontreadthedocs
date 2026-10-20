@@ -1,4 +1,5 @@
 ---
+date: 2026-10-20
 title: Nobody, some!
 description: Nobody will know your name.
 tags: [arch]

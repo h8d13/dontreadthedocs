@@ -1,4 +1,5 @@
 ---
+date: 2026-10-19
 title: Hello, World!
 description: Found a bug in `btrfs-progs`
 tags: [bugs]
