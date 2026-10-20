@@ -276,3 +276,41 @@ code {
 .highlight .gd { color: #ffa198; background: rgba(200, 10, 100, 0.12); }
 .highlight .gi { color: #aff5b4; background: rgba(14, 180, 100, 0.1); }
 .highlight .err { color: #f85149; }
+
+/* tags: inline after date in .meta */
+.tags {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 0.375rem;
+	margin-inline-start: 0.75rem;
+}
+
+.tag {
+	padding: 0 0.5rem;
+	border: 1px solid var(--fd-border);
+	border-radius: 9999px;
+	background: var(--fd-muted);
+	color: var(--fd-muted-foreground);
+	font-size: 0.75rem;
+	text-decoration: none;
+}
+
+a.tag:hover {
+	background: var(--fd-accent);
+	color: var(--fd-foreground);
+}
+
+.tag-group h2 {
+	font-size: 1.125rem;
+	font-weight: 600;
+	margin: 2rem 0 0.75rem;
+}
+
+.tag-group:first-child h2, .tag-group:target h2 {
+	margin-top: 0;
+}
+
+/* /tags/#x shows only x, bare /tags/ shows all */
+main:has(.tag-group:target) .tag-group:not(:target) {
+	display: none;
+}

@@ -1,0 +1,12 @@
+{%- comment -%} link=false inside index cards: <a> can't nest {%- endcomment -%}
+{%- if include.tags.size > 0 -%}
+<span class="tags">
+	{%- for tag in include.tags -%}
+	{%- if include.link -%}
+	<a class="tag" href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>
+	{%- else -%}
+	<span class="tag">{{ tag }}</span>
+	{%- endif -%}
+	{%- endfor -%}
+</span>
+{%- endif -%}
