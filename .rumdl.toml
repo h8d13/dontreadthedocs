@@ -1,0 +1,7 @@
+[global]
+# MD041: title lives in front matter, MD033: inline <img> etc. are intended
+# MD026/MD059/MD028: prose style ("!", "here" links, split quotes)
+disable = ["MD041", "MD033", "MD026", "MD059", "MD028"]
+
+[MD013]
+line-length = 90

@@ -10,7 +10,8 @@ adoption is a good thing. I'm also contributing to arch's projects on both Gitla
 and also to the installer running [their installations](https://github.com/omacom/omarchy-iso/blob/7cfb7111a06873d61c45d37034577d4ba08d3f4f/configs/airootfs/usr/share/omarchy-iso/orchestrator/archinstall_adapter.py#L85-L100)
 (`archinstall`).
 
-> Recently there was a lot marketing efforts mainly on YT and other socials. But little talked about it's origins.
+> Recently there was a lot marketing efforts mainly on YT and other socials.
+> But little talked about it's origins.
 > This made me skip most of these videos and unsubscribe to a couple of people.
 
 They also heavily rely on just drop-in configs to `archiso` (also [GPLv3](https://gitlab.archlinux.org/archlinux/archiso/-/blob/master/LICENSE)).

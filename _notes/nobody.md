@@ -11,7 +11,7 @@ is often shared thought with other users.
 On fresh Arch boxes a lot of packages are close to stock.
 Meaning they ship things you might not want!
 
-# Somebody did enjoy the work !
+## Somebody did enjoy the work !
 
 <img width="802" height="440" alt="thatsme" src="https://github.com/user-attachments/assets/9622e0ae-95e5-4fa3-9895-c8eeb2399ad9" />
 
@@ -191,7 +191,8 @@ benefit from packagers' work. [StoragePrices](https://pcpartpicker.com/trends/pr
 
 ## Conclusion
 
-It's a non-attractive route in terms of packaging time, but is more optimal both for infrastructure and
+It's a non-attractive route in terms of packaging time,
+but is more optimal both for infrastructure and
 for people who actually use the packagers' very work.
 
 ---

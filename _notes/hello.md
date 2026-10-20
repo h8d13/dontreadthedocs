@@ -19,6 +19,7 @@ ERROR: cannot set NOCOW flag: Operation not supported
 $ ls -l nocow
 -rw------- 1 user user 0 Oct 19 23:13 nocow
 ```
+
 Link: [#1186](https://github.com/kdave/btrfs-progs/issues/1186)
 
 > Don't read the docs. Read the source!

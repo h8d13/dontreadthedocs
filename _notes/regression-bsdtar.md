@@ -23,9 +23,10 @@ bsdtar -c --format pax --acls --no-xattrs -f t.tar d
 bsdtar -x -p --no-acls --no-xattrs -f t.tar -C out
 stat -c %a d out/d
 ```
-Ouput:
 
-```
+Output:
+
+```text
 1777
 777
 ```
@@ -33,7 +34,7 @@ Ouput:
 Building pre [exact-commit](https://github.com/libarchive/libarchive/commit/2d8a5760c5ec553283a95a1aaca746f6eb472d0f)
 to pin cause of the regression, before this no-issues.
 
-"Parse tar headers incrementally" [#2127]https://github.com/libarchive/libarchive/pull/2127),
+"Parse tar headers incrementally" [#2127](https://github.com/libarchive/libarchive/pull/2127),
 first in v3.7.5.
 
 Found while extracting Arch bootstrap tarballs. `systemd` warns on differing perms.
