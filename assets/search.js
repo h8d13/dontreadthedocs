@@ -49,13 +49,10 @@ function load(url) {
 	return loaded.get(url);
 }
 
-function snippet(s) {
-	const low = s.text.toLowerCase();
-	const term = terms.find((t) => low.includes(t));
+function snippet({ s, term, i }) {
 	// hit was in the heading only
-	if (!term)
+	if (i < 0)
 		return "";
-	const i = low.indexOf(term);
 	const start = Math.max(0, i - CONTEXT);
 	const end = Math.min(s.text.length, i + term.length + CONTEXT);
 	return el("span", "desc",
@@ -71,22 +68,42 @@ function link(href, ...children) {
 	return a;
 }
 
-// ?hl= is picked up by highlight.js on the note page
-function hit(note, s) {
-	const term = terms.find((t) => s.low.includes(t));
-	const href = note.url + "?hl=" + encodeURIComponent(term)
-		+ (s.id && "#" + s.id);
+// one per match: every section's first before any second, so a wordy
+// section can't hide the rest, then back in page order. n = index of
+// the match in its section, i = offset in s.text
+function matches(note) {
+	const all = note.sections.flatMap((s, at) => {
+		const low = s.text.toLowerCase();
+		const term = terms.find((t) => low.includes(t))
+			?? terms.find((t) => s.low.includes(t));
+		if (!term)
+			return [];
+		const found = [];
+		for (let i = low.indexOf(term); i >= 0;
+			i = low.indexOf(term, i + term.length))
+			found.push({ s, term, i, n: found.length, at });
+		return found.length ? found : [{ s, term, i: -1, n: 0, at }];
+	});
+	return all
+		.sort((a, b) => a.n - b.n || a.at - b.at)
+		.slice(0, MAX_HITS)
+		.sort((a, b) => a.at - b.at || a.n - b.n);
+}
+
+// ?hl=&in=&n= is picked up by highlight.js on the note page. No #id:
+// chrome re-applies a fragment scroll until load, undoing the jump
+function hit(note, m) {
+	const href = note.url + "?hl=" + encodeURIComponent(m.term)
+		+ (m.s.id && "&in=" + encodeURIComponent(m.s.id))
+		+ (m.n ? "&n=" + m.n : "");
 	return el("li", "", link(href,
-		el("span", "title", s.title || "Intro"), snippet(s)));
+		el("span", "title", m.s.title || "Intro"), snippet(m)));
 }
 
 // same markup as _includes/cards.html
 function card(note) {
 	const tags = note.tags.map((t) => el("span", "tag", t));
-	const hits = note.sections
-		.filter((s) => terms.some((t) => s.low.includes(t)))
-		.slice(0, MAX_HITS)
-		.map((s) => hit(note, s));
+	const hits = matches(note).map((m) => hit(note, m));
 	return el("li", "",
 		link(note.url,
 			el("span", "title", note.title),

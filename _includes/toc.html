@@ -29,7 +29,8 @@ are not indented. Renders nothing without headings.
 		{%- assign text = chunk | split: close | first
 			| remove_first: open | strip_html | strip -%}
 		{%- assign depth = level | minus: min %}
-		<li class="d{{ depth }}"><a href="#{{ id }}">{{ text }}</a></li>
+		<li class="d{{ depth }}"><a href="#{{ id }}"
+			style="animation-timeline: --{{ id }}">{{ text }}</a></li>
 	{%- endfor %}
 	</ul>
 </nav>

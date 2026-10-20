@@ -52,7 +52,19 @@ header, main {
 	padding: 0 1.25rem;
 }
 
+/* cross-document view transitions: header stays put, main crossfades */
+@media (prefers-reduced-motion: no-preference) {
+	@view-transition {
+		navigation: auto;
+	}
+}
+
+::view-transition-group(*) {
+	animation-duration: 0.35s;
+}
+
 header {
+	view-transition-name: site-header;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 	border-bottom: 1px solid var(--fd-border);
@@ -67,6 +79,7 @@ header a {
 
 main {
 	padding-bottom: 4rem;
+	view-transition-name: page;
 }
 
 .meta {
@@ -93,11 +106,17 @@ main {
 	background: var(--fd-card);
 	color: var(--fd-foreground);
 	text-decoration: none;
-	transition: background-color 0.2s;
+	transition: background-color 0.2s, transform 0.15s;
 }
 
 .posts a:hover {
 	background: var(--fd-accent);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.posts a:hover {
+		transform: translateY(-2px);
+	}
 }
 
 .search {
@@ -180,8 +199,10 @@ h1.month {
 	background: none;
 }
 
+/* nested in a lifting card: lift once */
 .posts .hits a:hover {
 	background: var(--fd-accent);
+	transform: none;
 }
 
 .hits mark {
@@ -217,7 +238,8 @@ article > .lead {
 	color: var(--prose-body);
 }
 
-.prose > :first-child {
+.prose > :first-child,
+.prose > section:first-child > :first-child {
 	margin-top: 0;
 }
 
@@ -441,6 +463,25 @@ html {
 .toc .d1 a { padding-inline-start: 1.5rem; }
 .toc .d2 a { padding-inline-start: 2.25rem; }
 
+/* scroll-spy: links ride sections.html view-timelines, inline
+ * animation-timeline survives the shorthand reset */
+@keyframes spy {
+	0%, 10%, 90%, 100% {
+		color: var(--fd-muted-foreground);
+		border-inline-start-color: transparent;
+	}
+	25%, 75% {
+		color: var(--fd-foreground);
+		border-inline-start-color: var(--fd-primary);
+	}
+}
+
+@supports (animation-timeline: view()) {
+	.toc a {
+		animation: spy linear both;
+	}
+}
+
 /* main is 46rem centered: sidebar starts 2rem past its right edge */
 @media (min-width: 82rem) {
 	.toc {
@@ -454,6 +495,28 @@ html {
 		padding: 0;
 		border: 0;
 		background: none;
+	}
+}
+
+/* reading progress: styled only with scroll timelines, else the bare
+ * div collapses to nothing instead of a static bar */
+@keyframes grow {
+	to {
+		transform: scaleX(1);
+	}
+}
+
+@supports (animation-timeline: scroll()) {
+	.progress {
+		position: fixed;
+		inset: 0 0 auto 0;
+		height: 2px;
+		background: var(--fd-primary);
+		transform: scaleX(0);
+		transform-origin: left;
+		animation: grow linear both;
+		animation-timeline: scroll(root block);
+		z-index: 10;
 	}
 }
 

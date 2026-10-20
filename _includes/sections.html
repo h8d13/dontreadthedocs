@@ -1,0 +1,25 @@
+{%- comment -%}
+Wraps each <hN id="..."> (same match as toc.html) and the html up to the
+next one in a <section> publishing view-timeline --id, for the toc's
+scroll-spy. Flat: an h2 section ends at its first h3. Assigns `scope`,
+the timeline names, for timeline-scope on a common ancestor.
+{%- endcomment -%}
+{%- assign chunks = include.html | split: "<h" -%}
+{%- assign scope = "" -%}
+{%- assign open = false -%}
+{{- chunks | first -}}
+{%- for chunk in chunks offset: 1 -%}
+	{%- assign tag = chunk | slice: 0, 6 -%}
+	{%- assign level = chunk | slice: 0 | plus: 0 -%}
+	{%- if level >= 1 and level <= 3 and tag contains ' id="' -%}
+		{%- assign id = chunk | split: 'id="' | slice: 1 | first
+			| split: '"' | first -%}
+		{%- if open %}</section>{% endif -%}
+		<section style="view-timeline-name: --{{ id }}">
+		{%- assign open = true -%}
+		{%- assign scope = scope | append: ", --" | append: id -%}
+	{%- endif -%}
+	<h{{ chunk }}
+{%- endfor -%}
+{%- if open %}</section>{% endif -%}
+{%- assign scope = scope | remove_first: ", " -%}

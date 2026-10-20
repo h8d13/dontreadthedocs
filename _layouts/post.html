@@ -1,13 +1,16 @@
 ---
 layout: default
 ---
-<article>
+{%- comment -%} scope on article: toc sits outside .prose {%- endcomment -%}
+{%- capture prose -%}{% include sections.html html=content %}{%- endcapture -%}
+<div class="progress"></div>
+<article{% if scope != "" %} style="timeline-scope: {{ scope }}"{% endif %}>
 	<h1>{{ page.title }}</h1>
 	<p class="meta">{{ page.date | date: "%-d %b %Y" }}{% include tags.html tags=page.tags link=true %}</p>
 	{% if page.description %}<p class="lead">{% include inline.html text=page.description %}</p>{% endif %}
 	{% include toc.html html=content %}
 	<div class="prose">
-		{{ content }}
+		{{ prose }}
 	</div>
 </article>
 <script src="{{ '/assets/highlight.js' | relative_url }}" defer></script>
