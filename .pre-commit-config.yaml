@@ -5,8 +5,16 @@ repos:
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
       - id: end-of-file-fixer
+      - id: mixed-line-ending
+      # BOM before `---` breaks Jekyll front matter
+      - id: fix-byte-order-marker
       - id: check-yaml
+      - id: check-toml
       - id: check-merge-conflict
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: detect-private-key
+      - id: check-vcs-permalinks
   - repo: https://github.com/rvben/rumdl-pre-commit
     rev: v0.3.0
     hooks:
