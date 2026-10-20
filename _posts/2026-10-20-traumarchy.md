@@ -23,7 +23,8 @@ until last year.
 
 But since there were already many contributors to both GPLv3 codebases.
 He helped since the very start when there was no
-license at all (kinda funny when you think about this repo): [https://github.com/Torxed/omarchy-installer](https://github.com/Torxed/omarchy-installer)
+license at all (kinda funny when you think about this repo):
+[https://github.com/Torxed/omarchy-installer](https://github.com/Torxed/omarchy-installer)
 
 And the monstrosity AI made it over time (duplicating a lot of features from `archinstall`).
 Since all the rest are (slopped) wrappers around these two GPLv3 libs, shouldn't the Omarchy
