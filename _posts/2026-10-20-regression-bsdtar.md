@@ -11,8 +11,8 @@ Also very simple to reproduce in a scratch dir:
 
 Expected: 1777 1777
 
-```
-#!/bin/sh
+```bash
+#!/usr/bin/env bash
 # sticky bit lost on a dir carrying an ACL
 set -eu
 cd "$(mktemp -d)"
