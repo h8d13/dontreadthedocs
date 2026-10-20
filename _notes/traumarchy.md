@@ -21,7 +21,7 @@ I tried to do some research on the subject, but I can't find any proper answers.
 So here we go:
 The Omarchy ISO [repo](https://github.com/omacom/omarchy-iso) has a single [LICENSE file](https://github.com/omacom/omarchy-iso/blob/quattro/LICENSE)
 (MIT) named to the owner of the `archinstall` library, known online as "Torxed".
-Which I already find quite odd ? (Not that I would ever want that code lol)
+Which I already find quite odd? (Not that I would ever want that code lol)
 
 He actually kept [committing there](https://github.com/omacom/omarchy-iso/commits/quattro/?author=Torxed)
 until last year.

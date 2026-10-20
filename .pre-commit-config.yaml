@@ -6,7 +6,6 @@ repos:
         args: [--markdown-linebreak-ext=md]
       - id: end-of-file-fixer
       - id: mixed-line-ending
-      # BOM before `---` breaks Jekyll front matter
       - id: fix-byte-order-marker
       - id: check-yaml
       - id: check-toml

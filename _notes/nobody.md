@@ -11,7 +11,7 @@ is often shared thought with other users.
 On fresh Arch boxes a lot of packages are close to stock.
 Meaning they ship things you might not want!
 
-## Somebody did enjoy the work !
+## Somebody did enjoy the work!
 
 <img width="802" height="440" alt="thatsme" src="https://github.com/user-attachments/assets/9622e0ae-95e5-4fa3-9895-c8eeb2399ad9" />
 
@@ -148,7 +148,7 @@ issue, not fixing it at root cause.
 
 `man` pages are deliberately almost always left in the base package.
 
-## Save electrons on both ends !
+## Save electrons on both ends!
 
 Since `pacman` doesn't do delta updates...
 
@@ -184,10 +184,14 @@ Differences in speed/cost/accessibility of "good" [internet](https://www.speedte
 around you, or not many mirrors around!
 
 In certain countries, even actually sharing USB sticks with software, movies, etc.
-Which are totally not pirated ever !
+Which are totally not pirated ever!
 
 Storage prices/speed are the same deal and even more relevant to people who directly
 benefit from packagers' work. [StoragePrices](https://pcpartpicker.com/trends/price/internal-hard-drive/)
+
+Some friendly users, recommended `NoExtract` setting in `/etc/pacman.conf`
+but that directly supports my point... Of a side-effect users find work-arounds for.
+Instead of a root-cause fix and still costs mirrors.
 
 ## Conclusion
 
