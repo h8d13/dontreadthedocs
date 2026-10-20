@@ -277,6 +277,72 @@ code {
 .highlight .gi { color: #aff5b4; background: rgba(14, 180, 100, 0.1); }
 .highlight .err { color: #f85149; }
 
+/* toc: inline box on narrow screens, fixed right of main on wide */
+html {
+	scroll-behavior: smooth;
+}
+
+.prose :is(h1, h2, h3) {
+	scroll-margin-top: 1.5rem;
+}
+
+.toc {
+	margin: 0 0 2rem;
+	padding: 0.75rem 1rem;
+	border: 1px solid var(--fd-border);
+	border-radius: 0.75rem;
+	background: var(--fd-card);
+	font-size: 0.875rem;
+}
+
+.toc p {
+	margin: 0 0 0.5rem;
+	color: var(--fd-foreground);
+	font-weight: 500;
+}
+
+.toc ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-inline-start: 1px solid var(--fd-border);
+}
+
+.toc a {
+	display: block;
+	margin-inline-start: -1px;
+	padding: 0.25rem 0 0.25rem 0.75rem;
+	border-inline-start: 1px solid transparent;
+	color: var(--fd-muted-foreground);
+	line-height: 1.4;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.toc a:hover {
+	color: var(--fd-foreground);
+	border-inline-start-color: var(--fd-primary);
+}
+
+.toc .d1 a { padding-inline-start: 1.5rem; }
+.toc .d2 a { padding-inline-start: 2.25rem; }
+
+/* main is 46rem centered: sidebar starts 2rem past its right edge */
+@media (min-width: 82rem) {
+	.toc {
+		position: fixed;
+		top: 6.5rem;
+		left: calc(50% + 25rem);
+		width: 14rem;
+		max-height: calc(100vh - 8rem);
+		overflow-y: auto;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		background: none;
+	}
+}
+
 /* tags: inline after date in .meta */
 .tags {
 	display: inline-flex;

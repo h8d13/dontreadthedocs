@@ -1,0 +1,36 @@
+{%- comment -%}
+Pure Liquid: scans rendered html for kramdown's <hN id="..."> (N = 1..3).
+Depth is relative to the shallowest heading found, so h3-only posts
+are not indented. Renders nothing without headings.
+{%- endcomment -%}
+{%- assign chunks = include.html | split: "<h" -%}
+{%- assign min = 9 -%}
+{%- for chunk in chunks offset: 1 -%}
+	{%- assign tag = chunk | slice: 0, 6 -%}
+	{%- assign level = chunk | slice: 0 | plus: 0 -%}
+	{%- if level >= 1 and level <= 3 and tag contains ' id="' -%}
+		{%- if level < min -%}{%- assign min = level -%}{%- endif -%}
+	{%- endif -%}
+{%- endfor -%}
+{%- if min < 9 -%}
+<nav class="toc">
+	<p>On this page</p>
+	<ul>
+	{%- for chunk in chunks offset: 1 -%}
+		{%- assign tag = chunk | slice: 0, 6 -%}
+		{%- assign level = chunk | slice: 0 | plus: 0 -%}
+		{%- unless level >= 1 and level <= 3 and tag contains ' id="' -%}
+			{%- continue -%}
+		{%- endunless -%}
+		{%- assign id = chunk | split: 'id="' | slice: 1 | first
+			| split: '"' | first -%}
+		{%- capture open -%}{{ level }} id="{{ id }}">{%- endcapture -%}
+		{%- capture close -%}</h{{ level }}>{%- endcapture -%}
+		{%- assign text = chunk | split: close | first
+			| remove_first: open | strip_html | strip -%}
+		{%- assign depth = level | minus: min %}
+		<li class="d{{ depth }}"><a href="#{{ id }}">{{ text }}</a></li>
+	{%- endfor %}
+	</ul>
+</nav>
+{%- endif -%}
