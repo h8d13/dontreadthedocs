@@ -43,6 +43,8 @@ Since all the rest are (slopped) wrappers around these two GPLv3 libs, shouldn't
 ISO repository receive the same treatment or would require all contributors of both said
 projects to sign-off on dual licensing MIT (which they presumably wouldn't)?
 
+### Thin lines
+
 At the very least mention integrations clearly (pretty much shows nowhere).
 No SPDX in [integration files](https://github.com/omacom/omarchy-iso/blob/quattro/configs/airootfs/usr/share/omarchy-iso/orchestrator/archinstall_adapter.py)
 and ship said projects' licenses at the minimum?
