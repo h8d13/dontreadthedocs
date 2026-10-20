@@ -1,0 +1,17 @@
+{%- comment -%} include.shard scopes search to one month (month.html) {%- endcomment -%}
+<input class="search" type="search"
+	placeholder="Search {{ include.label | default: 'notes' }}"
+	aria-label="Search {{ include.label | default: 'notes' }}" data-shards='[
+	{%- if include.shard -%}
+	{{ include.shard | relative_url | jsonify }}
+	{%- else -%}
+	{%- assign shards = site.shards | sort: "date" | reverse -%}
+	{%- for s in shards -%}
+	{{ s.url | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}
+	{%- endfor -%}
+	{%- endif -%}
+	]'>
+<p class="search-empty meta" hidden>No matches.</p>
+<ul class="posts results" hidden></ul>
+<button class="more" type="button" hidden>Older months</button>
+<script src="{{ '/assets/search.js' | relative_url }}" defer></script>

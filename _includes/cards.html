@@ -1,0 +1,11 @@
+<ul class="posts">
+	{% for post in include.notes %}
+	<li>
+		<a href="{{ post.url | relative_url }}">
+			<span class="title">{{ post.title }}</span>
+			{% if post.description %}<span class="desc">{% include inline.html text=post.description %}</span>{% endif %}
+			<span class="meta">{{ post.date | date: "%-d %b %Y" }}{% include tags.html tags=post.tags %}</span>
+		</a>
+	</li>
+	{% endfor %}
+</ul>

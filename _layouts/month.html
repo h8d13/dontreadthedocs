@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{%- assign label = page.date | date: "%B %Y" -%}
+{%- comment -%} shard permalink = month permalink + search.json {%- endcomment -%}
+{%- assign shard = page.url | append: "search.json" -%}
+<h1 class="month">{{ label }}</h1>
+{% include search.html shard=shard label=label %}
+<div class="listing">
+	{%- assign key = page.date | date: "%Y-%m" -%}
+	{%- comment -%} same grouping as shard.html {%- endcomment -%}
+	{%- assign group = site.notes
+		| group_by_exp: "n", "n.date | date: '%Y-%m'"
+		| where: "name", key | first -%}
+	{%- if group -%}
+	{%- assign notes = group.items | sort: "date" | reverse -%}
+	{% include cards.html notes=notes %}
+	{%- endif -%}
+</div>

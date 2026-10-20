@@ -1,0 +1,27 @@
+{%- comment -%}
+one month of notes for search.js. html is split into sections client side:
+DOMParser is sturdier than splitting on "<h" in Liquid (toc.html)
+{%- endcomment -%}
+{%- assign key = page.date | date: "%Y-%m" -%}
+{%- assign group = site.notes | group_by_exp: "n", "n.date | date: '%Y-%m'"
+	| where: "name", key | first -%}
+[
+{%- if group -%}
+{%- assign notes = group.items | sort: "date" | reverse -%}
+{%- for n in notes %}
+	{%- capture head -%}
+		{{ n.title }} {{ n.description }} {{ n.tags | join: " " }}
+	{%- endcapture %}
+	{
+		"url": {{ n.url | relative_url | jsonify }},
+		"title": {{ n.title | jsonify }},
+		"date": {{ n.date | date: "%-d %b %Y" | jsonify }},
+		"desc": {{ n.description | markdownify | strip_html | strip | jsonify }},
+		"tags": {{ n.tags | jsonify }},
+		"head": {{ head | normalize_whitespace | downcase | jsonify }},
+		"html": {{ n.content | jsonify }}
+	}
+	{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
+{%- endif %}
+]

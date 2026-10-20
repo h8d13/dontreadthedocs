@@ -1,9 +1,16 @@
 title: DRTD
 permalink: :title/
+# months/shards are stubs (date only): pages safe mode can't generate them
 collections:
   notes:
     output: true
-    permalink: /:title/
+    permalink: /:short_month-:short_year/:title/
+  months:
+    output: true
+    permalink: /:short_month-:short_year/
+  shards:
+    output: true
+    permalink: /:short_month-:short_year/search.json
 exclude:
   - LICENSE
   - "*.py"
@@ -16,3 +23,11 @@ defaults:
       type: notes
     values:
       layout: post
+  - scope:
+      type: months
+    values:
+      layout: month
+  - scope:
+      type: shards
+    values:
+      layout: shard

@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
-<ul class="posts">
-	{%- assign notes = site.notes | sort: "date" | reverse -%}
-	{% for post in notes %}
-	<li>
-		<a href="{{ post.url | relative_url }}">
-			<span class="title">{{ post.title }}</span>
-			{% if post.description %}<span class="desc">{% include inline.html text=post.description %}</span>{% endif %}
-			<span class="meta">{{ post.date | date: "%-d %b %Y" }}{% include tags.html tags=post.tags %}</span>
-		</a>
-	</li>
-	{% endfor %}
-</ul>
+{% include search.html %}
+<div class="listing">
+	{%- assign recent = site.notes | sort: "date" | reverse | slice: 0, 5 -%}
+	{% include cards.html notes=recent %}
+	<nav class="months">
+		<h2>Archive</h2>
+		<ul>
+			{%- assign months = site.months | sort: "date" | reverse -%}
+			{%- for m in months %}
+			<li><a href="{{ m.url | relative_url }}">{{ m.date | date: "%B %Y" }}</a></li>
+			{%- endfor %}
+		</ul>
+	</nav>
+</div>
