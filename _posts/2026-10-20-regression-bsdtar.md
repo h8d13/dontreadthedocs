@@ -30,7 +30,8 @@ Ouput:
 ```
 
 Building pre [exact-commit](https://github.com/libarchive/libarchive/commit/2d8a5760c5ec553283a95a1aaca746f6eb472d0f)
-To pin cause of the regression, before this no-issues.
+to pin cause of the regression, before this no-issues.
+
 "Parse tar headers incrementally" [#2127]https://github.com/libarchive/libarchive/pull/2127),
 first in v3.7.5.
 
