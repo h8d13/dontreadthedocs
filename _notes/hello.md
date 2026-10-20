@@ -5,11 +5,11 @@ description: Found a bug in `btrfs-progs`
 tags: [bugs]
 ---
 
-It simply discards the exits code which I found out the hard way; when
+It simply discards the exit code which I found out the hard way; when
 my code (from a running fedora install) tried to create `/swap/swapfile`
 inside a subvolume.
 
-You can reproduce it simply without ever needed to even have a `btrfs` FS.
+You can reproduce it simply without ever needing to even have a `btrfs` FS.
 Or to be running a scripted installation.
 
 ```console

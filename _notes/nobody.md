@@ -19,12 +19,12 @@ Reported [here](https://gitlab.archlinux.org/archlinux/packaging/packages/avahi/
 
 A deep rabbit hole. But essentially here is what you'd want to know:
 
-In it's essence any package is built using a [`pkgfile`](https://crux.nu/doc/handbook.html#Pkgfile)
+In its essence any package is built using a [`pkgfile`](https://crux.nu/doc/handbook.html#Pkgfile)
 Which is just bash... With pre-made definitions.
 
 In the case of arch: `pacman`'s `makepkg` and friends (`devtools`).
 
-Further-more, the very rules who check a done "packaging":
+Furthermore, the very rules that check a done "packaging":
 [`namcap`](https://gitlab.archlinux.org/pacman/namcap/)
 
 This brought me to further exploration of Alpine's
@@ -33,11 +33,11 @@ This brought me to further exploration of Alpine's
 This introduces the concept of "auto-splits" meaning the build system itself lacks
 certain features; that would make packages lighter and more explicit.
 
-If ended up making a "fork" of `makepkg` itself to try for myself:
+I ended up making a "fork" of `makepkg` itself to try for myself:
 [scaling-eureka](https://github.com/h8d13/scaling-eureka)
 
 Which attempts to split automatically (`-docs`, `-lang`, `-pyc`, `-completions`)...
-Similar to how alpine does it. And Fedora's spec files can produce several binary RPMs.
+Similar to how Alpine does it. And Fedora's spec files can produce several binary RPMs.
 
 You declare each extra one with `%package` and give it its own `%files` section...
 Plus some [tiny details](https://pagure.io/rpmdevtools/)
@@ -60,7 +60,7 @@ more packaging work, for the already too few maintainers...
 +  done
 ```
 
-This **once** per package that has sub-packages.
+This, **once** per package that has sub-packages.
 
 There is a maintainer's richer declarative [alternative](https://gitlab.archlinux.org/pacman/pacman/-/tree/allan/splitpkg2).
 
@@ -81,7 +81,7 @@ the checked paths were wrong, and **do not cover all common docs paths**.
 I can conclude that many other packages will have A LOT of docs (you will never read).
 
 A more "dev-ish" example, `clang`: pulls in ~21 MiB of docs, then `llvm` pulls in another
-~50 MiB. (Installed: 20% of the total 380MB)
+~50 MiB. (Installed: 20% of the total 380 MiB)
 
 ### Problem 3: Duplicated licenses
 
@@ -93,7 +93,7 @@ Split packages often restate licenses for each split:
 ```
 
 Repeated for every split, where the license is (usually) the same and the parent package
-that is likely, already installed.
+that is likely already installed.
 More broadly, a full desktop install carries several MiB of license files that are
 identical except for the `<name/company> <year>` and SPDX headers.
 
@@ -131,7 +131,7 @@ Splits already happen in `extra`:
 
 - [`libguestfs`](https://gitlab.archlinux.org/archlinux/packaging/packages/libguestfs/-/commit/e67304a4ad46f9c769f919acc4394228fcffd559)
 - [`suil`](https://gitlab.archlinux.org/archlinux/packaging/packages/suil/-/blob/main/PKGBUILD?ref_type=heads)
-- A `-docs` convention also exists, i.e.[`wireplumber-docs`](https://gitlab.archlinux.org/archlinux/packaging/packages/wireplumber/-/blob/main/PKGBUILD?ref_type=heads)
+- A `-docs` convention also exists, e.g. [`wireplumber-docs`](https://gitlab.archlinux.org/archlinux/packaging/packages/wireplumber/-/blob/main/PKGBUILD?ref_type=heads)
 
 These take a **bit of work and due process**. The problems below are what make
 that work harder than it needs to be.
@@ -163,7 +163,7 @@ API CHANGES BETWEEN 5.1 AND 5.2
 Saving ~30 MiB installed across 3 packages
 at a ~6:1 compression ratio, is ~5 MiB over the wire.
 
-Let's us do the basic math:
+Let's do the basic math:
 
 5 MiB × 100,000 affected machines × 10 releases a year comes to about 5 TB a year.
 
@@ -173,7 +173,7 @@ For instance ones that are commonly used in containers, CI, or even just frequen
 installed, should be prioritized for splits.
 
 As seen in [monitoring](https://dashboards.archlinux.org/dashboards), the load on
-mirrors providers makes this a compelling argument.
+mirror providers makes this a compelling argument.
 
 DevOps/Back-end people might also find this interesting as a whole.
 
