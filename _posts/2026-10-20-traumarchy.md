@@ -36,7 +36,8 @@ No SPDX in [integration files](https://github.com/omacom/omarchy-iso/blob/quattr
 and ship said project license at the minimum?
 
 Especially when it directly reaches into: i,e: `ArchConfigHandler` or uses/mimics
-files directly (`guided.py`).
+files directly (`guided.py`). From the official [repo](https://github.com/archlinux/archinstall)
+(which happens to be one of my favorite projects online!)
 
 I'm not a lawyer or know how all these things work. We occasionally, in Archinstall
 receive issues originating from `omarchy-iso`, that made me dig a bit and find it all weird.
