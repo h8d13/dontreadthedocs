@@ -1,6 +1,6 @@
 ---
-title: traumarchy
-description: Licensing weirdness and AI
+title: Traumarchy
+description: Licensing weirdness and AI.
 tags: [arch]
 ---
 
