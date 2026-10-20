@@ -11,6 +11,57 @@ is often shared thought with other users.
 On fresh Arch boxes a lot of packages are close to stock.
 Meaning they ship things you might not want!
 
+## Abstract
+
+To start with a more "abstract" motivation:
+
+From [wiki](https://wiki.archlinux.org/title/Arch_Linux#Simplicity)
+
+> Arch Linux official packages do not provide system-wide GUI configuration utilities
+> (i.e. there is neither a GUI installation wizard nor a GUI system configuration tool,
+> and Arch as a distribution does not promote GUI tools for system configuration),
+> encouraging users to perform most system configuration from a command-line shell and
+> a text editor.
+
+The same applies to packages including "debug UI tools" or other non-essentials. Examples:
+
+- [`avahi`](https://gitlab.archlinux.org/archlinux/packaging/packages/avahi/-/merge_requests/4)
+- [`v4l-utils`](https://gitlab.archlinux.org/archlinux/packaging/packages/v4l-utils/-/merge_requests/1)
+
+> In a similar fashion, Arch ships the configuration files provided by upstream with changes
+> limited to distribution-specific issues like adjusting the system file paths.
+> It does not add automation features such as enabling a service simply because the package
+> was installed.
+
+> Packages are only split when compelling advantages exist, such as to save disk space in
+> particularly bad cases of waste.
+
+The `openjpeg2` example below cuts 94.7 % of installed size, which is a "particularly
+bad case of waste" by any measure.
+
+Yet was also [closed directly.](https://gitlab.archlinux.org/archlinux/packaging/packages/openjpeg2/-/merge_requests/1)
+
+Splits already happen in `extra`:
+
+- [`libguestfs`](https://gitlab.archlinux.org/archlinux/packaging/packages/libguestfs/-/commit/e67304a4ad46f9c769f919acc4394228fcffd559)
+- [`suil`](https://gitlab.archlinux.org/archlinux/packaging/packages/suil/-/blob/main/PKGBUILD?ref_type=heads)
+- A `-docs` convention also exists, e.g. [`wireplumber-docs`](https://gitlab.archlinux.org/archlinux/packaging/packages/wireplumber/-/blob/main/PKGBUILD?ref_type=heads)
+
+These take a **bit of work and due process**. The problems below are what make
+that work harder than it needs to be.
+
+A `python` interpreter takes ~74MB on Arch vs ~23MB on Alpine (with many splits).
+
+Compression helps over the wire (HTML docs compress ~15:1), **but the full size still
+ends up on users' systems.**
+
+It also varies by type: PNG icons barely compress at all, binaries and plain text sit
+somewhere in between.
+If anything the compression here, does a remarkable job at hiding the extent of the
+issue, not fixing it at root cause.
+
+`man` pages are deliberately almost always left in the base package.
+
 ## Somebody did enjoy the work!
 
 <img width="802" height="440" alt="thatsme" src="https://github.com/user-attachments/assets/9622e0ae-95e5-4fa3-9895-c8eeb2399ad9" />
@@ -96,57 +147,6 @@ Repeated for every split, where the license is (usually) the same and the parent
 that is likely already installed.
 More broadly, a full desktop install carries several MiB of license files that are
 identical except for the `<name/company> <year>` and SPDX headers.
-
-## Abstract
-
-To start with a more "abstract" motivation:
-
-From [wiki](https://wiki.archlinux.org/title/Arch_Linux#Simplicity)
-
-> Arch Linux official packages do not provide system-wide GUI configuration utilities
-> (i.e. there is neither a GUI installation wizard nor a GUI system configuration tool,
-> and Arch as a distribution does not promote GUI tools for system configuration),
-> encouraging users to perform most system configuration from a command-line shell and
-> a text editor.
-
-The same applies to packages including "debug UI tools" or other non-essentials. Examples:
-
-- [`avahi`](https://gitlab.archlinux.org/archlinux/packaging/packages/avahi/-/merge_requests/4)
-- [`v4l-utils`](https://gitlab.archlinux.org/archlinux/packaging/packages/v4l-utils/-/merge_requests/1)
-
-> In a similar fashion, Arch ships the configuration files provided by upstream with changes
-> limited to distribution-specific issues like adjusting the system file paths.
-> It does not add automation features such as enabling a service simply because the package
-> was installed.
-
-> Packages are only split when compelling advantages exist, such as to save disk space in
-> particularly bad cases of waste.
-
-The `openjpeg2` example below cuts 94.7 % of installed size, which is a "particularly
-bad case of waste" by any measure.
-
-Yet was also [closed directly.](https://gitlab.archlinux.org/archlinux/packaging/packages/openjpeg2/-/merge_requests/1)
-
-Splits already happen in `extra`:
-
-- [`libguestfs`](https://gitlab.archlinux.org/archlinux/packaging/packages/libguestfs/-/commit/e67304a4ad46f9c769f919acc4394228fcffd559)
-- [`suil`](https://gitlab.archlinux.org/archlinux/packaging/packages/suil/-/blob/main/PKGBUILD?ref_type=heads)
-- A `-docs` convention also exists, e.g. [`wireplumber-docs`](https://gitlab.archlinux.org/archlinux/packaging/packages/wireplumber/-/blob/main/PKGBUILD?ref_type=heads)
-
-These take a **bit of work and due process**. The problems below are what make
-that work harder than it needs to be.
-
-A `python` interpreter takes ~74MB on Arch vs ~23MB on Alpine (with many splits).
-
-Compression helps over the wire (HTML docs compress ~15:1), **but the full size still
-ends up on users' systems.**
-
-It also varies by type: PNG icons barely compress at all, binaries and plain text sit
-somewhere in between.
-If anything the compression here, does a remarkable job at hiding the extent of the
-issue, not fixing it at root cause.
-
-`man` pages are deliberately almost always left in the base package.
 
 ## Save electrons on both ends!
 
