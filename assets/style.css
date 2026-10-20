@@ -196,8 +196,10 @@ article > .lead {
 	color: #9198a1;
 }
 
+/* height attr would pin height while width shrinks: keep attrs for ratio */
 .prose img {
 	max-width: 100%;
+	height: auto;
 	border-radius: 0.5rem;
 }
 
