@@ -9,16 +9,12 @@ DOMParser is sturdier than splitting on "<h" in Liquid (toc.html)
 {%- if group -%}
 {%- assign notes = group.items | sort: "date" | reverse -%}
 {%- for n in notes %}
-	{%- capture head -%}
-		{{ n.title }} {{ n.description }} {{ n.tags | join: " " }}
-	{%- endcapture %}
 	{
 		"url": {{ n.url | relative_url | jsonify }},
 		"title": {{ n.title | jsonify }},
 		"date": {{ n.date | date: "%-d %b %Y" | jsonify }},
 		"desc": {{ n.description | markdownify | strip_html | strip | jsonify }},
 		"tags": {{ n.tags | jsonify }},
-		"head": {{ head | normalize_whitespace | downcase | jsonify }},
 		"html": {{ n.content | jsonify }}
 	}
 	{%- unless forloop.last -%},{%- endunless -%}

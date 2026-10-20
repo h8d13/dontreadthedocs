@@ -36,8 +36,10 @@ function split(note) {
 		s.text = s.text.replace(/\s+/g, " ").trim();
 		s.low = (s.title + " " + s.text).trim().toLowerCase();
 	}
-	const all = [note.head, ...sections.map((s) => s.low)].join(" ");
-	return { ...note, all, sections: sections.filter((s) => s.low) };
+	const tags = note.tags ?? [];
+	const all = [note.title, note.desc, ...tags, ...sections.map((s) => s.low)]
+		.join(" ").toLowerCase();
+	return { ...note, tags, all, sections: sections.filter((s) => s.low) };
 }
 
 function load(url) {
@@ -52,7 +54,7 @@ function snippet(s) {
 	const term = terms.find((t) => low.includes(t));
 	// hit was in the heading only
 	if (!term)
-		return el("span", "desc");
+		return "";
 	const i = low.indexOf(term);
 	const start = Math.max(0, i - CONTEXT);
 	const end = Math.min(s.text.length, i + term.length + CONTEXT);
@@ -71,7 +73,7 @@ function link(href, ...children) {
 
 // same markup as _includes/cards.html
 function card(note) {
-	const tags = (note.tags ?? []).map((t) => el("span", "tag", t));
+	const tags = note.tags.map((t) => el("span", "tag", t));
 	const hits = note.sections
 		.filter((s) => terms.some((t) => s.low.includes(t)))
 		.slice(0, MAX_HITS)
