@@ -11,6 +11,7 @@ and also to the installer running [their installations](https://github.com/omaco
 (`archinstall`).
 
 > Recently there was a lot marketing efforts mainly on YT and other socials. But little talked about it's origins.
+> This made me skip most of these videos and unsubscribe to a couple of people.
 
 They also heavily rely on just drop-in configs to `archiso` (also [GPLv3](https://gitlab.archlinux.org/archlinux/archiso/-/blob/master/LICENSE)).
 
@@ -32,11 +33,11 @@ license at all (kinda funny when you think about this repo):
 And the monstrosity AI made it over time (duplicating a lot of features from `archinstall`).
 Since all the rest are (slopped) wrappers around these two GPLv3 libs, shouldn't the Omarchy
 ISO repository receive the same treatment or would require all contributors of both said
-projects to sign-off on dual licensing MIT (which they probably wouldn't)?
+projects to sign-off on dual licensing MIT (which they presumably wouldn't)?
 
-And at the very least mention integrations clearly (pretty much shows nowhere.
+And at the very least mention integrations clearly (pretty much shows nowhere).
 No SPDX in [integration files](https://github.com/omacom/omarchy-iso/blob/quattro/configs/airootfs/usr/share/omarchy-iso/orchestrator/archinstall_adapter.py))
-and ship said project license at the minimum?
+and ship said projects license at the minimum?
 
 Especially when it directly reaches into: i,e: `ArchConfigHandler` or uses/mimics
 files directly (`guided.py`). From the official [repo](https://github.com/archlinux/archinstall)
