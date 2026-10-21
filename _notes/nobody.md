@@ -6,10 +6,12 @@ tags: [arch]
 ---
 
 One thing I've always enjoyed about open source is that any frustration I have
-is often shared thought with other users.
+is often shared thought with other users. This also means any improvement is
+directly shared with the community.
 
 On fresh Arch boxes a lot of packages are close to stock.
-Meaning they ship things you might not want!
+
+Meaning they ship things **you might not want!**
 
 ## Abstract
 
