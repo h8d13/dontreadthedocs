@@ -61,8 +61,8 @@ with the same license, unless you re-implement from scratch. Oh irony in port to
 
 ## Conclusion
 
-It also would have empowered the actual "linux" way of fork when it gets in your way...
-Instead of stitching bash all around it until the limit in between is completly lost.
+It also would have empowered the actual "linux" way of: fork when it gets in your way...
+Instead of stitching bash all around it until the limit in-between is completly lost.
 
 I thought of a name for it: `omarchinstall` how original!
 
