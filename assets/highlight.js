@@ -11,13 +11,14 @@ const BLOCKS = "p, li, td, th, pre, blockquote, h4, h5, h6";
 // across nodes (highlighter spans) drifts, so fall back to the last one
 function find() {
 	const walker = document.createTreeWalker(prose, NodeFilter.SHOW_TEXT);
+	// walk resumes in document order from the heading, filter or not
+	if (from)
+		walker.currentNode = from;
 	let left = nth;
 	let last;
 	for (let node; (node = walker.nextNode());) {
 		// heading itself skipped: search.js counts the text below it
-		if (from && (from.contains(node)
-			|| !(from.compareDocumentPosition(node)
-				& Node.DOCUMENT_POSITION_FOLLOWING)))
+		if (from?.contains(node))
 			continue;
 		const low = node.data.toLowerCase();
 		for (let i = low.indexOf(term); i >= 0;

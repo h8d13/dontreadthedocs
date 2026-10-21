@@ -42,10 +42,16 @@ function split(note) {
 	return { ...note, tags, all, sections: sections.filter((s) => s.low) };
 }
 
+// failed shard: searched as empty, uncached so the next search retries
 function load(url) {
 	if (!loaded.has(url))
 		loaded.set(url, fetch(url).then((r) => r.json())
-			.then((notes) => notes.map(split)));
+			.then((notes) => notes.map(split))
+			.catch((e) => {
+				console.warn(url, e);
+				loaded.delete(url);
+				return [];
+			}));
 	return loaded.get(url);
 }
 
