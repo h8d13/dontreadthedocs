@@ -220,6 +220,20 @@ h1.month {
 	font-size: 0.875rem;
 }
 
+/* prev/next: fixed columns so a lone link keeps its side */
+.exit {
+	margin-top: 3rem;
+}
+
+.exit .posts {
+	grid-template-columns: 1fr 1fr;
+}
+
+.exit .next {
+	grid-column: 2;
+	text-align: end;
+}
+
 /* post page */
 article > h1 {
 	font-size: 1.875rem;

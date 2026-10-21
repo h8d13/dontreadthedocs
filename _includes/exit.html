@@ -1,0 +1,23 @@
+{%- comment -%} collection docs sort by date then path: previous = older {%- endcomment -%}
+{%- if page.previous or page.next -%}
+<nav class="exit">
+	<ul class="posts">
+		{%- if page.previous %}
+		<li class="prev">
+			<a href="{{ page.previous.url | relative_url }}">
+				<span class="meta">← Previous</span>
+				<span class="title">{{ page.previous.title }}</span>
+			</a>
+		</li>
+		{%- endif -%}
+		{%- if page.next %}
+		<li class="next">
+			<a href="{{ page.next.url | relative_url }}">
+				<span class="meta">Next →</span>
+				<span class="title">{{ page.next.title }}</span>
+			</a>
+		</li>
+		{%- endif %}
+	</ul>
+</nav>
+{%- endif -%}
