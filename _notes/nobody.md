@@ -59,7 +59,8 @@ ends up on users' systems.**
 
 It also varies by type: PNG icons barely compress at all, binaries and plain text sit
 somewhere in between.
-If anything the compression here, does a remarkable job at hiding the extent of the
+
+If anything the compression here, does a remarkable job at **hiding the extent** of the
 issue, not fixing it at root cause.
 
 `man` pages are deliberately almost always left in the base package.
