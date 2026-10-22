@@ -95,7 +95,7 @@ And the most interesting case I found was OpenEuler containers (`iSulad`):
 → iSulad later unpacks that layer with the buggy write-to-disk path
 → mode comes out mangled (0000, or setgid/sticky silently dropped).
 
-The PoC runs `bsdtar`, not `isula` — but `bsdtar -c/-x` *is* iSulad's
+The PoC runs `bsdtar`, not `isula`, but `bsdtar -c/-x` *is* iSulad's
 `archive_read_disk → archive_write_disk` pair against the same linked libarchive.
 Two failure modes: `repo` → `0` (unusable dir, loud) and `shared` → `770`
 (setgid silently gone).
