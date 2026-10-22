@@ -7,7 +7,9 @@ tags: [bugs]
 
 ## Abstract
 
-`bsdtar -p` drops sticky/setgid bits on entries carrying ACLs. The `mode 0000`
+`bsdtar` drops sticky/setgid bits on entries carrying ACLs whenever permission
+restore is in effect (explicit `-p`, or extracting as root, where it is the
+default per `tar/bsdtar.c:242`). The `mode 0000`
 facet has an open (unmerged) fix in
 [PR#3430](https://github.com/libarchive/libarchive/pull/3430); the sticky/setgid
 part is my own addition to that thread.
