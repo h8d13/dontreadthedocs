@@ -5,3 +5,5 @@ disable = ["MD041", "MD033", "MD026", "MD059", "MD028"]
 
 [MD013]
 line-length = 90
+# console transcripts / long one-liners legitimately exceed the limit
+code-blocks = false
