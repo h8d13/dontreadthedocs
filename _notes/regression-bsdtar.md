@@ -5,10 +5,14 @@ description: Found a bug in `libarchive`
 tags: [bugs]
 ---
 
+## Abstract
+
 `bsdtar -p` drops sticky/setgid bits on entries carrying ACLs. The `mode 0000`
 facet has an open (unmerged) fix in
 [PR#3430](https://github.com/libarchive/libarchive/pull/3430); the sticky/setgid
 part is my own addition to that thread.
+
+## Simple repro
 
 Also very simple to reproduce in a scratch dir:
 
@@ -36,24 +40,6 @@ Output:
 Note the extraction uses `--no-acls`: merely having an ACL *in the archive entry*
 corrupts the mode, even when you explicitly ask not to restore ACLs on the way out.
 
-Bisected to [exact-commit](https://github.com/libarchive/libarchive/commit/2d8a5760c5ec553283a95a1aaca746f6eb472d0f);
-builds before it are fine.
-
-"Parse tar headers incrementally" [#2127](https://github.com/libarchive/libarchive/pull/2127),
-first in v3.7.5.
-
-Found while extracting Arch bootstrap tarballs. `systemd` warns on differing perms.
-
-Version-gated to `>= 3.7.5`, so Debian stable is clean until forky:
-
-| distro | libarchive | affected |
-|---|---|---|
-| Debian 13 trixie | 3.7.4 | no |
-| Debian 12 bookworm | 3.6.2 | no |
-| Debian sid / forky | 3.8.9 | yes |
-| Arch (current) | 3.8.10 | yes |
-| openEuler 25.09 | 3.8.1 | yes |
-
 Bigger security concern than it might seem:
 
 ```console
@@ -75,6 +61,26 @@ RESTRICTED DELETION FLAG OR STICKY BIT
      it will load more quickly when run; this is called the sticky bit.
 ```
 
+### Affected versions
+
+Bisected to [exact-commit](https://github.com/libarchive/libarchive/commit/2d8a5760c5ec553283a95a1aaca746f6eb472d0f);
+builds before it are fine.
+
+"Parse tar headers incrementally" [#2127](https://github.com/libarchive/libarchive/pull/2127),
+first in v3.7.5.
+
+Found while extracting Arch bootstrap tarballs. `systemd` warns on differing perms.
+
+Version-gated to `>= 3.7.5`, so Debian stable is clean until forky:
+
+| distro | libarchive | affected |
+|---|---|---|
+| Debian 13 trixie | 3.7.4 | no |
+| Debian 12 bookworm | 3.6.2 | no |
+| Debian sid / forky | 3.8.9 | yes |
+| Arch (current) | 3.8.10 | yes |
+| openEuler 25.09 | 3.8.1 | yes |
+
 Meaning any files with sticky/setgid, ACLs that went through `libarchive` in the last
 two years may have lost those bits. Funnily enough it is used by projects like:
 
@@ -91,12 +97,18 @@ So this got me to wonder: **what does?**
 And the most interesting case I found was OpenEuler containers (`iSulad`):
 
 → set an ACL inside the container fs
+
 → iSulad's `tar_all` reads it off disk and bakes it into the layer (pax/SCHILY)
+
 → iSulad later unpacks that layer with the buggy write-to-disk path
+
 → mode comes out mangled (0000, or setgid/sticky silently dropped).
 
+## PoC
+
 The PoC runs `bsdtar`, not `isula`, but `bsdtar -c/-x` *is* iSulad's
-`archive_read_disk → archive_write_disk` pair against the same linked libarchive.
+`archive_read_disk` → `archive_write_disk` pair against the same linked libarchive.
+
 Two failure modes: `repo` → `0` (unusable dir, loud) and `shared` → `770`
 (setgid silently gone).
 
