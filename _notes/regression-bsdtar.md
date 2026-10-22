@@ -42,6 +42,8 @@ Output:
 Note the extraction uses `--no-acls`: merely having an ACL *in the archive entry*
 corrupts the mode, even when you explicitly ask not to restore ACLs on the way out.
 
+## Scope
+
 Bigger security concern than it might seem:
 
 ```console
@@ -63,7 +65,7 @@ RESTRICTED DELETION FLAG OR STICKY BIT
      it will load more quickly when run; this is called the sticky bit.
 ```
 
-### Affected versions
+## Affected versions
 
 Bisected to [exact-commit](https://github.com/libarchive/libarchive/commit/2d8a5760c5ec553283a95a1aaca746f6eb472d0f);
 builds before it are fine.
@@ -82,6 +84,8 @@ Version-gated to `>= 3.7.5`, so Debian stable is clean until forky:
 | Debian sid / forky | 3.8.9 | yes |
 | Arch (current) | 3.8.10 | yes |
 | openEuler 25.09 | 3.8.1 | yes |
+
+## Affected consumers
 
 Meaning any files with sticky/setgid, ACLs that went through `libarchive` in the last
 two years may have lost those bits. Funnily enough it is used by projects like:
