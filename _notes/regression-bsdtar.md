@@ -203,4 +203,19 @@ iSulad is affected precisely because its *own* layer-creation
 them. Same for any backup/restore or rootfs-capture pipeline that both archives and
 restores ACL-bearing trees through libarchive `>= 3.7.5`.
 
+## Conclusion
+
+This bug would be most relevant on shared multi-tenant servers/file sharing instances,
+or over-granting web-servers proxies vs dev groups.
+
+A simple:
+
+```console
+gh search code 'ARCHIVE_EXTRACT_ACL'
+```
+
+Returns over 3000 results. Some harmless as they do not generally take inputs with ACLs
+but others pure consumer like `compress-tools-rs` would silently swollow the SysAdmin's
+work.
+
 ---
