@@ -56,6 +56,8 @@ files directly (`guided.py`). From the official [repo](https://github.com/archli
 I'm not a lawyer or know how all these things work. We occasionally, in `archinstall`
 receive issues originating from `omarchy-iso`, that made me dig a bit and find it all weird.
 
+It has since this post been reported/fixed [here](https://github.com/omacom/omarchy-iso/issues/202)
+
 As far as I understand, if using something directly GPLv3 you're supposed to license additions
 with the same license, unless you re-implement from scratch. Oh irony in port to Rust times.
 
