@@ -5,6 +5,16 @@ description: Found a bug in `btrfs-progs`
 tags: [bugs]
 ---
 
+## Abstract
+
+> Don't read the docs. Read the source!
+
+The issue with docs is often they go stale, unlike source which IS the moving
+target. A program should do what it says, and if what it says is 20 versions
+behind... Well, it's lying to you.
+
+## Scripting is unforgiving
+
 It simply discards the exit code which I found out the hard way; when
 my code (from a running fedora install) tried to create `/swap/swapfile`
 inside a subvolume.
@@ -21,7 +31,5 @@ $ ls -l nocow
 ```
 
 Link: [#1186](https://github.com/kdave/btrfs-progs/issues/1186)
-
-> Don't read the docs. Read the source!
 
 ---
