@@ -96,9 +96,6 @@ Similar to how Alpine does it. And Fedora's spec files can produce several binar
 You declare each extra one with `%package` and give it its own `%files` section...
 Plus some [tiny details](https://pagure.io/rpmdevtools/)
 
-My main takeaway is that the KISS philosophy here is to improve the tools, not have
-more packaging work, for the already too few maintainers...
-
 ### Problem 1: `PKGBUILD` boilerplate
 
 `makepkg` has no built-in split partitioner, so each split PKGBUILD carries something like:
@@ -201,5 +198,11 @@ Instead of a root-cause fix and still costs mirrors.
 It's a non-attractive route in terms of packaging time,
 but is more optimal both for infrastructure and
 for people who actually use the packagers' very work.
+
+Key takeaway is that the KISS philosophy here is to improve the tools, not have
+more packaging work, for the already too few maintainers...
+
+This would mean adding **"autosplit" mechanisms** and reducing PKGBUILDs to bare
+essential, then let the tooling do the work.
 
 ---
