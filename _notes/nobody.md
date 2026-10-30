@@ -90,8 +90,11 @@ certain features; that would make packages lighter and more explicit.
 I ended up making a "fork" of `makepkg` itself to try for myself:
 [scaling-eureka](https://github.com/h8d13/scaling-eureka)
 
-Which attempts to split automatically (`-docs`, `-lang`, `-pyc`, `-completions`)...
-Similar to how Alpine does it. And Fedora's spec files can produce several binary RPMs.
+Which attempts to split automatically (`-docs`, `-lang`, `-pyc-opt`)...
+Similar to how Alpine does it.
+
+`-dev`/`-static` are left out on purpose: Arch PKGBUILDs expect headers in `foo` itself.
+Same for `-completions`: mostly ~1 KiB, on par with the ~764 B each entry adds to the sync db. And Fedora's spec files can produce several binary RPMs.
 
 You declare each extra one with `%package` and give it its own `%files` section...
 Plus some [tiny details](https://pagure.io/rpmdevtools/)
