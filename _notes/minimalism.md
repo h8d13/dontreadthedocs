@@ -23,7 +23,7 @@ usage only touches 20% of the code.
 As codebases grow, they get harder to debug, or even to read "mentally".
 Doing one thing and doing it well (DOTADIW) keeps software modular.
 
-## Coding
+## Programming!
 
 Over the last few years I've been looking at a lot of code, on different
 hosting providers but also inside my own systems (mostly Arch, Alpine, Artix
