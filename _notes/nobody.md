@@ -71,6 +71,8 @@ issue, not fixing it at root cause.
 
 Reported [here](https://gitlab.archlinux.org/archlinux/packaging/packages/avahi/-/work_items/5)
 
+> I had already started `qv4l2` and `lstopo` in the meantime.
+
 A deep rabbit hole. But essentially here is what you'd want to know:
 
 In its essence any package is built using a [`pkgfile`](https://crux.nu/doc/handbook.html#Pkgfile)
@@ -94,7 +96,7 @@ Which attempts to split automatically (`-docs`, `-lang`, `-pyc-opt`)...
 Similar to how Alpine does it.
 
 `-dev`/`-static` are left out on purpose: Arch PKGBUILDs expect headers in `foo` itself.
-Same for `-completions`: mostly ~1 KiB, on par with the ~764 B each entry adds to the sync db.
+`-completions`: generally small, on par with the ~764 B each entry adds to the sync db.
 
 And Fedora's spec files can produce several binary RPMs.
 

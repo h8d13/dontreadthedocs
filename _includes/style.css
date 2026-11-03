@@ -52,18 +52,6 @@ header, main {
 	padding: 0 1.25rem;
 }
 
-/* cross-document view transitions: root-only crossfade of the viewport;
- * named groups would morph from their scrolled-off old boxes */
-@media (prefers-reduced-motion: no-preference) {
-	@view-transition {
-		navigation: auto;
-	}
-}
-
-::view-transition-group(*) {
-	animation-duration: 0.35s;
-}
-
 header {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
