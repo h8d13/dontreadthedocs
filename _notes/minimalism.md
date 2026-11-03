@@ -32,9 +32,9 @@ and Fedora).
 The most interesting take-aways are simple:
 
 - **One goal:** define one thing you want to excel at and do nothing else
-  (unless it's well cut out).
+  (unless it's well cut out). The same is true to:
 - **Dependencies are a plague:** anything you can trim is a win. Only
-  essentials should remain.
+  essentials should remain, any additional surface is often unecessary.
 - **Opt-in beats opt-out:** `--enable-X` instead of `--disable-Y`.
 
 ### Average sized
