@@ -76,7 +76,7 @@ Flipping the model around like this is fresh air (to me).
 So I guess the question here is not about disk space, but about how you decide
 to design software and its actual impact on what you need/want from said tool.
 
-A question becomes that, we already know it does more than one thing... But are
+Thought becomes that, we already know it does more than one thing... But are
 we ever questioning parts that might equate to too much code or just barely used.
 
 ### Executed vs Instrumented
