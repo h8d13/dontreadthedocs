@@ -79,6 +79,9 @@ to design software and its actual impact on what you need/want from said tool.
 Thought becomes that, we already know it does more than one thing... But are
 we ever questioning parts that might equate to too much code or just barely used.
 
+How many improvements could you find once you are in front of only this
+critical part, and **not the 100s of auxiliary features intertwined with it?**
+
 ### Executed vs Instrumented
 
 So I measured it. `curl`'s `lib/` + `src/` is ~147K lines of C (`cloc`).
