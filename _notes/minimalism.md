@@ -106,4 +106,8 @@ Granted, one happy-path run. But still illustrates well the idea.
 Smaller, opt-in, loud. Start from nothing and add what you need: less to
 read, less to break, and when it does break, you'll know why.
 
+Monolith type codebases also have advantages, as long as they **dogfood each
+path that can be taken** and not leave them for backwards compatibility claims.
+This essentially means, cutting out parts that aren't used/tested enough.
+
 ---
