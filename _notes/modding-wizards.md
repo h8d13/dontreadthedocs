@@ -9,7 +9,7 @@ tags: [modding]
 
 The world of gaming has always relied on its users. This is a strong idea by itself.
 
-Cf: Minecraft mods that became part of the real game. Bethesda modders fixing the game.
+Cf: Minecraft mods that became part of the game. Bethesda modders fixing the game on release.
 Because they wanted to play one of their favorite titles, **on their own terms.**
 
 Similarly, GTA is no different: Fusion Fix became the standard way to play GTA IV.
