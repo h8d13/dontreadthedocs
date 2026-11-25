@@ -150,6 +150,7 @@ known for fan [redesigns of Yamato][deadlock-mod] and Holiday, was brought on to
 on the game itself. Unconfirmed by Valve, and maybe freelance.
 
 Same starting point as FiveM, a hobbyist bolting things onto somebody else's game.
+One got a store page, the other got banned.
 
 To be fair, Valve is no saint either. In 2025 it
 [rejected Classic Offensive][co-rejected], a Counter-Strike 1.6 remake inside CS:GO,
@@ -162,8 +163,8 @@ a message from Valve.
 Then releasing on console only while that delays their magical free work...
 And honestly will just create more piracy that has the game already running.
 
-As much as I'm against piracy when it comes to video games, and AI usage on
-said subject... This one is kinda self-inflicted. Gatekeeping the PC version is
+As much as I'm against piracy when it comes to video games, and against AI
+being used for it... This one is kinda self-inflicted. Gatekeeping the PC version is
 a choice, and nobody forced them to make this decision.
 
 GTA VI came out on November 19, 2026, on PS5 and Xbox Series only.
@@ -200,13 +201,13 @@ build at single-digit framerates, and the publisher a piracy problem it schedule
 itself. None of that is modding, and I'm not putting a leaked build in the same bag
 as Fusion Fix.
 
-I figure pirates will be playing it before December at a playable framerate.
-
 On November 2, 2026, seventeen days before
 launch, the homebrew FTP server for PS5 [gained kernel offsets][ps5-offsets] for
 firmware 14.20 and 14.22. Two lines, reusing the address already known for 14.00
-and 14.10. File access, not a pirated copy. Xbox emulators are racing on their
-side too.
+and 14.10. File access, not a pirated copy. On the Xbox side,
+[several emulation projects][xbox-emu] are underway too.
+
+I figure pirates will be playing it before December at a playable framerate.
 
 ## Case study: FiveM, from banned to bought
 
@@ -268,7 +269,7 @@ counter-notice and GitHub [restored it][mta-tf] once Take-Two failed to sue. A
 22-year-old mod, tolerated for two decades, then targeted anyway.
 
 So the wizards worked for free for eight years, under legal threat for part of
-it.
+it, and only got a contract once the thing was too big to ban.
 
 ## Popularity & Demand
 
@@ -286,14 +287,15 @@ the weekend after launch and [36.4 million hours watched][rp-streamscharts] in i
 first week, roughly double the week before. GTA V ended 2021 as
 [the most watched game on Twitch][rp-dexerto], eight years after release.
 
-On September 1, 2026 Rockstar published
-[Introducing nopixel V][nopixel-v]: a closed beta from September 8, accessed
-through the Rockstar Games Launcher, with [Twitch Drops][nopixel-dexerto] paying
-up to GTA$1,500,000 just for watching RP streamers.
-
 2021 kept climbing after 3.0: [253 million hours][rp-statista]
 watched on Twitch in May alone, a peak of [1.14 million concurrent viewers][rp-twitchtracker]
 on May 3, and [2.1 billion hours][rp-2021] over the year.
+
+On September 1, 2026 Rockstar published
+[Introducing nopixel V][nopixel-v]: a closed beta from September 8, accessed
+through the Rockstar Games Launcher, with [Twitch Drops][nopixel-dexerto] paying
+up to GTA$1,500,000 just for watching RP streamers. Eleven years after banning
+FiveM, Rockstar rewards people for watching a community RP server.
 
 By 2026 Twitch was a fraction of that: 49.5 million hours in July. September, with
 nopixel V, brought [76.7 million, up 59%][rp-sept26] on August. Under a third of
@@ -316,17 +318,15 @@ Rockstar product, so Rockstar is the one getting the angry letter.
 
 They have been burned before, too. In 2005 the Hot Coffee mod unlocked a sex minigame
 Rockstar had left disabled on the San Andreas disc. The ESRB
-[pulled the M rating][hotcoffee-esrb], the game got recalled, and the
-[FTC came knocking][hotcoffee-ftc]. That explains the paranoia.
+[re-rated the game Adults Only][hotcoffee-esrb], most stores pulled it from their
+shelves, and the [FTC came knocking][hotcoffee-ftc]. That explains the paranoia.
 
-A whole genre of videos surfaces about Pay-To-Win servers being ruined by guess who?
-"Modders". What's interesting is that cheaters here are also called modders, when
-these are very distinct things. Which probably doesn't help: the same word covers
-the guy ruining lobbies and the one fixing the game. Still very "full-circle".
+There is a whole genre of videos about pay-to-win servers being ruined by guess who?
+"Modders". Meaning cheaters, which is a very distinct thing. That probably doesn't
+help: the same word covers the guy ruining lobbies and the one fixing the game.
 
-But what if the one ruining the lobby is actually duplicating real money items and
-game/server-specific VBUCKS to the people that play there? Robin Hood type deal
-of terrible practices.
+And sometimes that cheater is duplicating the server's real-money items and paid
+currency for everyone playing there. Robin Hood type deal, against terrible practices.
 
 But that calls for rules, not bans. Which they ended up writing anyway, in 2022:
 [no loot boxes, no NFTs, no misuse of trademarks][rp-policy]. It's one page.
@@ -356,6 +356,7 @@ The publisher can set the rules. It just has to **open the door first.**
 [hotcoffee-ftc]: https://www.gamedeveloper.com/game-platforms/ftc-take-two-settle-over-i-gta-i-hot-coffee-mod
 [gta6-boot]: https://www.techradar.com/gaming/unofficial-gta-6-pc-port-makes-rapid-progress-in-just-24-hours-game-is-now-bootable-in-historic-moment-but-scammers-will-have-a-field-day-here
 [gta6-race]: https://kotaku.com/gta-6-leaker-cyberleek-claims-to-have-to-released-exe-file-that-could-lead-to-unofficial-pc-port-2000759529
+[xbox-emu]: https://videocardz.com/newz/gta-vi-pc-efforts-have-already-kicked-off-with-multiple-xbox-emulation-projects-underway
 [ps5-offsets]: https://github.com/ps5-payload-dev/ftpsrv/commit/474c8d9da00d2026b274070482bf90e37a4ffc4d
 [gta6-purge]: https://gta6.house/news/gta-6-unofficial-pc-ports-take-two-takedown
 [mta-wiki]: https://en.wikipedia.org/wiki/Multi_Theft_Auto
