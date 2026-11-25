@@ -87,8 +87,8 @@ And it is still going: one wizard
 [asked streamers for weird GTA V mod ideas, then made all of them][blurbs-yt].
 
 Same on Red Dead Redemption 2. The Nemesis System, where enemies remember you and
-come back for revenge, was invented for Shadow of Mordor in 2014, then patented by
-Warner Bros. and kept out of other games. In 2026 a single modder
+come back for revenge, was invented for Shadow of Mordor in 2014, then
+[patented by Warner Bros.][nemesis-patent] and kept out of other games. In 2026 a single modder
 [rebuilt it for RDR2's story mode][rdr2-nemesis-gr] as [enRage][rdr2-nemesis]:
 every NPC gets a name and a memory, and the one you robbed may hunt you down later.
 
@@ -323,6 +323,7 @@ itself, backed by many examples of success.
 [after-gameranx]: https://gameranx.com/updates/id/529086/article/rumor-gta-roleplay-server-fivem-victim-of-hostile-takeover-and-one-of-rockstars-own-is-involved/
 [after-sk]: https://sportskeeda.com/gta/news-popular-gta-5-rp-server-fivem-reportedly-suffers-management-issues
 [blurbs-yt]: https://youtu.be/d3Cqu0Xskag
+[nemesis-patent]: https://gamespot.com/articles/warner-bros-now-has-a-patent-for-shadow-of-mordors-nemesis-system/1100-6487210/
 [rdr2-nemesis-gr]: https://gamerant.com/red-dead-redemption-2-nemesis-system-mod/
 [rdr2-nemesis]: https://www.nexusmods.com/reddeadredemption2/mods/10967
 [fusionfix]: https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix
