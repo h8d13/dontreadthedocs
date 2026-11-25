@@ -77,6 +77,8 @@ supported within reason. This then changes the whole dynamic of user generated/c
 
 Where you can touch internals of the game without fearing you're doing something wrong.
 
+## More of the same
+
 This is not hypothetical, it is what Valve did with [Garry's Mod][gmod-wiki]. It started
 in December 2004 as a free Half-Life 2 mod by one person. Instead of sending lawyers,
 Valve put it on Steam in November 2006 for $10 and split the profits with its author.
@@ -113,7 +115,7 @@ team released it elsewhere, got a cease and desist for "derivative content", and
 frozen after a message from Valve, with the team moving to its own game on Godot.
 The lesson holds for every publisher: what is tolerated is never guaranteed.
 
-## Re-fucking yourself.
+## Re-fucking yourself
 
 Then releasing on console only while that delays their magical free work...
 And honestly will just create more piracy that has the game already running.
