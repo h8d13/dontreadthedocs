@@ -245,7 +245,7 @@ enough to be acknowledged while they were building it.**
 [gmod-wiki]: https://en.wikipedia.org/wiki/Garry%27s_Mod
 [gmod-25m]: https://gamesradar.com/platforms/pc-gaming/garrys-mod-dev-says-he-didnt-want-to-sell-it-originally-because-no-one-would-pay-for-it-25-million-copies-later-he-admits-he-was-wrong
 [sbox-wiki]: https://developer.valvesoftware.com/wiki/S%26box
-[sbox-oss]: https://www.pcgamer.com/gaming-industry/garrys-mod-successor-s-and-box-goes-open-source-and-even-opens-up-the-finances-garry-says-valve-gave-me-my-chance-im-already-rich-i-dont-want-to-f-ck-anyone-over
+[sbox-oss]: https://github.com/Facepunch/sbox-public
 [sbox-pay]: https://www.pcgamer.com/games/rpg/we-dont-have-to-fire-1000-people-to-keep-it-working-facepunch-studios-says-paying-s-and-box-game-developers-is-sustainable-with-usd500-000-paid-out-to-date/
 [sbox-release]: https://www.pcgamer.com/games/garrys-mod-successor-s-and-box-finally-arrives-on-steam-on-april-28
 [deadlock-hire]: https://x.com/gabefollower/status/2088943036378026020
