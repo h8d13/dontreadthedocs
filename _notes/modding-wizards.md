@@ -171,7 +171,7 @@ GTA VI came out on November 19, 2026, on PS5 and Xbox Series only.
 "Rockstar always starts on console".
 
 His reason is that "you're judged by serving the core", and asked whether a Sony
-deal was behind it, [he said no][gta6-core]. While admitting PC can be half the
+deal was behind it, [he said no][gta6-core]. He also admitted PC can be half the
 sales of a modern release.
 
 There is a name for this: **double-dipping**. GTA V was sold on PS3 and Xbox 360
@@ -205,9 +205,8 @@ I figure pirates will be playing it before December at a playable framerate.
 On November 2, 2026, seventeen days before
 launch, the homebrew FTP server for PS5 [gained kernel offsets][ps5-offsets] for
 firmware 14.20 and 14.22. Two lines, reusing the address already known for 14.00
-and 14.10. File access, not a pirated copy.
-
-Or Xbox emulators currently racing.
+and 14.10. File access, not a pirated copy. Xbox emulators are racing on their
+side too.
 
 ## Case study: FiveM, from banned to bought
 
@@ -315,17 +314,17 @@ running on their own game.
 Same for the real car brands or loot boxes some servers sell: it happens inside a
 Rockstar product, so Rockstar is the one getting the angry letter.
 
+They have been burned before, too. In 2005 the Hot Coffee mod unlocked a sex minigame
+Rockstar had left disabled on the San Andreas disc. The ESRB
+[pulled the M rating][hotcoffee-esrb], the game got recalled, and the
+[FTC came knocking][hotcoffee-ftc]. That explains the paranoia.
+
 A whole genre of videos surfaces about Pay-To-Win servers being ruined by guess who?
 Modders (mostly cheaters, not actual devs), but still very "full-circle".
 
 But that calls for rules, not bans. Which they ended up writing anyway, in 2022:
 [no loot boxes, no NFTs, no misuse of trademarks][rp-policy]. It's one page.
 They could have written it in 2015.
-
-And then there is Hot Coffee. In 2005 a mod unlocked a sex minigame Rockstar had
-left disabled on the San Andreas disc. The ESRB [pulled the M rating][hotcoffee-esrb],
-the game got recalled, and the [FTC came knocking][hotcoffee-ftc]. That explains
-the paranoia. Not DMCA'ing fifteen-year-old mods in 2021.
 
 ## Conclusion
 
