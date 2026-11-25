@@ -66,8 +66,10 @@ Not that people wouldn't have relaunched it once in a while, doing the story for
 time. But that there would not have been hundreds of thousands of players and viewers,
 playing daily for so long, without FiveM's communities, and their tinkerers.
 
-Imagine a release where they provide these tools to empower the user. Where it is
+Imagine a release where they **provide these tools to empower the user.** Where it is
 supported within reason. This then changes the whole dynamic of user generated/centric games.
+
+Where you can touch internals of the game without fearing you're doing something wrong.
 
 This is not hypothetical, it is what Valve did with [Garry's Mod][gmod-wiki]. It started
 in December 2004 as a free Half-Life 2 mod by one person. Instead of sending lawyers,
