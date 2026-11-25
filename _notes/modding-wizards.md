@@ -169,7 +169,7 @@ Then releasing on console only while that delays their magical free work...
 And honestly will just create more piracy that has the game already running.
 
 As much as I'm against piracy when it comes to video games, and AI usage on
-said subject... This one is kinda deserved. Gatekeeping the PC version is
+said subject... This one is kinda self-inflicted. Gatekeeping the PC version is
 a choice, and nobody forced them to make this decision.
 
 GTA VI came out on November 19, 2026, on PS5 and Xbox Series only.
@@ -197,17 +197,20 @@ And walls get climbed. Within a week of launch a leaked Xbox build was
 [rival ports raced each other][gta6-race]. Take-Two had a reported
 [3,000 GitHub repositories][gta6-purge] taken down. The PC audience gets a pirate
 build at single-digit framerates, and the publisher a piracy problem it scheduled
-itself.
+itself. None of that is modding, and I'm not putting a leaked build in the same bag
+as Fusion Fix.
+
+I figure pirates will be playing it before December at a playable framerate.
 
 The garden's own wall is no different. On November 2, 2026, seventeen days before
 launch, the homebrew FTP server for PS5 [gained kernel offsets][ps5-offsets] for
 firmware 14.20 and 14.22. Two lines, reusing the address already known for 14.00
-and 14.10: the file access the console forbids, re-found by wizards one firmware
-at a time.
+and 14.10. That is file access, not a pirated copy, but it is the same wall
+getting a door, one firmware at a time.
 
-I figure pirates will be playing it before December at a playable framerate.
+Or Xbox emulators currently racing.
 
-### Case study: FiveM, from banned to bought
+## Case study: FiveM, from banned to bought
 
 The GTA V multiplayer mod FiveM is the cleanest example of the full cycle:
 ban it, threaten it, watch it outgrow you, then buy it (out of panic).
@@ -324,7 +327,7 @@ Modders.
 
 ## Conclusion
 
-The walls don't work. Providing tools directly enhances the success of the title.
+The walls make money, they just don't hold. Providing tools directly enhances the success of the title.
 The publisher can set the rules. It just has to **open the door first.**
 
 [pi-pcgamer]: https://www.pcgamer.com/take-two-reportedly-sent-private-investigators-to-modders-home
