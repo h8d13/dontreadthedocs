@@ -27,7 +27,7 @@ And like any good software, dogfooding issues can only be achieved with thorough
 testing and incremental fixes for identified parts that are problematic.
 
 For instance, in ARMA reforger, my main annoyance was the lack of a melee system. 
-Blocking, heavy hits, standard fist fighting outside of melee weapons.
+Blocking, heavy hits, standard fist fighting outside of melee weapons. ([Mod link][arma-r-mod])
 
 Which then, gets implemented **by a wizard** and used in dozens of popular servers.
 
@@ -122,5 +122,5 @@ enough to be endorsed while they were building it.**
 [after-intel]: https://rockstarintel.com/problems-exposed-at-fivem-after-rockstar-games-acquisition-its-claimed/
 [after-gameranx]: https://gameranx.com/updates/id/529086/article/rumor-gta-roleplay-server-fivem-victim-of-hostile-takeover-and-one-of-rockstars-own-is-involved/
 [after-sk]: https://sportskeeda.com/gta/news-popular-gta-5-rp-server-fivem-reportedly-suffers-management-issues
-
+[arma-r-mod]: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended
 ---
