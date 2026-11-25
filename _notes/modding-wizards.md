@@ -24,7 +24,8 @@ The world of gaming has always **relied on its users**. This is a strong idea by
 After all, they are the ones paying the product at first
 and **keeping it alive** as they play and **build around common interests**.
 
-Cf: Minecraft mods that became part of the game. Bethesda modders fixing bugs on release.
+Cf: Minecraft mods that became part of the game.
+[Bethesda modders fixing bugs on release][bethesda-yt].
 Because they wanted to play one of their favorite titles, **on their own terms.**
 
 ARMA players creating dozens of gamemodes (Enfusion is one of the rare projects that does
@@ -117,6 +118,16 @@ And honestly will just create more piracy that has the game already running.
 The GTA V multiplayer mod FiveM is the cleanest example of the full cycle:
 ban it, threaten it, watch it outgrow you, then buy it.
 
+**Before FiveM.** None of this started with GTA V. GTA III shipped in 2001 without
+online play, and by February 2003 [Multi Theft Auto][mta-wiki] had bolted it on. It
+is still alive, open source under GPLv3 since 2008. Then came
+[San Andreas Multiplayer][samp-wiki] (SA-MP), grown out of a Vice City multiplayer
+mod from 2005, with a scripting engine that let server owners write their own
+gamemodes. That is [where GTA roleplay was invented][samp-intel], on thousands of
+servers at its peak, years before Twitch noticed. FiveM inherited a genre that
+wizards had already built for free, on a game whose publisher never offered them
+anything.
+
 **2015: the ban.** In August 2015 the people behind FiveM had their Social Club
 accounts suspended. Rockstar's line was that the project was designed to
 facilitate piracy. In November, lead dev NTAuthority wrote on Reddit that two
@@ -167,6 +178,12 @@ company, the founder included. These are allegations, neither Rockstar nor
 Cfx.re confirmed them.
 ([Rockstar Intel][after-intel], [Gameranx][after-gameranx], [Sportskeeda][after-sk])
 
+**2025: back to the start.** In December 2025 Take-Two filed a DMCA notice against
+Multi Theft Auto's GitHub repository, claiming it contained leaked source code. The
+repository went offline, the developers filed a counter-notice, and GitHub
+[restored it][mta-tf] once Take-Two failed to sue. A 22-year-old mod, for a game
+the publisher had pulled from sale, tolerated for two decades and then not.
+
 So the wizards worked for free for eight years, under legal threat for part of
 it. The value they created was real enough to be acquired, **but never real
 enough to be acknowledged while they were building it.**
@@ -183,6 +200,10 @@ enough to be acknowledged while they were building it.**
 [mods21-pcgamer]: https://www.pcgamer.com/take-two-has-been-issuing-takedowns-for-gta-mods
 [mods21-kotaku]: https://kotaku.com/take-two-is-removing-old-gta-mods-using-dmca-notices-1847315391
 [mods21-under]: https://kotaku.com/ambitious-gta-underground-mod-shutdowns-after-six-years-1847619249
+[mta-wiki]: https://en.wikipedia.org/wiki/Multi_Theft_Auto
+[samp-wiki]: https://www.grandtheftwiki.com/San_Andreas_Multiplayer
+[samp-intel]: https://gtaintel.com/news/san-andreas-multiplayer-in-2026
+[mta-tf]: https://torrentfreak.com/github-restores-repo-of-gta-mod-multi-theft-auto-after-take-two-fails-to-sue/
 [buy-pcgamer]: https://pcgamer.com/rockstar-buys-the-makers-of-the-gta-online-fivem-mod-it-banned-8-years-ago
 [buy-techdirt]: https://www.techdirt.com/2023/08/14/rockstar-scoops-up-modding-roleplay-communities-in-a-departure-from-previous-policy
 [buy-gamespot]: https://gamespot.com/articles/rockstar-acquires-gta-role-playing-community-as-gta-6-continues-development/1100-6516790/
@@ -199,6 +220,7 @@ enough to be acknowledged while they were building it.**
 [deadlock-hire]: https://x.com/gabefollower/status/2088943036378026020
 [deadlock-mod]: https://deadlocker.net/mod/mod_1749656103483
 [wizard-jargon]: http://www.catb.org/jargon/html/W/wizard.html
+[bethesda-yt]: https://www.youtube.com/watch?v=vkYu3seV9FI
 [grok-wiki]: https://en.wikipedia.org/wiki/Grok
 [mud1-wiki]: https://en.wikipedia.org/wiki/MUD1
 [wizard-mud]: https://mud.co.uk/richard/mudhist.htm
