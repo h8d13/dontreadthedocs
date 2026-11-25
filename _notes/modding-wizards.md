@@ -92,7 +92,7 @@ Where you can touch internals of the game without fearing you're doing something
 
 ## More of the same
 
-This is not hypothetical, it is what Valve did with [Garry's Mod][gmod-wiki]: a free
+Valve already did exactly this with [Garry's Mod][gmod-wiki]: a free
 Half-Life 2 mod from 2004 that Valve put on Steam in 2006, splitting the profits with
 its author. Its users did the rest (Prop Hunt, TTT, DarkRP) and it went on to sell
 [over 25 million copies][gmod-25m].
@@ -110,7 +110,7 @@ who made the thing.**
 In August 2026 that pattern was [reported for Deadlock][deadlock-hire]: Kirill Senzu,
 known for fan [redesigns of Yamato][deadlock-mod] and Holiday, was brought on to work
 on the game itself. Unconfirmed by Valve, and maybe freelance, but the direction is
-the point: the wizard gets a contract, not a cease and desist.
+the point: the wizard gets a contract.
 
 Same starting point as FiveM, a hobbyist bolting things onto somebody else's game.
 One publisher answered with a storefront and a revenue split, the other with bans.
@@ -119,7 +119,7 @@ To be fair, Valve is no saint either. In 2025 it
 [rejected Classic Offensive][co-rejected], a Counter-Strike 1.6 remake inside CS:GO,
 after eight years of work, then sent a cease and desist that
 [killed the project][co-cancelled]. Its successor [CS:Legacy][cs-legacy] froze after
-a message from Valve. What is tolerated is never guaranteed.
+a message from Valve. Tolerance lasts only as long as the publisher allows.
 
 ## Re-fucking yourself
 
@@ -164,7 +164,7 @@ I figure pirates will be playing it before December at a playable framerate.
 The GTA V multiplayer mod FiveM is the cleanest example of the full cycle:
 ban it, threaten it, watch it outgrow you, then buy it (out of panic).
 
-**Before FiveM.** None of this started with GTA V. GTA III shipped without online
+**Before FiveM.** The story starts long before GTA V. GTA III shipped without online
 play, and by 2003 [Multi Theft Auto][mta-wiki] had bolted it on. Then came
 [San Andreas Multiplayer][samp-wiki], whose scripting engine let server owners write
 their own gamemodes. That is [where GTA roleplay was invented][samp-intel], years
@@ -183,7 +183,7 @@ so did the competing GTA:MP project.
 single-player mods depend on. The team shut down, the community review-bombed the
 game on Steam, and within days Take-Two backed off. The resulting policy is still
 quoted today: Take-Two "generally will not take legal action" against single-player,
-non-commercial projects. Note the "generally": it is a tolerance, not a right.
+non-commercial projects. Note the "generally": mods live at Take-Two's discretion.
 ([PC Gamer][openiv-pcgamer], [GameSpot][openiv-gamespot], [TechRadar][openiv-techradar])
 
 **2021: re3 / reVC.** The reverse-engineered GTA III and Vice City got a DMCA
@@ -216,7 +216,7 @@ Cfx.re confirmed them.
 **2025: back to the start.** In December Take-Two filed a DMCA notice against Multi
 Theft Auto's GitHub repository, claiming leaked source code. The developers filed a
 counter-notice and GitHub [restored it][mta-tf] once Take-Two failed to sue. A
-22-year-old mod, tolerated for two decades and then not.
+22-year-old mod, tolerated for two decades, then targeted anyway.
 
 So the wizards worked for free for eight years, under legal threat for part of
 it. The value they created was real enough to be acquired, **but never real
