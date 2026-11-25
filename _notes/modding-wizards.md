@@ -45,6 +45,16 @@ ARMA players creating dozens of gamemodes (Enfusion is one of the rare projects 
 Including: DayZ, Battle Royale/KOTH, Roleplay, Flight School...
 Which keeps players on the game engaged, by **what they like**.
 
+The DayZ [mod][dayz-wiki] needed Arma 2 plus its Operation Arrowhead
+expansion, so everyone who wanted to play it had to buy both. In 2012 that put a
+three-year-old military sim [on top of Steam's charts][dayz-gamedev]: Combined
+Operations was the [number one seller][dayz-steamdb] for several weeks that June
+and July, and Bohemia told Kotaku that sales had [risen almost fivefold][dayz-kotaku]
+since the mod's alpha. It passed a million players in about four months, and that
+August Bohemia announced a standalone game with its author as project lead.
+
+A free mod sold the base game better than its own marketing ever had.
+
 Providing their users with infrastructure to load custom servers, hosting, browsing mods...
 Even tooling to build them directly.
 
@@ -257,18 +267,8 @@ infinite. The supply becomes the ecosystem: its people and things.
 This means that any asset produced from another base asset, that is demanded
 by the community, **increases the popularity of said base asset.**
 
-**DayZ.** The [mod][dayz-wiki] needed Arma 2 plus its Operation Arrowhead
-expansion, so everyone who wanted to play it had to buy both. In 2012 that put a
-three-year-old military sim [on top of Steam's charts][dayz-gamedev]: Combined
-Operations was the [number one seller][dayz-steamdb] for several weeks that June
-and July, and Bohemia told Kotaku that sales had [risen almost fivefold][dayz-kotaku]
-since the mod's alpha. It passed a million players in about four months, and that
-August Bohemia announced a standalone game with its author as project lead.
-
-A free mod sold the base game better than its own marketing ever had.
-
-**GTA RP.** Same mechanism, measured in viewers instead of copies. When big
-streamers joined NoPixel in early 2019, GTA V's Twitch viewership
+GTA V shows it in viewers rather than copies. When big streamers joined
+NoPixel in early 2019, the game's Twitch viewership
 [more than tripled][rp-2019] over the year, with a concurrent peak around 304,000
 that March. NoPixel 3.0 in February 2021 beat it: [438,000 concurrent][rp-kotaku]
 the weekend after launch and [36.4 million hours watched][rp-streamscharts] in its
