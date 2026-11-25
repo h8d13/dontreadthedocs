@@ -7,7 +7,10 @@ tags: [modding]
 
 ## Abstract
 
-The world of gaming has always relied on its users. This is a strong idea by itself.
+The world of gaming has always **relied on its users**. This is a strong idea by itself.
+
+After all, they are the ones paying the product at first 
+and **keeping it alive** as they play and **build around common interests**.
 
 Cf: Minecraft mods that became part of the game. Bethesda modders fixing the game on release.
 Because they wanted to play one of their favorite titles, **on their own terms.**
