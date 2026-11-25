@@ -27,9 +27,6 @@ and **keeping it alive** as they play and **build around common interests**.
 Cf: Minecraft mods that became part of the game. Bethesda modders fixing bugs on release.
 Because they wanted to play one of their favorite titles, **on their own terms.**
 
-Similarly, GTA is no different: Fusion Fix became the standard way to play GTA IV.
-Bugstar (or GamePlayFixes) for V... Anyways the idea is that a game always has rough edges...
-
 ARMA players creating dozens of gamemodes (Enfusion is one of the rare projects that does
 **recognize the value this has**, holding contests and community modding tutorials/discourse)
 
@@ -59,6 +56,9 @@ your perfectly fine working gaming PC is held back, on purpose, to sell you
 hardware you probably did not even want.
 
 ## It carried you for 13 years
+
+Similarly, GTA is no different: Fusion Fix became the standard way to play GTA IV.
+Bugstar (or GamePlayFixes) for V... The idea is that a product always has rough edges...
 
 Basically, if it wasn't for GTA V online modders, the game would have died out.
 Not that people wouldn't have relaunched it once in a while, doing the story for the 20th
