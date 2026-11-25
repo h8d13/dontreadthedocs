@@ -324,6 +324,10 @@ A whole genre of videos surfaces about Pay-To-Win servers being ruined by guess 
 these are very distinct things. Which probably doesn't help: the same word covers
 the guy ruining lobbies and the one fixing the game. Still very "full-circle".
 
+But what if the one ruining the lobby is actually duplicating real money items and
+game/server-specific VBUCKS to the people that play there? Robin Hood type deal
+of terrible practices.
+
 But that calls for rules, not bans. Which they ended up writing anyway, in 2022:
 [no loot boxes, no NFTs, no misuse of trademarks][rp-policy]. It's one page.
 They could have written it in 2015.
