@@ -129,9 +129,9 @@ is still alive, open source under GPLv3 since 2008. Then came
 [San Andreas Multiplayer][samp-wiki] (SA-MP), grown out of a Vice City multiplayer
 mod from 2005, with a scripting engine that let server owners write their own
 gamemodes. That is [where GTA roleplay was invented][samp-intel], on thousands of
-servers at its peak, years before Twitch noticed. FiveM inherited a genre that
-wizards had already built for free, on a game whose publisher never offered them
-anything.
+servers at its peak, years before streaming was as popular. 
+FiveM inherited a genre that wizards had already built for free, on a game whose
+publisher never offered them anything.
 
 **2015: the ban.** In August 2015 the people behind FiveM had their Social Club
 accounts suspended. Rockstar's line was that the project was designed to
