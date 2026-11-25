@@ -105,7 +105,7 @@ every NPC gets a name and a memory, and the one you robbed may hunt you down lat
 ## Let them reach the engine
 
 "Modding" makes people think of extras: skins, maps, a funny car. The mods that
-change a game go deeper, and every one of them needs the internals of the engine.
+change a game go deeper, and every one of them **needs the internals of the engine.**
 
 On GTA and Red Dead that access is unofficial. Nearly every script mod sits on a
 community-made hook into the game's own functions, and each official patch breaks it
