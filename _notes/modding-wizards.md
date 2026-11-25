@@ -242,6 +242,50 @@ So the wizards worked for free for eight years, under legal threat for part of
 it. The value they created was real enough to be acquired, **but never real
 enough to be acknowledged while they were building it.**
 
+## Popularity & Demand
+
+In digital-sales-only terms, there is no supply to control, as it's essentially
+infinite. The supply becomes the ecosystem: its people and things.
+
+This means that any asset produced from another base asset, that is demanded
+by the community, **increases the popularity of said base asset.**
+
+**DayZ.** The [mod][dayz-wiki] needed Arma 2 plus its Operation Arrowhead
+expansion, so everyone who wanted to play it had to buy both. In 2012 that put a
+three-year-old military sim [on top of Steam's charts][dayz-gamedev]: Combined
+Operations was the [number one seller][dayz-steamdb] for several weeks that June
+and July, and Bohemia told Kotaku that sales had [risen almost fivefold][dayz-kotaku]
+since the mod's alpha. It passed a million players in about four months, and that
+August Bohemia announced a standalone game with its author as project lead.
+
+A free mod sold the base game better than its own marketing ever had.
+
+**GTA RP.** Same mechanism, measured in viewers instead of copies. When big
+streamers joined NoPixel in early 2019, GTA V's Twitch viewership
+[more than tripled][rp-2019] over the year, with a concurrent peak around 304,000
+that March. NoPixel 3.0 in February 2021 beat it: [438,000 concurrent][rp-kotaku]
+the weekend after launch and [36.4 million hours watched][rp-streamscharts] in its
+first week, roughly double the week before. GTA V ended 2021 as
+[the most watched game on Twitch][rp-dexerto], eight years after release.
+
+Rockstar eventually did the maths. On September 1, 2026 it published
+[Introducing nopixel V][nopixel-v]: a closed beta from September 8, accessed
+through the Rockstar Games Launcher, with [Twitch Drops][nopixel-dexerto] paying
+up to GTA$1,500,000 just for watching RP streamers. The publisher is now paying
+viewers to watch the thing it once sent investigators after.
+
+The numbers, for scale. 2021 kept climbing after 3.0: [253 million hours][rp-statista]
+watched on Twitch in May alone, a peak of [1.14 million concurrent viewers][rp-twitchtracker]
+on May 3, and [2.1 billion hours][rp-2021] over the year.
+
+By 2026 Twitch was a fraction of that: 49.5 million hours in July. September, with
+nopixel V, brought [76.7 million, up 59%][rp-sept26] on August. Under a third of
+May 2021, but enough to make a 13-year-old game Twitch's most watched again.
+
+And the audience had not left, it had moved. Kick [overtook Twitch][rp-kick] for
+GTA V during 2025: 82.5 million hours in July 2026 against Twitch's 49.5, then about
+[116.4 million][rp-kick-oct] in October.
+
 ## Conslusion
 
 The walls don't work. Providing tools directly enhances success of said title.
@@ -300,4 +344,20 @@ itself, backed by many examples of success.
 [co-cancelled]: https://www.pcgamer.com/games/fps/the-mod-that-aimed-to-recreate-counter-strike-1-6-in-cs-go-is-now-officially-cancelled-following-abrupt-actions-by-valve-that-prevent-us-from-releasing-the-project/
 [cs-legacy]: https://www.dust2.us/news/63238/cs-legacy-fan-project-in-danger-of-being-shut-down-by-valve
 [arma-r-mod]: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended
+[dayz-wiki]: https://en.wikipedia.org/wiki/DayZ_(mod)
+[dayz-gamedev]: https://gamedeveloper.com/business/how-a-mod-put-three-year-old-i-arma-2-i-on-top-of-steam-s-charts
+[dayz-steamdb]: https://steamdb.info/topsellers/2012W25
+[dayz-kotaku]: https://kotaku.com/pc-zombie-darling-causes-sale-explosion-arma-devs-happ-5910279
+[rp-2019]: https://pcgamer.com/gta-v-stream-viewers-more-than-triple-pubg-drops-off-top-10-in-2019
+[rp-kotaku]: https://kotaku.com/grand-theft-auto-role-playing-is-big-on-twitch-again-s-1846240147
+[rp-streamscharts]: https://streamscharts.com/news/gta-v-rp-server-takes-game-top-twitch-february
+[rp-dexerto]: https://dexerto.com/gta/gta-v-reigns-supreme-on-twitch-eight-years-after-release-1727330/
+[rp-statista]: https://www.statista.com/statistics/1109392/gta-5-hours-watched-twitch/
+[rp-twitchtracker]: https://twitchtracker.com/games/32982
+[rp-2021]: https://gameworldobserver.com/2021/12/24/gta-v-becomes-twitchs-most-streamed-video-game-of-2021-with-2-1-billion-hours-watched
+[rp-sept26]: https://streamscharts.com/news/twitch-september-2026-results
+[rp-kick]: https://streamscharts.com/news/kick-overtakes-twitch-gta-v-viewership
+[rp-kick-oct]: https://streamscharts.com/news/kick-viewership-october-2026
+[nopixel-v]: https://www.rockstargames.com/newswire/article/17857581o753k1/introducing-nopixel-v
+[nopixel-dexerto]: https://www.dexerto.com/gaming/rockstar-finally-confirms-nopixel-v-and-offers-gta1-5-million-to-watch-it-launch-3404803/
 ---
