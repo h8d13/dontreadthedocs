@@ -57,11 +57,11 @@ and July, and Bohemia told Kotaku that sales had [risen almost fivefold][dayz-ko
 since the mod's alpha. It passed a million players in about four months, and that
 August Bohemia announced a standalone game with its author as project lead.
 
-Providing their users with infrastructure to load custom servers, hosting, browsing mods...
+Bohemia provides its users with infrastructure to load custom servers, hosting, browsing mods...
 Even tooling to build them directly.
 
-And like any good software, dogfooding issues can only be achieved with thorough
-testing and incremental fixes for identified parts that are problematic.
+And like any good software, issues only get found by dogfooding: thorough testing,
+then incremental fixes for the parts that are problematic.
 
 For instance, in [ARMA Reforger][arma-r] (released on: May 17, 2022), my main
 annoyance was the lack of a melee system.
@@ -156,31 +156,31 @@ after eight years of work, then sent a cease and desist that
 [killed the project][co-cancelled]. Its successor [CS:Legacy][cs-legacy] froze after
 a message from Valve.
 
-[Chronoshift][chrono-pcgamer] was a free, fan-run server for a ten-year-old version
-of League of Legends, about five years in the making. In April 2021 someone from
+And it is not just Valve or Take-Two. In 2017 Riot said an old version of League
+of Legends was probably "not worth the development effort". Fans were already
+building one: [Chronoshift][chrono-pcgamer], a free server for a ten-year-old
+version of the game, about five years in the making. In April 2021 someone from
 Riot's security team contacted the devs, asking for the source code and for the
 server to go offline. The chat ended up on Reddit and read badly enough that people
 [called it extortion][chrono-kotaku]. Riot said it was "disappointed with the tenor
 of the conversation", sent the cease and desist anyway, and the project went down.
 
-Their line since 2017 was that an old version of the game was probably "not worth
-the development effort".
-
 On July 29, 2026 Riot [launched League of Legends Classic][lol-classic]: the
-original Summoner's Rift, old runes and masteries, pre-rework champions. Five years
-after killing the fan version.
+original Summoner's Rift, old runes and masteries, pre-rework champions. Kill the
+fan version, then ship your own: the same move as the 2021 GTA mods cleared out
+right before the remasters (see the case study below).
 
 Chronoshift shows that having the client does not mean you get to play online: the
-server stays the publisher's call. That is the whole topic of the
-[Stop Killing Games][skg] campaign.
+server stays the publisher's call. The [Stop Killing Games][skg] campaign is a
+neighbouring fight.
+
+Some people say these projects are for "archiving", which I often find a simplification.
+It's more of "freedom" to use AND modify what you bought. Note the "and" part.
 
 ## Re-fucking yourself
 
 Then releasing on console only while that delays their magical free work...
 And honestly will just create more piracy that has the game already running.
-
-Some people say this is for "archiving" which I often find a simplification.
-It's more of "freedom" to use AND modify what you bought. Note the "and" part.
 
 As much as I'm against piracy when it comes to video games, and against AI
 being used for it... This one is kinda self-inflicted. Gatekeeping the PC version is
@@ -310,18 +310,18 @@ first week, roughly double the week before. GTA V ended 2021 as
 watched on Twitch in May alone, a peak of [1.14 million concurrent viewers][rp-twitchtracker]
 on May 3, and [2.1 billion hours][rp-2021] over the year.
 
+By July 2026 Twitch was a fraction of that: 49.5 million hours. Kick had
+[overtaken Twitch][rp-kick] for GTA V during 2025 and did 82.5 million that month.
+
 On September 1, 2026 Rockstar published
 [Introducing nopixel V][nopixel-v]: a closed beta from September 8, accessed
 through the Rockstar Games Launcher, with [Twitch Drops][nopixel-dexerto] paying
 up to GTA$1,500,000 just for watching RP streamers. Eleven years after banning
 FiveM, Rockstar rewards people for watching a community RP server.
 
-By 2026 Twitch was a fraction of that: 49.5 million hours in July. September, with
-nopixel V, brought [76.7 million, up 59%][rp-sept26] on August. Under a third of
-May 2021, but enough to make a 13-year-old game Twitch's most watched again.
-Kick [overtook Twitch][rp-kick] for
-GTA V during 2025: 82.5 million hours in July 2026 against Twitch's 49.5, then about
-[116.4 million][rp-kick-oct] in October.
+That September Twitch did [76.7 million hours, up 59%][rp-sept26] on August. Under a
+third of May 2021, but enough to make a 13-year-old game Twitch's most watched again.
+Kick did about [116.4 million][rp-kick-oct] in October.
 
 Then GTA VI itself: at launch, xQc alone pulled [around 105,000 concurrent
 viewers][rp-xqc] playing through its opening mission.
