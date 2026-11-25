@@ -216,8 +216,8 @@ that simply do not run on Linux or the Steam Deck. League of Legends
 October, EA calling it "a path for a variety of impactful exploits and cheats".
 GTA Online [did the same][gta-battleye] with BattlEye.
 
-It is not to enable cheating but instead **access** to a game in a non-invasive
-manner from the paltform of your choice, ideally natively. If that's not asking
+The ask is not to enable cheating, but **access** to a game in a non-invasive
+manner from the platform of your choice, ideally natively. If that's not asking
 too much of course. Server sided anti-cheat, thanks!
 
 ### Aside: the walls don't hold
