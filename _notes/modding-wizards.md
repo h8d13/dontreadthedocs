@@ -26,7 +26,7 @@ Providing their users with infrastructure to load custom servers, hosting, brows
 And like any good software, dogfooding issues can only be achieved with thorough
 testing and incremental fixes for identified parts that are problematic.
 
-For instance, in ARMA reforger, my main annoyance was the lack of a melee system. 
+For instance, in ARMA reforger, my main annoyance was the lack of a melee system.
 Blocking, heavy hits, standard fist fighting outside of melee weapons. ([Mod link][arma-r-mod])
 
 Which then, gets implemented **by a wizard** and used in dozens of popular servers.
@@ -50,6 +50,33 @@ Basically, if it wasn't for GTA V online modders, the game would have died out.
 Not that people wouldn't have relaunched it once in a while, doing the story for the 20th
 time. But that there would not have been hundreds of thousands of players and viewers,
 playing daily for so long, if it wasn't for FiveM's communities, and modders.
+
+Imagine a release where they provide these tools to empower the user. Where it is
+endorsed within reason. This then changes the whole dynamic of user generated/centric games.
+
+This is not hypothetical, it is what Valve did with [Garry's Mod][gmod-wiki]. It started
+in December 2004 as a free Half-Life 2 mod by one person. Instead of sending lawyers,
+Valve put it on Steam in November 2006 for $10 and split the profits with its author.
+The modders then did the rest: Prop Hunt, TTT, DarkRP and hundreds of other gamemodes
+are all community work, and the mod went on to sell
+[over 25 million copies][gmod-25m].
+
+Its successor [s&box][sbox-wiki] pushes the same logic further. Valve licensed Source 2
+to Facepunch, the first time a third party got it. Facepunch then put its own code
+[on GitHub under MIT][sbox-oss] (Valve's engine part stays closed), lets creators export
+what they build as standalone Steam games without taking royalties, and
+[pays the people making games on the platform][sbox-pay], $500,000 so far by its
+own count. It launched on Steam on [April 28, 2026][sbox-release].
+
+And it is still how Valve recruits. Counter-Strike, Team Fortress and Dota 2 all exist
+because Valve hired the people who made the mods. In August 2026 the same thing was
+[reported for Deadlock][deadlock-hire]: Kirill Senzu, a 3D artist known for fan
+[redesigns of Yamato][deadlock-mod] and Holiday, was brought on to work on the game
+itself. Valve has not confirmed it, and it may be contract work rather than a staff job,
+but the direction is the point: the modder gets a contract, not a cease and desist.
+
+Same starting point as FiveM, a hobbyist bolting things onto somebody else's game.
+One publisher answered with a storefront and a revenue split, the other with bans.
 
 ## Re-fucking yourself.
 
@@ -122,5 +149,13 @@ enough to be endorsed while they were building it.**
 [after-intel]: https://rockstarintel.com/problems-exposed-at-fivem-after-rockstar-games-acquisition-its-claimed/
 [after-gameranx]: https://gameranx.com/updates/id/529086/article/rumor-gta-roleplay-server-fivem-victim-of-hostile-takeover-and-one-of-rockstars-own-is-involved/
 [after-sk]: https://sportskeeda.com/gta/news-popular-gta-5-rp-server-fivem-reportedly-suffers-management-issues
+[gmod-wiki]: https://en.wikipedia.org/wiki/Garry%27s_Mod
+[gmod-25m]: https://gamesradar.com/platforms/pc-gaming/garrys-mod-dev-says-he-didnt-want-to-sell-it-originally-because-no-one-would-pay-for-it-25-million-copies-later-he-admits-he-was-wrong
+[sbox-wiki]: https://developer.valvesoftware.com/wiki/S%26box
+[sbox-oss]: https://www.pcgamer.com/gaming-industry/garrys-mod-successor-s-and-box-goes-open-source-and-even-opens-up-the-finances-garry-says-valve-gave-me-my-chance-im-already-rich-i-dont-want-to-f-ck-anyone-over
+[sbox-pay]: https://www.pcgamer.com/games/rpg/we-dont-have-to-fire-1000-people-to-keep-it-working-facepunch-studios-says-paying-s-and-box-game-developers-is-sustainable-with-usd500-000-paid-out-to-date/
+[sbox-release]: https://www.pcgamer.com/games/garrys-mod-successor-s-and-box-finally-arrives-on-steam-on-april-28
+[deadlock-hire]: https://x.com/gabefollower/status/2088943036378026020
+[deadlock-mod]: https://deadlocker.net/mod/mod_1749656103483
 [arma-r-mod]: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended
 ---
