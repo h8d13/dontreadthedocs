@@ -85,6 +85,9 @@ Not that people wouldn't have relaunched it once in a while, doing the story for
 time. But that there would not have been hundreds of thousands of players and viewers,
 playing daily for so long, without FiveM's communities, and their tinkerers.
 
+And it is still going: one wizard
+[asked streamers for weird GTA V mod ideas, then made all of them][blurbs-yt].
+
 Imagine a release where they **provide these tools to empower the user.** Where it is
 supported within reason. This then changes the whole dynamic of user-generated/centric games.
 
@@ -250,6 +253,7 @@ enough to be acknowledged while they were building it.**
 [after-intel]: https://rockstarintel.com/problems-exposed-at-fivem-after-rockstar-games-acquisition-its-claimed/
 [after-gameranx]: https://gameranx.com/updates/id/529086/article/rumor-gta-roleplay-server-fivem-victim-of-hostile-takeover-and-one-of-rockstars-own-is-involved/
 [after-sk]: https://sportskeeda.com/gta/news-popular-gta-5-rp-server-fivem-reportedly-suffers-management-issues
+[blurbs-yt]: https://youtu.be/d3Cqu0Xskag
 [fusionfix]: https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix
 [gameplayfixes]: https://github.com/SuleMareVientu/GameplayFixesV-ScriptHookV
 [gmod-wiki]: https://en.wikipedia.org/wiki/Garry%27s_Mod
