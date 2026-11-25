@@ -120,6 +120,37 @@ The lesson holds for every publisher: what is tolerated is never guaranteed.
 Then releasing on console only while that delays their magical free work...
 And honestly will just create more piracy that has the game already running.
 
+As much as I'm against piracy when it comes to video games, and AI usage on
+said subject... This one is kinda deserved. Gatekeeping the PC version is
+a choice, and nobody forced them to make this decision.
+
+GTA VI came out on November 19, 2026, on PS5 and Xbox Series only.
+[No PC version, no date for one][gta6-nopc]. Take-Two's CEO put it plainly:
+"Rockstar always starts on console".
+
+There is a name for this: **double-dipping**. GTA V was sold on PS3 and Xbox 360
+in 2013, again on PS4 and Xbox One in 2014, on PC in 2015, and once more on PS5 in
+2022. Red Dead Redemption 2 made PC wait a year. 
+
+Sell it to the impatient on console first, then sell it to them a second time on 
+the machine they wanted it on, both copies being incompatible to transfer over.
+
+The console is the other half of the trick: a **walled garden**. No file access, no
+script hooks, no custom servers, nothing runs unless the platform holder signed it.
+
+The PC release is the only version a wizard can open. Delaying it delays every fix,
+every gamemode and every RP server by the same amount. The very thing that carried
+the last game for 13 years is told to wait outside.
+
+And walls get climbed. Within a week of launch a leaked Xbox build was
+[booting on PC][gta6-boot], reverse-engineered at speed with AI tools, and
+[rival ports were racing each other][gta6-race]. Take-Two answered the usual way,
+with a reported [3,000 GitHub repositories][gta6-purge] taken down. So the PC
+audience gets a pirate build at single-digit framerates in place of a product,
+and the publisher gets a piracy problem it scheduled itself.
+
+I figure pirates will be playing it before December at a playable framerate.
+
 ### Case study: FiveM, from banned to bought
 
 The GTA V multiplayer mod FiveM is the cleanest example of the full cycle:
@@ -131,7 +162,7 @@ is still alive, open source under GPLv3 since 2008. Then came
 [San Andreas Multiplayer][samp-wiki] (SA-MP), grown out of a Vice City multiplayer
 mod from 2005, with a scripting engine that let server owners write their own
 gamemodes. That is [where GTA roleplay was invented][samp-intel], on thousands of
-servers at its peak, years before streaming was as popular. 
+servers at its peak, years before streaming was as popular.
 FiveM inherited a genre that wizards had already built for free, on a game whose
 publisher never offered them anything.
 
@@ -207,6 +238,10 @@ enough to be acknowledged while they were building it.**
 [mods21-pcgamer]: https://www.pcgamer.com/take-two-has-been-issuing-takedowns-for-gta-mods
 [mods21-kotaku]: https://kotaku.com/take-two-is-removing-old-gta-mods-using-dmca-notices-1847315391
 [mods21-under]: https://kotaku.com/ambitious-gta-underground-mod-shutdowns-after-six-years-1847619249
+[gta6-nopc]: https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/
+[gta6-boot]: https://www.techradar.com/gaming/unofficial-gta-6-pc-port-makes-rapid-progress-in-just-24-hours-game-is-now-bootable-in-historic-moment-but-scammers-will-have-a-field-day-here
+[gta6-race]: https://kotaku.com/gta-6-leaker-cyberleek-claims-to-have-to-released-exe-file-that-could-lead-to-unofficial-pc-port-2000759529
+[gta6-purge]: https://gta6.house/news/gta-6-unofficial-pc-ports-take-two-takedown
 [mta-wiki]: https://en.wikipedia.org/wiki/Multi_Theft_Auto
 [samp-wiki]: https://www.grandtheftwiki.com/San_Andreas_Multiplayer
 [samp-intel]: https://gtaintel.com/news/san-andreas-multiplayer-in-2026
