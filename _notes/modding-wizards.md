@@ -313,18 +313,19 @@ a free RP server with its own economy and paid queue is basically competition,
 running on their own game.
 
 Same for the real car brands or loot boxes some servers sell: it happens inside a
-Rockstar product, so Rockstar is the one getting the angry letter. And consoles are
-simply the safer launch, with way fewer cheaters in online...
+Rockstar product, so Rockstar is the one getting the angry letter.
 
 But that calls for rules, not bans. Which they ended up writing anyway, in 2022:
 [no loot boxes, no NFTs, no misuse of trademarks][rp-policy]. It's one page.
 They could have written it in 2015.
 
+A whole genre of videos surfaces about Pay-To-Win servers being ruined by guess...
+Modders.
+
 ## Conclusion
 
 The walls don't work. Providing tools directly enhances the success of the title.
 The publisher can set the rules. It just has to **open the door first.**
-
 
 [pi-pcgamer]: https://www.pcgamer.com/take-two-reportedly-sent-private-investigators-to-modders-home
 [pi-gamespot]: https://www.gamespot.com/articles/gta-5-modder-claims-private-investigators-visited-/1100-6432144/
