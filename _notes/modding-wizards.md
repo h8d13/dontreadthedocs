@@ -21,8 +21,12 @@ it became [a rank players could earn][wizard-mud]: a user holding the powers of 
 
 The world of gaming has always **relied on its users**. This is a strong idea by itself.
 
-After all, they are the ones paying the product at first
+After all, they are the ones paying for the product at first
 and **keeping it alive** as they play and **build around common interests**.
+
+Before a game has any team for it, its users are the perfect QA, beta testers and PMs.
+Simply because they consume what was produced, unlike a paid dev that works towards
+a consumable product. Their ideas for enhancements come from **candid gameplay.**
 
 ## Examples
 
@@ -42,10 +46,10 @@ Even tooling to build them directly without working around too many internals.
 And like any good software, dogfooding issues can only be achieved with thorough
 testing and incremental fixes for identified parts that are problematic.
 
-For instance, in ARMA reforger, my main annoyance was the lack of a melee system.
+For instance, in ARMA Reforger, my main annoyance was the lack of a melee system.
 Blocking, heavy hits, standard fist fighting outside of melee weapons. ([Mod link][arma-r-mod])
 
-Which then, gets implemented **by a wizard** and used across many popular servers.
+Which then gets implemented **by a wizard** and used across many popular servers.
 
 ## Spitting on the free work
 
@@ -59,7 +63,7 @@ is used as a monetisation weapon. I.e. forcing you to buy a console, while
 your perfectly fine working gaming PC is held back, on purpose, to sell you
 hardware you probably did not even want.
 
-And how this external work is deemed "not wanted" whilst it might be the very things
+And how this external work is deemed "not wanted" whilst it might be the very thing
 a normal user would want.
 
 ## It carried you for 13 years
@@ -73,7 +77,7 @@ time. But that there would not have been hundreds of thousands of players and vi
 playing daily for so long, without FiveM's communities, and their tinkerers.
 
 Imagine a release where they **provide these tools to empower the user.** Where it is
-supported within reason. This then changes the whole dynamic of user generated/centric games.
+supported within reason. This then changes the whole dynamic of user-generated/centric games.
 
 Where you can touch internals of the game without fearing you're doing something wrong.
 
@@ -93,7 +97,7 @@ what they build as standalone Steam games without taking royalties, and
 [pays the people making games on the platform][sbox-pay], $500,000 so far by its
 own count. It launched on Steam on [April 28, 2026][sbox-release].
 
-The project is quite active on Github and I reckon the quality of the tools to create
+The project is quite active on GitHub and I reckon the quality of the tools to create
 must have improved tenfold, since making it open. And it is still how Valve recruits.
 Counter-Strike, Team Fortress and Dota 2 all exist because Valve **hired the people
 who made the thing.**
@@ -130,9 +134,9 @@ GTA VI came out on November 19, 2026, on PS5 and Xbox Series only.
 
 There is a name for this: **double-dipping**. GTA V was sold on PS3 and Xbox 360
 in 2013, again on PS4 and Xbox One in 2014, on PC in 2015, and once more on PS5 in
-2022. Red Dead Redemption 2 made PC wait a year. 
+2022. Red Dead Redemption 2 made PC wait a year.
 
-Sell it to the impatient on console first, then sell it to them a second time on 
+Sell it to the impatient on console first, then sell it to them a second time on
 the machine they wanted it on, both copies being incompatible to transfer over.
 
 The console is the other half of the trick: a **walled garden**. No file access, no
