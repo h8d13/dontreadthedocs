@@ -46,7 +46,7 @@ Including: DayZ, Battle Royale/KOTH, Roleplay, Flight School...
 Which keeps players on the game engaged, by **what they like**.
 
 Providing their users with infrastructure to load custom servers, hosting, browsing mods...
-Even tooling to build them directly without working around too many internals.
+Even tooling to build them directly.
 
 And like any good software, dogfooding issues can only be achieved with thorough
 testing and incremental fixes for identified parts that are problematic.
@@ -55,9 +55,6 @@ For instance, in ARMA Reforger, my main annoyance was the lack of a melee system
 Blocking, heavy hits, standard fist fighting outside of melee weapons. ([Mod link][arma-r-mod])
 
 Which then gets implemented **by a wizard** and used across many popular servers.
-
-This also illustrates that often the term modding is used for "extras", but here
-it touches a more fundamental mechanic, internal to the engine if you will.
 
 ## Spitting on the free work
 
@@ -94,10 +91,24 @@ Warner Bros. and kept out of other games. In 2026 a single modder
 [rebuilt it for RDR2's story mode][rdr2-nemesis-gr] as [enRage][rdr2-nemesis]:
 every NPC gets a name and a memory, and the one you robbed may hunt you down later.
 
+## Let them reach the engine
+
+"Modding" makes people think of extras: skins, maps, a funny car. The mods that
+change a game go deeper, and every one of them needs the internals of the engine.
+
+On GTA and Red Dead that access is unofficial. Nearly every script mod sits on a
+community-made hook into the game's own functions, and each official patch breaks it
+until a volunteer repairs it. Wizards have to fight the game before they can improve it.
+
+In game-hacking terms such a hook is an "internal": code injected into the running game
+that calls its functions directly. An "external" stays in a separate process and only
+reads and writes the game's memory through known offsets.
+
 Imagine a release where they **provide these tools to empower the user.** Where it is
 supported within reason. This then changes the whole dynamic of user-generated/centric games.
 
-Where you can touch internals of the game without fearing you're doing something wrong.
+The deeper the access, the better the experience players get back, and you can touch
+the internals without fearing you're doing something wrong.
 
 ## More of the same
 
