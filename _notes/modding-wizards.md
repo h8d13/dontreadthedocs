@@ -113,11 +113,13 @@ change a game go deeper, and every one of them **needs the internals of the engi
 
 On GTA and Red Dead that access is unofficial. Nearly every script mod sits on a
 community-made hook into the game's own functions, and each official patch breaks it
-until a volunteer repairs it. Wizards have to **fight the game** before they can improve it.
+until a volunteer repairs it.
+
+Wizards have to **fight the game** before they can improve it.
 
 In game-hacking terms such a hook is an "internal": code injected into the running game
 that calls its functions directly. An "external" stays in a separate process and only
-reads and writes the game's memory through known offsets.
+reads and writes the game's memory through known offsets (that change with updates).
 
 Imagine a release where they **provide these tools to empower the user.** Where it is
 supported within reason. This then changes the whole dynamic of user-generated/centric games.
