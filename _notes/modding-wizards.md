@@ -51,7 +51,8 @@ Even tooling to build them directly.
 And like any good software, dogfooding issues can only be achieved with thorough
 testing and incremental fixes for identified parts that are problematic.
 
-For instance, in ARMA Reforger, my main annoyance was the lack of a melee system.
+For instance, in [ARMA Reforger][arma-r] (released on: May 17, 2022), my main
+annoyance was the lack of a melee system.
 Blocking, heavy hits, standard fist fighting outside of melee weapons. ([Mod link][arma-r-mod])
 
 Which then gets implemented **by a wizard** and used across many popular servers.
@@ -343,6 +344,7 @@ itself, backed by many examples of success.
 [co-rejected]: https://www.pcgamer.com/games/fps/an-ambitious-counter-strike-mod-to-emulate-the-og-1-6-experience-in-global-offensive-has-been-rejected-by-valve-after-8-years-of-development
 [co-cancelled]: https://www.pcgamer.com/games/fps/the-mod-that-aimed-to-recreate-counter-strike-1-6-in-cs-go-is-now-officially-cancelled-following-abrupt-actions-by-valve-that-prevent-us-from-releasing-the-project/
 [cs-legacy]: https://www.dust2.us/news/63238/cs-legacy-fan-project-in-danger-of-being-shut-down-by-valve
+[arma-r]: https://reforger.armaplatform.com/
 [arma-r-mod]: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended
 [dayz-wiki]: https://en.wikipedia.org/wiki/DayZ_(mod)
 [dayz-gamedev]: https://gamedeveloper.com/business/how-a-mod-put-three-year-old-i-arma-2-i-on-top-of-steam-s-charts
