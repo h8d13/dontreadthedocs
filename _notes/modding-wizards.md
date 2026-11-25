@@ -21,6 +21,11 @@ ARMA modders creating dozens of gamemodes (Enfusion is one of the rare projects 
 And like any good software, dogfooding issues can only be achieved with thorough
 testing and incremental fixes for identified parts that are problematic.
 
+For instance, in ARMA reforger, my main annoyance was the lack of a melee system. 
+Blocking, heavy hits, standard fist fighting outside of melee weapons.
+
+Which then, gets implemented **by a wizard** and used in dozens of servers.
+
 ## Spitting on the free work
 
 Most of the modding scene is seen as "outside warranty" work. This means that
