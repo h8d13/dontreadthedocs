@@ -209,6 +209,17 @@ The PC release is the only version a wizard can open. Delaying it delays every f
 every gamemode and every RP server by the same amount. The very thing that carried
 the last game for 13 years is told to wait outside.
 
+And "PC" does not even mean every PC. Competitive games ship kernel anti-cheats
+that simply do not run on Linux or the Steam Deck. League of Legends
+[lost its Linux players][lol-vanguard] when Riot's Vanguard arrived in 2024
+(Valorant never had any), and Apex Legends [dropped Linux][apex-linux] that
+October, EA calling it "a path for a variety of impactful exploits and cheats".
+GTA Online [did the same][gta-battleye] with BattlEye.
+
+It is not to enable cheating but instead **access** to a game in a non-invasive
+manner from the paltform of your choice, ideally natively. If that's not asking
+too much of course. Server sided anti-cheat, thanks!
+
 ### Aside: the walls don't hold
 
 Within a week of launch a leaked Xbox build was
@@ -369,6 +380,9 @@ The publisher can set the rules. It just has to **open the door first.**
 [mods21-under]: https://kotaku.com/ambitious-gta-underground-mod-shutdowns-after-six-years-1847619249
 [gta5-upgrade]: https://www.videogameschronicle.com/news/rockstar-is-giving-last-gen-gta-5-owners-a-free-upgrade/
 [gta6-nopc]: https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/
+[lol-vanguard]: https://www.gamingonlinux.com/2024/04/riot-games-talk-vanguard-anti-cheat-for-league-of-legends-and-why-its-a-no-for-linux
+[apex-linux]: https://pcgamer.com/games/battle-royale/apex-legends-ditches-steam-deck-support-ea-says-linux-is-a-path-for-a-variety-of-impactful-exploits-and-cheats
+[gta-battleye]: https://pcgamer.com/games/grand-theft-auto/gta-online-is-no-longer-compatible-with-steam-deck-thanks-to-its-new-anti-cheat-software-despite-battleye-having-an-opt-in-system-for-this-sort-of-thing
 [gta6-core]: https://www.gamesradar.com/games/grand-theft-auto/gta-6-skipping-pc-at-launch-not-due-to-playstation-deal-but-because-rockstar-focuses-on-the-core-consumer-take-two-ceo-says/
 [hotcoffee-esrb]: https://www.esrb.org/blog/esrb-concludes-investigation-into-grand-theft-auto-san-andreas-revokes-m-mature-rating/
 [hotcoffee-ftc]: https://www.gamedeveloper.com/game-platforms/ftc-take-two-settle-over-i-gta-i-hot-coffee-mod
