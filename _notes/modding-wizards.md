@@ -319,7 +319,7 @@ But that calls for rules, not bans. Which they ended up writing anyway, in 2022:
 [no loot boxes, no NFTs, no misuse of trademarks][rp-policy]. It's one page.
 They could have written it in 2015.
 
-A whole genre of videos surfaces about Pay-To-Win servers being ruined by guess...
+A whole genre of videos surfaces about Pay-To-Win servers being ruined by guess who?
 Modders.
 
 ## Conclusion
