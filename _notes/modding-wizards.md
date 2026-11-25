@@ -320,7 +320,9 @@ Rockstar had left disabled on the San Andreas disc. The ESRB
 [FTC came knocking][hotcoffee-ftc]. That explains the paranoia.
 
 A whole genre of videos surfaces about Pay-To-Win servers being ruined by guess who?
-Modders (mostly cheaters, not actual devs), but still very "full-circle".
+"Modders". What's interesting is that cheaters here are also called modders, when
+these are very distinct things. Which probably doesn't help: the same word covers
+the guy ruining lobbies and the one fixing the game. Still very "full-circle".
 
 But that calls for rules, not bans. Which they ended up writing anyway, in 2022:
 [no loot boxes, no NFTs, no misuse of trademarks][rp-policy]. It's one page.
