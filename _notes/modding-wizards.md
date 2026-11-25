@@ -81,8 +81,7 @@ is used as a monetisation weapon. I.e. forcing you to buy a console, while
 your perfectly fine working gaming PC is held back, on purpose, to sell you
 hardware you probably did not even want.
 
-And how this external work is deemed "not wanted" whilst it might be the very thing
-a normal user would want.
+And how this external work is deemed "not wanted" whilst it echoes the user's intention.
 
 Both are the same wall: one keeps the wizard out of the game, the other keeps the
 game off the only machine a wizard can open.
