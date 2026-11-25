@@ -32,6 +32,10 @@ Before a game has any team for it, its users are the perfect QA, beta testers an
 Simply because they consume what was produced, unlike a paid dev that works towards
 a consumable product. Their ideas for enhancements come from **candid gameplay.**
 
+Ever dreamt of installing 200GB of mods in Flight Simulator or Skyrim?
+Well you're not alone. People just do this or a few mods that enhance
+the experience.
+
 ## Examples
 
 Cf: Minecraft mods that became part of the game.
