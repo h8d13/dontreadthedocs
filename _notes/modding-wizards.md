@@ -35,9 +35,9 @@ Cf: Minecraft mods that became part of the game.
 Because they wanted to play one of their favorite titles, **on their own terms.**
 
 ARMA players creating dozens of gamemodes (Enfusion is one of the rare projects that does
-**recognize the value this has**, holding contests and community modding tutorials/discourse)
+**recognize the value this has**, holding contests and community modding tutorials/discourse).
 
-Including: DayZ, Battle royales/KOTH, Roleplay, Flightschool...
+Including: DayZ, Battle Royale/KOTH, Roleplay, Flight School...
 Which keeps players on the game engaged, by **what they like**.
 
 Providing their users with infrastructure to load custom servers, hosting, browsing mods...
@@ -133,11 +133,11 @@ GTA VI came out on November 19, 2026, on PS5 and Xbox Series only.
 "Rockstar always starts on console".
 
 There is a name for this: **double-dipping**. GTA V was sold on PS3 and Xbox 360
-in 2013, again on PS4 and Xbox One in 2014, on PC in 2015, and once more on PS5 in
-2022. Red Dead Redemption 2 made PC wait a year.
+in 2013, again on PS4 and Xbox One in 2014, on PC in 2015, and once more on PS5
+in 2022. Red Dead Redemption 2 made PC wait a year.
 
 Sell it to the impatient on console first, then sell it to them a second time on
-the machine they wanted it on, both copies being incompatible to transfer over.
+the machine they wanted it on, with no way to carry your copy over.
 
 The console is the other half of the trick: a **walled garden**. No file access, no
 script hooks, no custom servers, nothing runs unless the platform holder signed it.
