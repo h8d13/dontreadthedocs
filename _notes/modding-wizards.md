@@ -12,7 +12,7 @@ The world of gaming has always **relied on its users**. This is a strong idea by
 After all, they are the ones paying the product at first
 and **keeping it alive** as they play and **build around common interests**.
 
-Cf: Minecraft mods that became part of the game. Bethesda modders fixing the game on release.
+Cf: Minecraft mods that became part of the game. Bethesda modders fixing bugs on release.
 Because they wanted to play one of their favorite titles, **on their own terms.**
 
 Similarly, GTA is no different: Fusion Fix became the standard way to play GTA IV.
@@ -32,19 +32,18 @@ testing and incremental fixes for identified parts that are problematic.
 For instance, in ARMA reforger, my main annoyance was the lack of a melee system.
 Blocking, heavy hits, standard fist fighting outside of melee weapons. ([Mod link][arma-r-mod])
 
-Which then, gets implemented **by a wizard** and used in dozens of popular servers.
+Which then, gets implemented **by a wizard** and used across many popular servers.
 
 ## Spitting on the free work
 
-Most of the modding scene is seen as "outside warranty" work. This means that
-the work itself is considered external modifications, which do not get endorsed...
-Aside from the community itself enjoying these improvements...
+Most modding is treated as "outside warranty" work: external changes that the
+publisher never endorses, however much the community enjoys them.
 
 Whether it's QOL, fixes, or added functionality doesn't really matter.
 
 What does matter on the other hand is how releasing on specific platforms only
-is used as a monetisation weapon. I.e. forcing you to buy a gaming console, while
-your perfectly fine working gaming PC is held back, on purpose for you to buy
+is used as a monetisation weapon. I.e. forcing you to buy a console, while
+your perfectly fine working gaming PC is held back, on purpose, to sell you
 hardware you probably did not even want.
 
 ## It carried you for 13 years
@@ -52,7 +51,7 @@ hardware you probably did not even want.
 Basically, if it wasn't for GTA V online modders, the game would have died out.
 Not that people wouldn't have relaunched it once in a while, doing the story for the 20th
 time. But that there would not have been hundreds of thousands of players and viewers,
-playing daily for so long, if it wasn't for FiveM's communities, and their tinkerers.
+playing daily for so long, without FiveM's communities, and their tinkerers.
 
 Imagine a release where they provide these tools to empower the user. Where it is
 supported within reason. This then changes the whole dynamic of user generated/centric games.
@@ -72,10 +71,10 @@ what they build as standalone Steam games without taking royalties, and
 own count. It launched on Steam on [April 28, 2026][sbox-release].
 
 And it is still how Valve recruits. Counter-Strike, Team Fortress and Dota 2 all exist
-because Valve hired the people who made the mods. In August 2026 the same thing was
+because Valve hired the people who made the mods. In August 2026 that pattern was
 [reported for Deadlock][deadlock-hire]: Kirill Senzu, a 3D artist known for fan
 [redesigns of Yamato][deadlock-mod] and Holiday, was brought on to work on the game
-itself. Valve has not confirmed it, and it may be contract work rather than a staff job,
+itself. Valve has not confirmed it, and it may be freelance rather than a staff job,
 but the direction is the point: the wizard gets a contract, not a cease and desist.
 
 Same starting point as FiveM, a hobbyist bolting things onto somebody else's game.
@@ -84,7 +83,7 @@ One publisher answered with a storefront and a revenue split, the other with ban
 ## Re-fucking yourself.
 
 Then releasing on console only while that delays their magical free work...
-And honestly only will create more piracy that has the game already running.
+And honestly will just create more piracy that has the game already running.
 
 ### Case study: FiveM, from banned to bought
 
@@ -112,7 +111,7 @@ respect third-party IP. Note the "generally": it is a tolerance, not a right.
 takedown on GitHub. The devs filed counter-notices arguing fair use, the repos
 came back, and Take-Two sued them. The repos were removed a second time. One of
 the complaints was that the projects let the games run on platforms where they
-had never been released, which is exactly the point made above about platforms
+had never been released, which is exactly the point made above about exclusivity
 as a weapon. The suit was later dismissed.
 ([TorrentFreak][re3-tf], [PC Gamer][re3-pcgamer], [PC Gamer, dismissal][re3-dismissed])
 
