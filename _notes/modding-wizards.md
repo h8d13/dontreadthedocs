@@ -19,6 +19,7 @@ ARMA modders creating dozens of gamemodes (Enfusion is one of the rare projects 
 **recognize the value this has**, holding contests and community modding tutorials/discourse)
 
 Including: DayZ, Battle royales/KOTH, Roleplay, Flightschool...
+Which keeps players on the game engaged, by **what they like**.
 
 Providing their users with infrastructure to load custom servers, hosting, browsing mods...
 
