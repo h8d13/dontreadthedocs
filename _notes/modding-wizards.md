@@ -242,6 +242,13 @@ So the wizards worked for free for eight years, under legal threat for part of
 it. The value they created was real enough to be acquired, **but never real
 enough to be acknowledged while they were building it.**
 
+## Conslusion
+
+The walls don't work. Providing tools directly enhances success of said title.
+As much as this post went a bit all over the place, it is a powerful idea by
+itself, backed by many examples of success.
+
+
 [pi-pcgamer]: https://www.pcgamer.com/take-two-reportedly-sent-private-investigators-to-modders-home
 [pi-gamespot]: https://www.gamespot.com/articles/gta-5-modder-claims-private-investigators-visited-/1100-6432144/
 [pi-dailydot]: https://dailydot.com/take-two-interactive-shuts-down-grand-theft-auto-online-modders
