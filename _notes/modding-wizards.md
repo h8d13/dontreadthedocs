@@ -35,7 +35,8 @@ a consumable product. Their ideas for enhancements come from **candid gameplay.*
 ## Examples
 
 Cf: Minecraft mods that became part of the game.
-[Bethesda modders fixing bugs on release][bethesda-yt].
+[Bethesda modders fixing bugs on release][bethesda-yt]
+(see also [The Absolute Chaos of Bethesda][bethesda-chaos]).
 Because they wanted to play one of their favorite titles, **on their own terms.**
 
 ARMA players creating dozens of gamemodes (Enfusion is one of the rare projects that does
@@ -254,6 +255,7 @@ enough to be acknowledged while they were building it.**
 [deadlock-hire]: https://x.com/gabefollower/status/2088943036378026020
 [deadlock-mod]: https://deadlocker.net/mod/mod_1749656103483
 [wizard-jargon]: http://www.catb.org/jargon/html/W/wizard.html
+[bethesda-chaos]: https://www.youtube.com/watch?v=d4vgLoPQSBA
 [bethesda-yt]: https://www.youtube.com/watch?v=vkYu3seV9FI
 [grok-wiki]: https://en.wikipedia.org/wiki/Grok
 [mud1-wiki]: https://en.wikipedia.org/wiki/MUD1
