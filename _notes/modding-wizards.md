@@ -134,7 +134,9 @@ in 2013, again on PS4 and Xbox One in 2014, on PC in 2015, and once more on PS5
 in 2022. Red Dead Redemption 2 made PC wait a year.
 
 Sell it to the impatient on console first, then sell it to them a second time on
-the machine they wanted it on, with no way to carry your copy over.
+the machine they wanted it on. A console copy has never counted towards the PC one,
+and the PS4 to PS5 upgrade [only became free][gta5-upgrade] in June 2026, four years
+after that version went on sale.
 
 The console is the other half of the trick: a **walled garden**. No file access, no
 script hooks, no custom servers, nothing runs unless the platform holder signed it.
@@ -227,6 +229,7 @@ enough to be acknowledged while they were building it.**
 [mods21-pcgamer]: https://www.pcgamer.com/take-two-has-been-issuing-takedowns-for-gta-mods
 [mods21-kotaku]: https://kotaku.com/take-two-is-removing-old-gta-mods-using-dmca-notices-1847315391
 [mods21-under]: https://kotaku.com/ambitious-gta-underground-mod-shutdowns-after-six-years-1847619249
+[gta5-upgrade]: https://www.videogameschronicle.com/news/rockstar-is-giving-last-gen-gta-5-owners-a-free-upgrade/
 [gta6-nopc]: https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/
 [gta6-boot]: https://www.techradar.com/gaming/unofficial-gta-6-pc-port-makes-rapid-progress-in-just-24-hours-game-is-now-bootable-in-historic-moment-but-scammers-will-have-a-field-day-here
 [gta6-race]: https://kotaku.com/gta-6-leaker-cyberleek-claims-to-have-to-released-exe-file-that-could-lead-to-unofficial-pc-port-2000759529
