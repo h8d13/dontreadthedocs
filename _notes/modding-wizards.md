@@ -34,9 +34,7 @@ a consumable product. Their ideas for enhancements come from **candid gameplay.*
 
 Ever dreamt of installing 200GB of mods in Flight Simulator or Skyrim?
 Well you're not alone. People just do this or a few mods that enhance
-the experience.
-
-Or editing Minecraft JAR files since 2010?
+the experience. Or editing Minecraft JAR files since 2010?
 
 ## Examples
 
@@ -171,6 +169,10 @@ the development effort".
 On July 29, 2026 Riot [launched League of Legends Classic][lol-classic]: the
 original Summoner's Rift, old runes and masteries, pre-rework champions. Five years
 after killing the fan version.
+
+Chronoshift shows that having the client does not mean you get to play online: the
+server stays the publisher's call. That is the whole topic of the
+[Stop Killing Games][skg] campaign.
 
 ## Re-fucking yourself
 
@@ -407,6 +409,7 @@ The publisher can set the rules. It just has to **open the door first.**
 [grok-wiki]: https://en.wikipedia.org/wiki/Grok
 [mud1-wiki]: https://en.wikipedia.org/wiki/MUD1
 [wizard-mud]: https://mud.co.uk/richard/mudhist.htm
+[skg]: https://www.stopkillinggames.com/
 [chrono-pcgamer]: https://www.pcgamer.com/riot-shuts-fan-made-league-of-legends-legacy-project-denies-complaints-of-extortion
 [chrono-kotaku]: https://kotaku.com/riot-shuts-down-league-of-legends-fan-game-after-creato-1846782044
 [lol-classic]: https://www.ghacks.net/2026/07/15/riot-games-launches-league-of-legends-classic-on-july-29-with-season-3-style-gameplay/
