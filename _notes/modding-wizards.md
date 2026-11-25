@@ -178,6 +178,12 @@ And walls get climbed. Within a week of launch a leaked Xbox build was
 build at single-digit framerates, and the publisher a piracy problem it scheduled
 itself.
 
+The garden's own wall is no different. On November 2, 2026, seventeen days before
+launch, the homebrew FTP server for PS5 [gained kernel offsets][ps5-offsets] for
+firmware 14.20 and 14.22. Two lines, reusing the address already known for 14.00
+and 14.10: the file access the console forbids, re-found by wizards one firmware
+at a time.
+
 I figure pirates will be playing it before December at a playable framerate.
 
 ### Case study: FiveM, from banned to bought
@@ -310,6 +316,7 @@ itself, backed by many examples of success.
 [gta6-nopc]: https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/
 [gta6-boot]: https://www.techradar.com/gaming/unofficial-gta-6-pc-port-makes-rapid-progress-in-just-24-hours-game-is-now-bootable-in-historic-moment-but-scammers-will-have-a-field-day-here
 [gta6-race]: https://kotaku.com/gta-6-leaker-cyberleek-claims-to-have-to-released-exe-file-that-could-lead-to-unofficial-pc-port-2000759529
+[ps5-offsets]: https://github.com/ps5-payload-dev/ftpsrv/commit/474c8d9da00d2026b274070482bf90e37a4ffc4d
 [gta6-purge]: https://gta6.house/news/gta-6-unofficial-pc-ports-take-two-takedown
 [mta-wiki]: https://en.wikipedia.org/wiki/Multi_Theft_Auto
 [samp-wiki]: https://www.grandtheftwiki.com/San_Andreas_Multiplayer
