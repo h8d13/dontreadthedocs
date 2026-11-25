@@ -213,9 +213,9 @@ the last game for 13 years is told to wait outside.
 
 And "PC" does not even mean every PC. Competitive games ship kernel anti-cheats
 that simply do not run on Linux or the Steam Deck. League of Legends
-[lost its Linux players][lol-vanguard] when Riot's Vanguard arrived in 2024
-(Valorant never had any), and Apex Legends [dropped Linux][apex-linux] that
-October, EA calling it "a path for a variety of impactful exploits and cheats".
+[lost its Linux players][lol-vanguard] in 2024, when Riot extended Vanguard to it
+(Valorant has shipped with it since 2020 and never ran on Linux), and Apex Legends
+[dropped Linux][apex-linux] that October, EA calling it "a path for a variety of impactful exploits and cheats".
 GTA Online [did the same][gta-battleye] with BattlEye.
 
 And on Windows the list of demands keeps growing. Windows 11 itself
@@ -234,8 +234,8 @@ too much of course. Server sided anti-cheat, thanks!
 
 Within a week of launch a leaked Xbox build was
 [booting on PC][gta6-boot], reverse-engineered with AI tools, and
-[rival ports race each other][gta6-race]. Take-Two had a reported
-[3,000 GitHub repositories][gta6-purge] taken down. The PC audience gets a pirate
+[rival ports race each other][gta6-race]. Take-Two had the main
+one and [its 3,000 forks][gta6-purge] taken down from GitHub. The PC audience gets a pirate
 build at single-digit framerates, and the publisher a piracy problem it scheduled
 itself. None of that is modding, and I'm not putting a leaked build in the same bag
 as Fusion Fix.
@@ -404,7 +404,7 @@ The publisher can set the rules. It just has to **open the door first.**
 [gta6-race]: https://kotaku.com/gta-6-leaker-cyberleek-claims-to-have-to-released-exe-file-that-could-lead-to-unofficial-pc-port-2000759529
 [xbox-emu]: https://videocardz.com/newz/gta-vi-pc-efforts-have-already-kicked-off-with-multiple-xbox-emulation-projects-underway
 [ps5-offsets]: https://github.com/ps5-payload-dev/ftpsrv/commit/474c8d9da00d2026b274070482bf90e37a4ffc4d
-[gta6-purge]: https://gta6.house/news/gta-6-unofficial-pc-ports-take-two-takedown
+[gta6-purge]: https://www.tweaktown.com/news/114877/gta-6-pc-port-takedown-confirmed-take-two-cites-rockstars-ban-on-reverse-engineering/index.html
 [mta-wiki]: https://en.wikipedia.org/wiki/Multi_Theft_Auto
 [samp-wiki]: https://www.grandtheftwiki.com/San_Andreas_Multiplayer
 [samp-intel]: https://gtaintel.com/news/san-andreas-multiplayer-in-2026
