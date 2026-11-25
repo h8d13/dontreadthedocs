@@ -19,7 +19,7 @@ it became [a rank players could earn][wizard-mud]: a user holding the powers of 
 
 > Funnily enough, both terms are also tied to hacking in video games, since such powers
 > can be abused in live play. A "modder" or "wizard" can also mean someone with special
-> capabilities in game that standard players do not have access to.
+> capabilities that a regular player does not have access to.
 
 ![MUD1 screenshot](https://upload.wikimedia.org/wikipedia/en/6/64/MUD1_screenshot.gif)
 
@@ -57,7 +57,7 @@ Blocking, heavy hits, standard fist fighting outside of melee weapons. ([Mod lin
 Which then gets implemented **by a wizard** and used across many popular servers.
 
 This also illustrates that often the term modding is used for "extras", but here
-touches a more fundamental mechanic, internal to the engine if you will.
+it touches a more fundamental mechanic, internal to the engine if you will.
 
 ## Spitting on the free work
 
