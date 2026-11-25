@@ -288,10 +288,12 @@ on May 3, and [2.1 billion hours][rp-2021] over the year.
 By 2026 Twitch was a fraction of that: 49.5 million hours in July. September, with
 nopixel V, brought [76.7 million, up 59%][rp-sept26] on August. Under a third of
 May 2021, but enough to make a 13-year-old game Twitch's most watched again.
-
 And the audience had not left, it had moved. Kick [overtook Twitch][rp-kick] for
 GTA V during 2025: 82.5 million hours in July 2026 against Twitch's 49.5, then about
 [116.4 million][rp-kick-oct] in October.
+
+Then GTA VI itself: at launch, xQc alone pulled [around 105,000 concurrent
+viewers][rp-xqc] playing through its opening mission.
 
 ## Conslusion
 
@@ -366,6 +368,7 @@ itself, backed by many examples of success.
 [rp-twitchtracker]: https://twitchtracker.com/games/32982
 [rp-2021]: https://gameworldobserver.com/2021/12/24/gta-v-becomes-twitchs-most-streamed-video-game-of-2021-with-2-1-billion-hours-watched
 [rp-sept26]: https://streamscharts.com/news/twitch-september-2026-results
+[rp-xqc]: https://streamscharts.com/channels/xqc/streams/321206426716
 [rp-kick]: https://streamscharts.com/news/kick-overtakes-twitch-gta-v-viewership
 [rp-kick-oct]: https://streamscharts.com/news/kick-viewership-october-2026
 [nopixel-v]: https://www.rockstargames.com/newswire/article/17857581o753k1/introducing-nopixel-v
