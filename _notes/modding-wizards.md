@@ -308,24 +308,17 @@ viewers][rp-xqc] playing through its opening mission.
 
 ## The publisher's side
 
-None of this is pure greed, and the reasons deserve to be stated properly.
+To be fair, I get why they do it. GTA Online makes its money on Shark Cards, and
+a free RP server with its own economy and paid queue is basically competition,
+running on their own game.
 
-**Money.** GTA Online lives on microtransactions. A free RP server with its own
-economy, its own cars and its own paid queue is a competitor running on the
-publisher's game, taking hours and wallets that would otherwise go to Shark Cards.
+Same for the real car brands or loot boxes some servers sell: it happens inside a
+Rockstar product, so Rockstar is the one getting the angry letter. And consoles are
+simply the safer launch, with way fewer cheaters in online...
 
-**Liability.** A server that sells a real-world car brand, or a loot box, does it
-inside a Rockstar product. The trademark owner or the regulator comes to Rockstar
-first, which is what the real-car clauses after the purchase were about.
-
-**Platforms.** Console launches come with marketing deals and a certification
-process, and a closed machine has far fewer cheaters injecting code into the online mode.
-Starting there is the low-risk order of operations, not only a second sale.
-
-All three are real. But each is an argument for **rules**, not for bans. In
-November 2022 Rockstar wrote [a roleplay server policy][rp-policy]: no loot boxes,
-no NFTs, no misuse of its trademarks. One page of text, which could have been
-written in 2015.
+But that calls for rules, not bans. Which they ended up writing anyway, in 2022:
+[no loot boxes, no NFTs, no misuse of trademarks][rp-policy]. It's one page.
+They could have written it in 2015.
 
 ## Conclusion
 
