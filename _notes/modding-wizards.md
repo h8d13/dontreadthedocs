@@ -36,6 +36,8 @@ Ever dreamt of installing 200GB of mods in Flight Simulator or Skyrim?
 Well you're not alone. People just do this or a few mods that enhance
 the experience.
 
+Or editing Minecraft JAR files since 2010?
+
 ## Examples
 
 Cf: Minecraft mods that became part of the game.
@@ -56,8 +58,6 @@ Operations was the [number one seller][dayz-steamdb] for several weeks that June
 and July, and Bohemia told Kotaku that sales had [risen almost fivefold][dayz-kotaku]
 since the mod's alpha. It passed a million players in about four months, and that
 August Bohemia announced a standalone game with its author as project lead.
-
-A free mod sold the base game better than its own marketing ever had.
 
 Providing their users with infrastructure to load custom servers, hosting, browsing mods...
 Even tooling to build them directly.
@@ -86,9 +86,8 @@ hardware you probably did not even want.
 And how this external work is deemed "not wanted" whilst it might be the very thing
 a normal user would want.
 
-These look like two separate complaints, and they are the same wall seen from two
-sides. One keeps the wizard out of the game. The other keeps the game off the only
-machine a wizard can open.
+Both are the same wall: one keeps the wizard out of the game, the other keeps the
+game off the only machine a wizard can open.
 
 ## It carried you for 13 years
 
@@ -96,13 +95,10 @@ Similarly, GTA is no different: [Fusion Fix][fusionfix] became the standard way 
 play GTA IV. Bugstar (or [GameplayFixesV][gameplayfixes]) for V...
 The idea is that a product always has rough edges...
 
-To be precise about the claim: GTA V would not have died without modders. It has
-[sold over 210 million copies][gta5-210m], and GTA Online earned its money from
-[Shark Cards][gta-mtx], consoles included, where FiveM does not even exist.
-
-What the modders carried is the other half: **attention**. Without FiveM's
-communities and their tinkerers, there would not have been hundreds of thousands of
-people watching and playing a decade-old game daily.
+GTA V would not have died without modders: it [sold over 210 million copies][gta5-210m],
+and [Shark Cards][gta-mtx] sell on consoles, where FiveM does not even exist.
+But without FiveM's communities and their tinkerers, there would not have been
+hundreds of thousands of people watching and playing a decade-old game daily.
 
 And it is still going: one wizard
 [asked streamers for weird GTA V mod ideas, then made all of them][blurbs-yt].
@@ -151,17 +147,15 @@ who made the thing.**
 
 In August 2026 that pattern was [reported for Deadlock][deadlock-hire]: Kirill Senzu,
 known for fan [redesigns of Yamato][deadlock-mod] and Holiday, was brought on to work
-on the game itself. Unconfirmed by Valve, and maybe freelance, but the direction is
-the point: the wizard gets a contract.
+on the game itself. Unconfirmed by Valve, and maybe freelance.
 
 Same starting point as FiveM, a hobbyist bolting things onto somebody else's game.
-One publisher answered with a storefront and a revenue split, the other with bans.
 
 To be fair, Valve is no saint either. In 2025 it
 [rejected Classic Offensive][co-rejected], a Counter-Strike 1.6 remake inside CS:GO,
 after eight years of work, then sent a cease and desist that
 [killed the project][co-cancelled]. Its successor [CS:Legacy][cs-legacy] froze after
-a message from Valve. Tolerance lasts only as long as the publisher allows.
+a message from Valve.
 
 ## Re-fucking yourself
 
@@ -208,11 +202,10 @@ as Fusion Fix.
 
 I figure pirates will be playing it before December at a playable framerate.
 
-The garden's own wall is no different. On November 2, 2026, seventeen days before
+On November 2, 2026, seventeen days before
 launch, the homebrew FTP server for PS5 [gained kernel offsets][ps5-offsets] for
 firmware 14.20 and 14.22. Two lines, reusing the address already known for 14.00
-and 14.10. That is file access, not a pirated copy, but it is the same wall
-getting a door, one firmware at a time.
+and 14.10. File access, not a pirated copy.
 
 Or Xbox emulators currently racing.
 
@@ -276,8 +269,7 @@ counter-notice and GitHub [restored it][mta-tf] once Take-Two failed to sue. A
 22-year-old mod, tolerated for two decades, then targeted anyway.
 
 So the wizards worked for free for eight years, under legal threat for part of
-it. The value they created was real enough to be acquired, **but never real
-enough to be acknowledged while they were building it.**
+it.
 
 ## Popularity & Demand
 
@@ -295,20 +287,19 @@ the weekend after launch and [36.4 million hours watched][rp-streamscharts] in i
 first week, roughly double the week before. GTA V ended 2021 as
 [the most watched game on Twitch][rp-dexerto], eight years after release.
 
-Rockstar eventually did the maths. On September 1, 2026 it published
+On September 1, 2026 Rockstar published
 [Introducing nopixel V][nopixel-v]: a closed beta from September 8, accessed
 through the Rockstar Games Launcher, with [Twitch Drops][nopixel-dexerto] paying
-up to GTA$1,500,000 just for watching RP streamers. The publisher is now paying
-viewers to watch the thing it once sent investigators after.
+up to GTA$1,500,000 just for watching RP streamers.
 
-The numbers, for scale. 2021 kept climbing after 3.0: [253 million hours][rp-statista]
+2021 kept climbing after 3.0: [253 million hours][rp-statista]
 watched on Twitch in May alone, a peak of [1.14 million concurrent viewers][rp-twitchtracker]
 on May 3, and [2.1 billion hours][rp-2021] over the year.
 
 By 2026 Twitch was a fraction of that: 49.5 million hours in July. September, with
 nopixel V, brought [76.7 million, up 59%][rp-sept26] on August. Under a third of
 May 2021, but enough to make a 13-year-old game Twitch's most watched again.
-And the audience had not left, it had moved. Kick [overtook Twitch][rp-kick] for
+Kick [overtook Twitch][rp-kick] for
 GTA V during 2025: 82.5 million hours in July 2026 against Twitch's 49.5, then about
 [116.4 million][rp-kick-oct] in October.
 
