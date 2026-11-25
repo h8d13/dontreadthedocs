@@ -18,6 +18,8 @@ Bugstar (or GamePlayFixes) for V... Anyways the idea is that a game always has r
 ARMA modders creating dozens of gamemodes (Enfusion is one of the rare projects that does
 **recognize the value this has**, holding contests and community modding tutorials/discourse)
 
+Providing their users with infrastructure to load custom servers, hosting, browsing mods...
+
 And like any good software, dogfooding issues can only be achieved with thorough
 testing and incremental fixes for identified parts that are problematic.
 
