@@ -19,7 +19,7 @@ it became [a rank players could earn][wizard-mud]: a user holding the powers of 
 
 > Funnily enough, both terms are also tied to hacking in video games, since such powers
 > can be abused in live play. A "modder" or "wizard" can also mean someone with special
-> capabilities that a regular player does not have access to.
+> capabilities, that a regular player does not have access to.
 
 ![MUD1 screenshot](https://upload.wikimedia.org/wikipedia/en/6/64/MUD1_screenshot.gif)
 
