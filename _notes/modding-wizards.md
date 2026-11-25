@@ -223,7 +223,8 @@ And on Windows the list of demands keeps growing. Windows 11 itself
 on top of that, and since 2025 Battlefield 6 and Call of Duty
 [need both just to run][bf6-cod-tpm], with HVCI and VBS showing up in the
 recommended specs. This obsoletes hardware that simply lacks the capability,
-but would meet the compute.
+but would meet the compute. And these anti-cheats still get
+[picked apart in the open][uc-acr].
 
 The ask is not to enable cheating, but **access** to a game in a non-invasive
 manner from the platform of your choice, ideally natively. If that's not asking
@@ -389,6 +390,7 @@ The publisher can set the rules. It just has to **open the door first.**
 [mods21-under]: https://kotaku.com/ambitious-gta-underground-mod-shutdowns-after-six-years-1847619249
 [gta5-upgrade]: https://www.videogameschronicle.com/news/rockstar-is-giving-last-gen-gta-5-owners-a-free-upgrade/
 [gta6-nopc]: https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/
+[uc-acr]: https://www.unknowncheats.me/forum/anti-cheat-research/
 [w11-tpm]: https://www.microsoft.com/en-us/windows/windows-11-specifications
 [vanguard-tpm]: https://www.techspot.com/news/102889-league-legends-receives-controversial-vanguard-anti-cheat-windows.html
 [bf6-cod-tpm]: https://www.thesixthaxis.com/2025/08/07/battlefield-6-and-black-ops-7-both-need-secure-boot-and-tpm-2-0-for-pc-anti-cheat/
