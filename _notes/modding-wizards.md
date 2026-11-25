@@ -9,7 +9,7 @@ tags: [modding]
 
 The world of gaming has always **relied on its users**. This is a strong idea by itself.
 
-After all, they are the ones paying the product at first 
+After all, they are the ones paying the product at first
 and **keeping it alive** as they play and **build around common interests**.
 
 Cf: Minecraft mods that became part of the game. Bethesda modders fixing the game on release.
@@ -55,7 +55,7 @@ time. But that there would not have been hundreds of thousands of players and vi
 playing daily for so long, if it wasn't for FiveM's communities, and modders.
 
 Imagine a release where they provide these tools to empower the user. Where it is
-endorsed within reason. This then changes the whole dynamic of user generated/centric games.
+supported within reason. This then changes the whole dynamic of user generated/centric games.
 
 This is not hypothetical, it is what Valve did with [Garry's Mod][gmod-wiki]. It started
 in December 2004 as a free Half-Life 2 mod by one person. Instead of sending lawyers,
@@ -134,7 +134,7 @@ Cfx.re confirmed them.
 
 So the wizards worked for free for eight years, under legal threat for part of
 it. The value they created was real enough to be acquired, **but never real
-enough to be endorsed while they were building it.**
+enough to be acknowledged while they were building it.**
 
 [pi-pcgamer]: https://www.pcgamer.com/take-two-reportedly-sent-private-investigators-to-modders-home
 [pi-gamespot]: https://www.gamespot.com/articles/gta-5-modder-claims-private-investigators-visited-/1100-6432144/
