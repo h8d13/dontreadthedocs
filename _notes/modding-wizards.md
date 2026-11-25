@@ -218,6 +218,9 @@ that simply do not run on Linux or the Steam Deck. League of Legends
 [dropped Linux][apex-linux] that October, EA calling it "a path for a variety of impactful exploits and cheats".
 GTA Online [did the same][gta-battleye] with BattlEye.
 
+Funny part: plenty of people on Linux just run the Mac version of League instead,
+which apparently ships without Vanguard.
+
 And on Windows the list of demands keeps growing. Windows 11 itself
 [requires TPM 2.0][w11-tpm]. Vanguard [wants TPM 2.0 and Secure Boot][vanguard-tpm]
 on top of that, and since 2025 Battlefield 6 and Call of Duty
