@@ -56,6 +56,9 @@ Blocking, heavy hits, standard fist fighting outside of melee weapons. ([Mod lin
 
 Which then gets implemented **by a wizard** and used across many popular servers.
 
+This also illustrates that often the term modding is used for "extras", but here
+touches a more fundamental mechanic, internal to the engine if you will.
+
 ## Spitting on the free work
 
 Most modding is treated as "outside warranty" work: external changes that the
@@ -73,8 +76,9 @@ a normal user would want.
 
 ## It carried you for 13 years
 
-Similarly, GTA is no different: Fusion Fix became the standard way to play GTA IV.
-Bugstar (or GamePlayFixes) for V... The idea is that a product always has rough edges...
+Similarly, GTA is no different: [Fusion Fix][fusionfix] became the standard way to
+play GTA IV. Bugstar (or [GameplayFixesV][gameplayfixes]) for V...
+The idea is that a product always has rough edges...
 
 Basically, if it wasn't for GTA V online modders, the game would have died out.
 Not that people wouldn't have relaunched it once in a while, doing the story for the 20th
@@ -246,6 +250,8 @@ enough to be acknowledged while they were building it.**
 [after-intel]: https://rockstarintel.com/problems-exposed-at-fivem-after-rockstar-games-acquisition-its-claimed/
 [after-gameranx]: https://gameranx.com/updates/id/529086/article/rumor-gta-roleplay-server-fivem-victim-of-hostile-takeover-and-one-of-rockstars-own-is-involved/
 [after-sk]: https://sportskeeda.com/gta/news-popular-gta-5-rp-server-fivem-reportedly-suffers-management-issues
+[fusionfix]: https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix
+[gameplayfixes]: https://github.com/SuleMareVientu/GameplayFixesV-ScriptHookV
 [gmod-wiki]: https://en.wikipedia.org/wiki/Garry%27s_Mod
 [gmod-25m]: https://gamesradar.com/platforms/pc-gaming/garrys-mod-dev-says-he-didnt-want-to-sell-it-originally-because-no-one-would-pay-for-it-25-million-copies-later-he-admits-he-was-wrong
 [sbox-wiki]: https://developer.valvesoftware.com/wiki/S%26box
