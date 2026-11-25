@@ -10,16 +10,16 @@ tags: [modding]
 The world of gaming has always relied on its users. This is a strong idea by itself.
 
 Cf: Minecraft mods that became part of the real game. Bethesda modders fixing the game.
-Because they wanted to play one of their favorite titles, **on their own terms.** 
+Because they wanted to play one of their favorite titles, **on their own terms.**
 
-Similarly, GTA is no different: Fusion fix became standard way to play GTA IV.
+Similarly, GTA is no different: Fusion Fix became the standard way to play GTA IV.
 Bugstar (or GamePlayFixes) for V... Anyways the idea is that a game always has rough edges...
 
-ARMA modders creating dozens of gamemodes (enfusion is one of the rare project that does
+ARMA modders creating dozens of gamemodes (Enfusion is one of the rare projects that does
 **recognize the value this has**, holding contests and community modding tutorials/discourse)
 
 And like any good software, dogfooding issues can only be achieved with thorough
-testing and incremental fixes for identified parts that are problematic. 
+testing and incremental fixes for identified parts that are problematic.
 
 ## Spitting on the free work
 
@@ -27,17 +27,17 @@ Most of the modding scene is seen as "outside warranty" work. This means that
 the work itself is considered external modifications, which do not get endorsed...
 Aside from the community itself enjoying these improvements...
 
-Wether it's QOL, fixes, or added functionality doesn't really matter.
+Whether it's QOL, fixes, or added functionality doesn't really matter.
 
 What does matter on the other hand is how releasing on specific platforms only
 is used as a monetisation weapon. I.e. forcing you to buy a gaming console, while
-your perfectly fine working gaming PC is held-back, on purpose for you to buy
+your perfectly fine working gaming PC is held back, on purpose for you to buy
 hardware you probably did not even want.
 
 ## Realising it carried you for 13 years
 
 Basically, if it wasn't for GTA V online modders, the game would have died out.
-Not that people wouldn't have relaunched it once in a while, doign the story for the 20th
+Not that people wouldn't have relaunched it once in a while, doing the story for the 20th
 time. But that there would not have been hundreds of thousands of players and viewers,
 playing daily for so long, if it wasn't for FiveM's communities, and modders.
 
@@ -77,7 +77,7 @@ as a weapon. The suit was later dismissed.
 ([TorrentFreak][re3-tf], [PC Gamer][re3-pcgamer], [PC Gamer, dismissal][re3-dismissed])
 
 **2023: the purchase.** Meanwhile FiveM kept going, and GTA RP on Twitch turned
-it into the main reason a ten year old game stayed relevant. On August 11, 2023
+it into the main reason a ten-year-old game stayed relevant. On August 11, 2023
 Rockstar announced that Cfx.re, the team behind FiveM and RedM, was "now
 officially a part of Rockstar Games". Same mod, same founder, eight years after
 the ban.
