@@ -83,10 +83,10 @@ what they build as standalone Steam games without taking royalties, and
 [pays the people making games on the platform][sbox-pay], $500,000 so far by its
 own count. It launched on Steam on [April 28, 2026][sbox-release].
 
-The proect is quite active on Github and I reckon the quality of the tools to create
-must have imporved tenfold since making it open. And it is still how Valve recruits. 
+The project is quite active on Github and I reckon the quality of the tools to create
+must have improved tenfold, since making it open. And it is still how Valve recruits. 
 Counter-Strike, Team Fortress and Dota 2 all exist because Valve **hired the people
-who made the mods.**
+who made the thing.**
 
 In August 2026 that pattern was
 [reported for Deadlock][deadlock-hire]: Kirill Senzu, a 3D artist known for fan
