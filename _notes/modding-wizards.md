@@ -41,7 +41,7 @@ is used as a monetisation weapon. I.e. forcing you to buy a gaming console, whil
 your perfectly fine working gaming PC is held back, on purpose for you to buy
 hardware you probably did not even want.
 
-## Realising it carried you for 13 years
+## It carried you for 13 years
 
 Basically, if it wasn't for GTA V online modders, the game would have died out.
 Not that people wouldn't have relaunched it once in a while, doing the story for the 20th
