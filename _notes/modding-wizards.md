@@ -176,6 +176,10 @@ GTA VI came out on November 19, 2026, on PS5 and Xbox Series only.
 [No PC version, no date for one][gta6-nopc]. Take-Two's CEO put it plainly:
 "Rockstar always starts on console".
 
+His reason is that "you're judged by serving the core", and asked whether a Sony
+deal was behind it, [he said no][gta6-core]. While admitting PC can be half the
+sales of a modern release.
+
 There is a name for this: **double-dipping**. GTA V was sold on PS3 and Xbox 360
 in 2013, again on PS4 and Xbox One in 2014, on PC in 2015, and once more on PS5
 in 2022. Red Dead Redemption 2 made PC wait a year.
@@ -192,7 +196,9 @@ The PC release is the only version a wizard can open. Delaying it delays every f
 every gamemode and every RP server by the same amount. The very thing that carried
 the last game for 13 years is told to wait outside.
 
-And walls get climbed. Within a week of launch a leaked Xbox build was
+### Aside: the walls don't hold
+
+Within a week of launch a leaked Xbox build was
 [booting on PC][gta6-boot], reverse-engineered with AI tools, while
 [rival ports raced each other][gta6-race]. Take-Two had a reported
 [3,000 GitHub repositories][gta6-purge] taken down. The PC audience gets a pirate
@@ -322,6 +328,11 @@ But that calls for rules, not bans. Which they ended up writing anyway, in 2022:
 [no loot boxes, no NFTs, no misuse of trademarks][rp-policy]. It's one page.
 They could have written it in 2015.
 
+And then there is Hot Coffee. In 2005 a mod unlocked a sex minigame Rockstar had
+left disabled on the San Andreas disc. The ESRB [pulled the M rating][hotcoffee-esrb],
+the game got recalled, and the [FTC came knocking][hotcoffee-ftc]. That explains
+the paranoia. Not DMCA'ing fifteen-year-old mods in 2021.
+
 A whole genre of videos surfaces about Pay-To-Win servers being ruined by guess who?
 Modders.
 
@@ -344,6 +355,9 @@ The publisher can set the rules. It just has to **open the door first.**
 [mods21-under]: https://kotaku.com/ambitious-gta-underground-mod-shutdowns-after-six-years-1847619249
 [gta5-upgrade]: https://www.videogameschronicle.com/news/rockstar-is-giving-last-gen-gta-5-owners-a-free-upgrade/
 [gta6-nopc]: https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/
+[gta6-core]: https://www.gamesradar.com/games/grand-theft-auto/gta-6-skipping-pc-at-launch-not-due-to-playstation-deal-but-because-rockstar-focuses-on-the-core-consumer-take-two-ceo-says/
+[hotcoffee-esrb]: https://www.esrb.org/blog/esrb-concludes-investigation-into-grand-theft-auto-san-andreas-revokes-m-mature-rating/
+[hotcoffee-ftc]: https://www.gamedeveloper.com/game-platforms/ftc-take-two-settle-over-i-gta-i-hot-coffee-mod
 [gta6-boot]: https://www.techradar.com/gaming/unofficial-gta-6-pc-port-makes-rapid-progress-in-just-24-hours-game-is-now-bootable-in-historic-moment-but-scammers-will-have-a-field-day-here
 [gta6-race]: https://kotaku.com/gta-6-leaker-cyberleek-claims-to-have-to-released-exe-file-that-could-lead-to-unofficial-pc-port-2000759529
 [ps5-offsets]: https://github.com/ps5-payload-dev/ftpsrv/commit/474c8d9da00d2026b274070482bf90e37a4ffc4d
