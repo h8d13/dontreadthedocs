@@ -324,6 +324,9 @@ running on their own game.
 Same for the real car brands or loot boxes some servers sell: it happens inside a
 Rockstar product, so Rockstar is the one getting the angry letter.
 
+A whole genre of videos surfaces about Pay-To-Win servers being ruined by guess who?
+Modders (mostly cheaters, not actual devs), but still very "full-circle".
+
 But that calls for rules, not bans. Which they ended up writing anyway, in 2022:
 [no loot boxes, no NFTs, no misuse of trademarks][rp-policy]. It's one page.
 They could have written it in 2015.
@@ -332,9 +335,6 @@ And then there is Hot Coffee. In 2005 a mod unlocked a sex minigame Rockstar had
 left disabled on the San Andreas disc. The ESRB [pulled the M rating][hotcoffee-esrb],
 the game got recalled, and the [FTC came knocking][hotcoffee-ftc]. That explains
 the paranoia. Not DMCA'ing fifteen-year-old mods in 2021.
-
-A whole genre of videos surfaces about Pay-To-Win servers being ruined by guess who?
-Modders.
 
 ## Conclusion
 
