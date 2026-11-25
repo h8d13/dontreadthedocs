@@ -218,6 +218,13 @@ that simply do not run on Linux or the Steam Deck. League of Legends
 October, EA calling it "a path for a variety of impactful exploits and cheats".
 GTA Online [did the same][gta-battleye] with BattlEye.
 
+And on Windows the list of demands keeps growing. Windows 11 itself
+[requires TPM 2.0][w11-tpm]. Vanguard [wants TPM 2.0 and Secure Boot][vanguard-tpm]
+on top of that, and since 2025 Battlefield 6 and Call of Duty
+[need both just to run][bf6-cod-tpm], with HVCI and VBS showing up in the
+recommended specs. This obsoletes hardware that simply lacks the capability,
+but would meet the compute.
+
 The ask is not to enable cheating, but **access** to a game in a non-invasive
 manner from the platform of your choice, ideally natively. If that's not asking
 too much of course. Server sided anti-cheat, thanks!
@@ -382,6 +389,9 @@ The publisher can set the rules. It just has to **open the door first.**
 [mods21-under]: https://kotaku.com/ambitious-gta-underground-mod-shutdowns-after-six-years-1847619249
 [gta5-upgrade]: https://www.videogameschronicle.com/news/rockstar-is-giving-last-gen-gta-5-owners-a-free-upgrade/
 [gta6-nopc]: https://godisageek.com/2026/05/gta-6-skips-pc-at-launch-consoles-come-first/
+[w11-tpm]: https://www.microsoft.com/en-us/windows/windows-11-specifications
+[vanguard-tpm]: https://www.techspot.com/news/102889-league-legends-receives-controversial-vanguard-anti-cheat-windows.html
+[bf6-cod-tpm]: https://www.thesixthaxis.com/2025/08/07/battlefield-6-and-black-ops-7-both-need-secure-boot-and-tpm-2-0-for-pc-anti-cheat/
 [lol-vanguard]: https://www.gamingonlinux.com/2024/04/riot-games-talk-vanguard-anti-cheat-for-league-of-legends-and-why-its-a-no-for-linux
 [apex-linux]: https://pcgamer.com/games/battle-royale/apex-legends-ditches-steam-deck-support-ea-says-linux-is-a-path-for-a-variety-of-impactful-exploits-and-cheats
 [gta-battleye]: https://pcgamer.com/games/grand-theft-auto/gta-online-is-no-longer-compatible-with-steam-deck-thanks-to-its-new-anti-cheat-software-despite-battleye-having-an-opt-in-system-for-this-sort-of-thing
