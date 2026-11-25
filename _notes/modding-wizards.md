@@ -158,7 +158,7 @@ I figure pirates will be playing it before December at a playable framerate.
 ### Case study: FiveM, from banned to bought
 
 The GTA V multiplayer mod FiveM is the cleanest example of the full cycle:
-ban it, threaten it, watch it outgrow you, then buy it.
+ban it, threaten it, watch it outgrow you, then buy it (out of panic).
 
 **Before FiveM.** None of this started with GTA V. GTA III shipped in 2001 without
 online play, and by February 2003 [Multi Theft Auto][mta-wiki] had bolted it on. It
