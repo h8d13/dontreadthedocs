@@ -18,7 +18,7 @@ Because they wanted to play one of their favorite titles, **on their own terms.*
 Similarly, GTA is no different: Fusion Fix became the standard way to play GTA IV.
 Bugstar (or GamePlayFixes) for V... Anyways the idea is that a game always has rough edges...
 
-ARMA modders creating dozens of gamemodes (Enfusion is one of the rare projects that does
+ARMA players creating dozens of gamemodes (Enfusion is one of the rare projects that does
 **recognize the value this has**, holding contests and community modding tutorials/discourse)
 
 Including: DayZ, Battle royales/KOTH, Roleplay, Flightschool...
@@ -52,7 +52,7 @@ hardware you probably did not even want.
 Basically, if it wasn't for GTA V online modders, the game would have died out.
 Not that people wouldn't have relaunched it once in a while, doing the story for the 20th
 time. But that there would not have been hundreds of thousands of players and viewers,
-playing daily for so long, if it wasn't for FiveM's communities, and modders.
+playing daily for so long, if it wasn't for FiveM's communities, and their tinkerers.
 
 Imagine a release where they provide these tools to empower the user. Where it is
 supported within reason. This then changes the whole dynamic of user generated/centric games.
@@ -60,7 +60,7 @@ supported within reason. This then changes the whole dynamic of user generated/c
 This is not hypothetical, it is what Valve did with [Garry's Mod][gmod-wiki]. It started
 in December 2004 as a free Half-Life 2 mod by one person. Instead of sending lawyers,
 Valve put it on Steam in November 2006 for $10 and split the profits with its author.
-The modders then did the rest: Prop Hunt, TTT, DarkRP and hundreds of other gamemodes
+Its users then did the rest: Prop Hunt, TTT, DarkRP and hundreds of other gamemodes
 are all community work, and the mod went on to sell
 [over 25 million copies][gmod-25m].
 
@@ -76,7 +76,7 @@ because Valve hired the people who made the mods. In August 2026 the same thing 
 [reported for Deadlock][deadlock-hire]: Kirill Senzu, a 3D artist known for fan
 [redesigns of Yamato][deadlock-mod] and Holiday, was brought on to work on the game
 itself. Valve has not confirmed it, and it may be contract work rather than a staff job,
-but the direction is the point: the modder gets a contract, not a cease and desist.
+but the direction is the point: the wizard gets a contract, not a cease and desist.
 
 Same starting point as FiveM, a hobbyist bolting things onto somebody else's game.
 One publisher answered with a storefront and a revenue split, the other with bans.
