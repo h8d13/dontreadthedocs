@@ -84,7 +84,7 @@ what they build as standalone Steam games without taking royalties, and
 own count. It launched on Steam on [April 28, 2026][sbox-release].
 
 The project is quite active on Github and I reckon the quality of the tools to create
-must have improved tenfold, since making it open. And it is still how Valve recruits. 
+must have improved tenfold, since making it open. And it is still how Valve recruits.
 Counter-Strike, Team Fortress and Dota 2 all exist because Valve **hired the people
 who made the thing.**
 
@@ -96,6 +96,14 @@ but the direction is the point: the wizard gets a contract, not a cease and desi
 
 Same starting point as FiveM, a hobbyist bolting things onto somebody else's game.
 One publisher answered with a storefront and a revenue split, the other with bans.
+
+To be fair, Valve is no saint either. In January 2025 it
+[rejected Classic Offensive][co-rejected], a mod recreating Counter-Strike 1.6 inside
+CS:GO, after eight years of development and a Greenlight approval back in 2017. The
+team released it elsewhere, got a cease and desist for "derivative content", and
+[cancelled the project][co-cancelled]. Its successor [CS:Legacy][cs-legacy] was then
+frozen after a message from Valve, with the team moving to its own game on Godot.
+The lesson holds for every publisher: what is tolerated is never guaranteed.
 
 ## Re-fucking yourself.
 
@@ -132,6 +140,15 @@ had never been released, which is exactly the point made above about exclusivity
 as a weapon. The suit was later dismissed.
 ([TorrentFreak][re3-tf], [PC Gamer][re3-pcgamer], [PC Gamer, dismissal][re3-dismissed])
 
+**2021: the old mods.** The same summer, DMCA notices cleared out mods for the
+PS2-era games, some of them fifteen years old: Vice Cry, GTA: Liberty City, the
+Liberty City Stories and Vice City Stories PC ports. GTA: Underground, which merged
+several maps into San Andreas, shut down after six years citing "increasing
+hostility" from Take-Two, and GTA United pulled its own files before being asked.
+No reason was ever given. A few months later the official remasters of those very
+titles went on sale.
+([PC Gamer][mods21-pcgamer], [Kotaku][mods21-kotaku], [Kotaku, Underground][mods21-under])
+
 **2023: the purchase.** Meanwhile FiveM kept going, and GTA RP on Twitch turned
 it into the main reason a ten-year-old game stayed relevant. On August 11, 2023
 Rockstar announced that Cfx.re, the team behind FiveM and RedM, was "now
@@ -161,6 +178,9 @@ enough to be acknowledged while they were building it.**
 [re3-tf]: https://torrentfreak.com/take-two-sues-enthusiasts-behind-gta-fan-projects-re3-revc-210903/
 [re3-pcgamer]: https://www.pcgamer.com/grand-theft-auto-modders-that-tried-to-get-around-a-dmca-claim-get-walloped-with-take-two-lawsuit
 [re3-dismissed]: https://www.pcgamer.com/take-two-dismisses-lawsuit-against-grand-theft-auto-modders
+[mods21-pcgamer]: https://www.pcgamer.com/take-two-has-been-issuing-takedowns-for-gta-mods
+[mods21-kotaku]: https://kotaku.com/take-two-is-removing-old-gta-mods-using-dmca-notices-1847315391
+[mods21-under]: https://kotaku.com/ambitious-gta-underground-mod-shutdowns-after-six-years-1847619249
 [buy-pcgamer]: https://pcgamer.com/rockstar-buys-the-makers-of-the-gta-online-fivem-mod-it-banned-8-years-ago
 [buy-techdirt]: https://www.techdirt.com/2023/08/14/rockstar-scoops-up-modding-roleplay-communities-in-a-departure-from-previous-policy
 [buy-gamespot]: https://gamespot.com/articles/rockstar-acquires-gta-role-playing-community-as-gta-6-continues-development/1100-6516790/
@@ -180,5 +200,8 @@ enough to be acknowledged while they were building it.**
 [grok-wiki]: https://en.wikipedia.org/wiki/Grok
 [mud1-wiki]: https://en.wikipedia.org/wiki/MUD1
 [wizard-mud]: https://mud.co.uk/richard/mudhist.htm
+[co-rejected]: https://www.pcgamer.com/games/fps/an-ambitious-counter-strike-mod-to-emulate-the-og-1-6-experience-in-global-offensive-has-been-rejected-by-valve-after-8-years-of-development
+[co-cancelled]: https://www.pcgamer.com/games/fps/the-mod-that-aimed-to-recreate-counter-strike-1-6-in-cs-go-is-now-officially-cancelled-following-abrupt-actions-by-valve-that-prevent-us-from-releasing-the-project/
+[cs-legacy]: https://www.dust2.us/news/63238/cs-legacy-fan-project-in-danger-of-being-shut-down-by-valve
 [arma-r-mod]: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended
 ---
