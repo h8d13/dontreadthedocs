@@ -233,8 +233,8 @@ too much of course. Server sided anti-cheat, thanks!
 ### Aside: the walls don't hold
 
 Within a week of launch a leaked Xbox build was
-[booting on PC][gta6-boot], reverse-engineered with AI tools, while
-[rival ports raced each other][gta6-race]. Take-Two had a reported
+[booting on PC][gta6-boot], reverse-engineered with AI tools, and
+[rival ports race each other][gta6-race]. Take-Two had a reported
 [3,000 GitHub repositories][gta6-purge] taken down. The PC audience gets a pirate
 build at single-digit framerates, and the publisher a piracy problem it scheduled
 itself. None of that is modding, and I'm not putting a leaked build in the same bag
