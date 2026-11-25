@@ -7,6 +7,18 @@ tags: [modding]
 
 ## Abstract
 
+> **wizard**, n. A person who knows how a complex piece of software or hardware works
+> (that is, who [groks][grok-wiki] it); esp. someone who can find and fix bugs quickly
+> in an emergency.
+>
+> [The Jargon File][wizard-jargon]
+
+The word fits modding better than it seems. In [MUD1][mud1-wiki], the first multi-user
+text adventure, wizard was the debug mode its two authors used to test new rooms, before
+it became [a rank players could earn][wizard-mud]: a user holding the powers of a developer.
+
+![MUD1 screenshot](https://upload.wikimedia.org/wikipedia/en/6/64/MUD1_screenshot.gif)
+
 The world of gaming has always **relied on its users**. This is a strong idea by itself.
 
 After all, they are the ones paying the product at first
@@ -159,5 +171,9 @@ enough to be acknowledged while they were building it.**
 [sbox-release]: https://www.pcgamer.com/games/garrys-mod-successor-s-and-box-finally-arrives-on-steam-on-april-28
 [deadlock-hire]: https://x.com/gabefollower/status/2088943036378026020
 [deadlock-mod]: https://deadlocker.net/mod/mod_1749656103483
+[wizard-jargon]: http://www.catb.org/jargon/html/W/wizard.html
+[grok-wiki]: https://en.wikipedia.org/wiki/Grok
+[mud1-wiki]: https://en.wikipedia.org/wiki/MUD1
+[wizard-mud]: https://mud.co.uk/richard/mudhist.htm
 [arma-r-mod]: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended
 ---
