@@ -86,16 +86,23 @@ hardware you probably did not even want.
 And how this external work is deemed "not wanted" whilst it might be the very thing
 a normal user would want.
 
+These look like two separate complaints, and they are the same wall seen from two
+sides. One keeps the wizard out of the game. The other keeps the game off the only
+machine a wizard can open.
+
 ## It carried you for 13 years
 
 Similarly, GTA is no different: [Fusion Fix][fusionfix] became the standard way to
 play GTA IV. Bugstar (or [GameplayFixesV][gameplayfixes]) for V...
 The idea is that a product always has rough edges...
 
-Basically, if it wasn't for GTA V online modders, the game would have died out.
-Not that people wouldn't have relaunched it once in a while, doing the story for the 20th
-time. But that there would not have been hundreds of thousands of players and viewers,
-playing daily for so long, without FiveM's communities, and their tinkerers.
+To be precise about the claim: GTA V would not have died without modders. It has
+[sold over 210 million copies][gta5-210m], and GTA Online earned its money from
+[Shark Cards][gta-mtx], consoles included, where FiveM does not even exist.
+
+What the modders carried is the other half: **attention**. Without FiveM's
+communities and their tinkerers, there would not have been hundreds of thousands of
+people watching and playing a decade-old game daily.
 
 And it is still going: one wizard
 [asked streamers for weird GTA V mod ideas, then made all of them][blurbs-yt].
@@ -242,7 +249,7 @@ of those very titles went on sale.
 ([PC Gamer][mods21-pcgamer], [Kotaku][mods21-kotaku], [Kotaku, Underground][mods21-under])
 
 **2023: the purchase.** Meanwhile GTA RP on Twitch turned FiveM into the main reason
-a ten-year-old game stayed relevant. On August 11, 2023 Rockstar announced that
+a ten-year-old game stayed in front of an audience. On August 11, 2023 Rockstar announced that
 Cfx.re, the team behind it, was "now officially a part of Rockstar Games". Same mod,
 same founder, eight years after the ban.
 ([PC Gamer][buy-pcgamer], [Techdirt][buy-techdirt], [GameSpot][buy-gamespot], [Wccftech][buy-wccftech])
@@ -299,11 +306,31 @@ GTA V during 2025: 82.5 million hours in July 2026 against Twitch's 49.5, then a
 Then GTA VI itself: at launch, xQc alone pulled [around 105,000 concurrent
 viewers][rp-xqc] playing through its opening mission.
 
-## Conslusion
+## The publisher's side
 
-The walls don't work. Providing tools directly enhances success of said title.
-As much as this post went a bit all over the place, it is a powerful idea by
-itself, backed by many examples of success.
+None of this is pure greed, and the reasons deserve to be stated properly.
+
+**Money.** GTA Online lives on microtransactions. A free RP server with its own
+economy, its own cars and its own paid queue is a competitor running on the
+publisher's game, taking hours and wallets that would otherwise go to Shark Cards.
+
+**Liability.** A server that sells a real-world car brand, or a loot box, does it
+inside a Rockstar product. The trademark owner or the regulator comes to Rockstar
+first, which is what the real-car clauses after the purchase were about.
+
+**Platforms.** Console launches come with marketing deals and a certification
+process, and a closed machine has far fewer cheaters injecting code into the online mode.
+Starting there is the low-risk order of operations, not only a second sale.
+
+All three are real. But each is an argument for **rules**, not for bans. In
+November 2022 Rockstar wrote [a roleplay server policy][rp-policy]: no loot boxes,
+no NFTs, no misuse of its trademarks. One page of text, which could have been
+written in 2015.
+
+## Conclusion
+
+The walls don't work. Providing tools directly enhances the success of the title.
+The publisher can set the rules. It just has to **open the door first.**
 
 
 [pi-pcgamer]: https://www.pcgamer.com/take-two-reportedly-sent-private-investigators-to-modders-home
@@ -372,6 +399,9 @@ itself, backed by many examples of success.
 [rp-twitchtracker]: https://twitchtracker.com/games/32982
 [rp-2021]: https://gameworldobserver.com/2021/12/24/gta-v-becomes-twitchs-most-streamed-video-game-of-2021-with-2-1-billion-hours-watched
 [rp-sept26]: https://streamscharts.com/news/twitch-september-2026-results
+[gta5-210m]: https://gamedeveloper.com/business/take-two-financials-nba-2k-exceeds-expectations-and-gta-v-surpasses-210m-sales
+[gta-mtx]: https://www.gamespot.com/articles/gta-red-dead-parent-company-is-making-lots-of-mone/1100-6471281/
+[rp-policy]: https://www.gamepressure.com/newsroom/rockstar-sets-rules-for-rp-servers-in-gta-5-ban-on-nfts-and-lootb/z24cf5
 [rp-xqc]: https://streamscharts.com/channels/xqc/streams/321206426716
 [rp-kick]: https://streamscharts.com/news/kick-overtakes-twitch-gta-v-viewership
 [rp-kick-oct]: https://streamscharts.com/news/kick-viewership-october-2026
