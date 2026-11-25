@@ -158,10 +158,27 @@ after eight years of work, then sent a cease and desist that
 [killed the project][co-cancelled]. Its successor [CS:Legacy][cs-legacy] froze after
 a message from Valve.
 
+[Chronoshift][chrono-pcgamer] was a free, fan-run server for a ten-year-old version
+of League of Legends, about five years in the making. In April 2021 someone from
+Riot's security team contacted the devs, asking for the source code and for the
+server to go offline. The chat ended up on Reddit and read badly enough that people
+[called it extortion][chrono-kotaku]. Riot said it was "disappointed with the tenor
+of the conversation", sent the cease and desist anyway, and the project went down.
+
+Their line since 2017 was that an old version of the game was probably "not worth
+the development effort".
+
+On July 29, 2026 Riot [launched League of Legends Classic][lol-classic]: the
+original Summoner's Rift, old runes and masteries, pre-rework champions. Five years
+after killing the fan version.
+
 ## Re-fucking yourself
 
 Then releasing on console only while that delays their magical free work...
 And honestly will just create more piracy that has the game already running.
+
+Some people say this is for "archiving" which I often find a simplification.
+It's more of "freedom" to use AND modify what you bought. Note the "and" part.
 
 As much as I'm against piracy when it comes to video games, and against AI
 being used for it... This one is kinda self-inflicted. Gatekeeping the PC version is
@@ -390,6 +407,9 @@ The publisher can set the rules. It just has to **open the door first.**
 [grok-wiki]: https://en.wikipedia.org/wiki/Grok
 [mud1-wiki]: https://en.wikipedia.org/wiki/MUD1
 [wizard-mud]: https://mud.co.uk/richard/mudhist.htm
+[chrono-pcgamer]: https://www.pcgamer.com/riot-shuts-fan-made-league-of-legends-legacy-project-denies-complaints-of-extortion
+[chrono-kotaku]: https://kotaku.com/riot-shuts-down-league-of-legends-fan-game-after-creato-1846782044
+[lol-classic]: https://www.ghacks.net/2026/07/15/riot-games-launches-league-of-legends-classic-on-july-29-with-season-3-style-gameplay/
 [co-rejected]: https://www.pcgamer.com/games/fps/an-ambitious-counter-strike-mod-to-emulate-the-og-1-6-experience-in-global-offensive-has-been-rejected-by-valve-after-8-years-of-development
 [co-cancelled]: https://www.pcgamer.com/games/fps/the-mod-that-aimed-to-recreate-counter-strike-1-6-in-cs-go-is-now-officially-cancelled-following-abrupt-actions-by-valve-that-prevent-us-from-releasing-the-project/
 [cs-legacy]: https://www.dust2.us/news/63238/cs-legacy-fan-project-in-danger-of-being-shut-down-by-valve
