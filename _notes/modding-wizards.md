@@ -17,6 +17,10 @@ The word fits modding better than it seems. In [MUD1][mud1-wiki], the first mult
 text adventure, wizard was the debug mode its two authors used to test new rooms, before
 it became [a rank players could earn][wizard-mud]: a user holding the powers of a developer.
 
+> Funnily enough, both terms are also tied to hacking in video games, since such powers
+> can be abused in live play. A "modder" or "wizard" can also mean someone with special
+> capabilities in game that standard players do not have access to.
+
 ![MUD1 screenshot](https://upload.wikimedia.org/wikipedia/en/6/64/MUD1_screenshot.gif)
 
 The world of gaming has always **relied on its users**. This is a strong idea by itself.
@@ -83,41 +87,34 @@ Where you can touch internals of the game without fearing you're doing something
 
 ## More of the same
 
-This is not hypothetical, it is what Valve did with [Garry's Mod][gmod-wiki]. It started
-in December 2004 as a free Half-Life 2 mod by one person. Instead of sending lawyers,
-Valve put it on Steam in November 2006 for $10 and split the profits with its author.
-Its users then did the rest: Prop Hunt, TTT, DarkRP and hundreds of other gamemodes
-are all community work, and the mod went on to sell
+This is not hypothetical, it is what Valve did with [Garry's Mod][gmod-wiki]: a free
+Half-Life 2 mod from 2004 that Valve put on Steam in 2006, splitting the profits with
+its author. Its users did the rest (Prop Hunt, TTT, DarkRP) and it went on to sell
 [over 25 million copies][gmod-25m].
 
-Its successor [s&box][sbox-wiki] pushes the same logic further. Valve licensed Source 2
-to Facepunch, the first time a third party got it. Facepunch then put its own code
-[on GitHub under MIT][sbox-oss] (Valve's engine part stays closed), lets creators export
-what they build as standalone Steam games without taking royalties, and
-[pays the people making games on the platform][sbox-pay], $500,000 so far by its
-own count. It launched on Steam on [April 28, 2026][sbox-release].
+Its successor [s&box][sbox-wiki] goes further. Valve licensed Source 2 to Facepunch,
+which put its own code [on GitHub under MIT][sbox-oss], takes no royalties on games
+exported to Steam, and [pays the people building on the platform][sbox-pay]. It
+[launched in April 2026][sbox-release].
 
 The project is quite active on GitHub and I reckon the quality of the tools to create
 must have improved tenfold, since making it open. And it is still how Valve recruits.
 Counter-Strike, Team Fortress and Dota 2 all exist because Valve **hired the people
 who made the thing.**
 
-In August 2026 that pattern was
-[reported for Deadlock][deadlock-hire]: Kirill Senzu, a 3D artist known for fan
-[redesigns of Yamato][deadlock-mod] and Holiday, was brought on to work on the game
-itself. Valve has not confirmed it, and it may be freelance rather than a staff job,
-but the direction is the point: the wizard gets a contract, not a cease and desist.
+In August 2026 that pattern was [reported for Deadlock][deadlock-hire]: Kirill Senzu,
+known for fan [redesigns of Yamato][deadlock-mod] and Holiday, was brought on to work
+on the game itself. Unconfirmed by Valve, and maybe freelance, but the direction is
+the point: the wizard gets a contract, not a cease and desist.
 
 Same starting point as FiveM, a hobbyist bolting things onto somebody else's game.
 One publisher answered with a storefront and a revenue split, the other with bans.
 
-To be fair, Valve is no saint either. In January 2025 it
-[rejected Classic Offensive][co-rejected], a mod recreating Counter-Strike 1.6 inside
-CS:GO, after eight years of development and a Greenlight approval back in 2017. The
-team released it elsewhere, got a cease and desist for "derivative content", and
-[cancelled the project][co-cancelled]. Its successor [CS:Legacy][cs-legacy] was then
-frozen after a message from Valve, with the team moving to its own game on Godot.
-The lesson holds for every publisher: what is tolerated is never guaranteed.
+To be fair, Valve is no saint either. In 2025 it
+[rejected Classic Offensive][co-rejected], a Counter-Strike 1.6 remake inside CS:GO,
+after eight years of work, then sent a cease and desist that
+[killed the project][co-cancelled]. Its successor [CS:Legacy][cs-legacy] froze after
+a message from Valve. What is tolerated is never guaranteed.
 
 ## Re-fucking yourself
 
@@ -147,11 +144,11 @@ every gamemode and every RP server by the same amount. The very thing that carri
 the last game for 13 years is told to wait outside.
 
 And walls get climbed. Within a week of launch a leaked Xbox build was
-[booting on PC][gta6-boot], reverse-engineered at speed with AI tools, and
-[rival ports were racing each other][gta6-race]. Take-Two answered the usual way,
-with a reported [3,000 GitHub repositories][gta6-purge] taken down. So the PC
-audience gets a pirate build at single-digit framerates in place of a product,
-and the publisher gets a piracy problem it scheduled itself.
+[booting on PC][gta6-boot], reverse-engineered with AI tools, while
+[rival ports raced each other][gta6-race]. Take-Two had a reported
+[3,000 GitHub repositories][gta6-purge] taken down. The PC audience gets a pirate
+build at single-digit framerates, and the publisher a piracy problem it scheduled
+itself.
 
 I figure pirates will be playing it before December at a playable framerate.
 
@@ -160,71 +157,59 @@ I figure pirates will be playing it before December at a playable framerate.
 The GTA V multiplayer mod FiveM is the cleanest example of the full cycle:
 ban it, threaten it, watch it outgrow you, then buy it (out of panic).
 
-**Before FiveM.** None of this started with GTA V. GTA III shipped in 2001 without
-online play, and by February 2003 [Multi Theft Auto][mta-wiki] had bolted it on. It
-is still alive, open source under GPLv3 since 2008. Then came
-[San Andreas Multiplayer][samp-wiki] (SA-MP), grown out of a Vice City multiplayer
-mod from 2005, with a scripting engine that let server owners write their own
-gamemodes. That is [where GTA roleplay was invented][samp-intel], on thousands of
-servers at its peak, years before streaming was as popular.
-FiveM inherited a genre that wizards had already built for free, on a game whose
-publisher never offered them anything.
+**Before FiveM.** None of this started with GTA V. GTA III shipped without online
+play, and by 2003 [Multi Theft Auto][mta-wiki] had bolted it on. Then came
+[San Andreas Multiplayer][samp-wiki], whose scripting engine let server owners write
+their own gamemodes. That is [where GTA roleplay was invented][samp-intel], years
+before streaming was as popular. FiveM inherited a genre that wizards had already
+built for free.
 
-**2015: the ban.** In August 2015 the people behind FiveM had their Social Club
-accounts suspended. Rockstar's line was that the project was designed to
-facilitate piracy. In November, lead dev NTAuthority wrote on Reddit that two
-private investigators turned up at his home, said Take-Two sent them, and handed
-him a phone with a Take-Two representative who wanted the mod stopped "without
-lawyers". The account is his own and was never independently verified, but
-public development of FiveM stopped, and so did the competing GTA:MP project.
+**2015: the ban.** In August the people behind FiveM had their Social Club accounts
+suspended, the project accused of facilitating piracy. In November, lead dev
+NTAuthority wrote that two private investigators turned up at the door, with a
+Take-Two representative on the phone asking for the mod to stop "without lawyers".
+The account was never independently verified, but public development stopped, and
+so did the competing GTA:MP project.
 ([PC Gamer][pi-pcgamer], [GameSpot][pi-gamespot], [Daily Dot][pi-dailydot])
 
 **2017: OpenIV.** Take-Two sent a cease and desist to OpenIV, the tool most
-single-player GTA mods depend on. The team complied and shut down. The community
-answered with a wave of negative Steam reviews, and within days Take-Two backed
-off. The outcome is the policy still quoted today: Take-Two "generally will not
-take legal action" against projects that are single-player, non-commercial and
-respect third-party IP. Note the "generally": it is a tolerance, not a right.
+single-player mods depend on. The team shut down, the community review-bombed the
+game on Steam, and within days Take-Two backed off. The resulting policy is still
+quoted today: Take-Two "generally will not take legal action" against single-player,
+non-commercial projects. Note the "generally": it is a tolerance, not a right.
 ([PC Gamer][openiv-pcgamer], [GameSpot][openiv-gamespot], [TechRadar][openiv-techradar])
 
 **2021: re3 / reVC.** The reverse-engineered GTA III and Vice City got a DMCA
-takedown on GitHub. The devs filed counter-notices arguing fair use, the repos
-came back, and Take-Two sued them. The repos were removed a second time. One of
-the complaints was that the projects let the games run on platforms where they
-had never been released, which is exactly the point made above about exclusivity
-as a weapon. The suit was later dismissed.
+takedown on GitHub. The devs filed counter-notices, the repos came back, and
+Take-Two sued. One complaint was that the projects let the games run on platforms
+where they had never been released: exclusivity as a weapon, again. The suit was
+later dismissed.
 ([TorrentFreak][re3-tf], [PC Gamer][re3-pcgamer], [PC Gamer, dismissal][re3-dismissed])
 
 **2021: the old mods.** The same summer, DMCA notices cleared out mods for the
-PS2-era games, some of them fifteen years old: Vice Cry, GTA: Liberty City, the
-Liberty City Stories and Vice City Stories PC ports. GTA: Underground, which merged
-several maps into San Andreas, shut down after six years citing "increasing
-hostility" from Take-Two, and GTA United pulled its own files before being asked.
-No reason was ever given. A few months later the official remasters of those very
-titles went on sale.
+PS2-era games, some fifteen years old: Vice Cry, GTA: Liberty City, the Stories PC
+ports. GTA: Underground shut down after six years citing "increasing hostility"
+from Take-Two. No reason was ever given. A few months later the official remasters
+of those very titles went on sale.
 ([PC Gamer][mods21-pcgamer], [Kotaku][mods21-kotaku], [Kotaku, Underground][mods21-under])
 
-**2023: the purchase.** Meanwhile FiveM kept going, and GTA RP on Twitch turned
-it into the main reason a ten-year-old game stayed relevant. On August 11, 2023
-Rockstar announced that Cfx.re, the team behind FiveM and RedM, was "now
-officially a part of Rockstar Games". Same mod, same founder, eight years after
-the ban.
+**2023: the purchase.** Meanwhile GTA RP on Twitch turned FiveM into the main reason
+a ten-year-old game stayed relevant. On August 11, 2023 Rockstar announced that
+Cfx.re, the team behind it, was "now officially a part of Rockstar Games". Same mod,
+same founder, eight years after the ban.
 ([PC Gamer][buy-pcgamer], [Techdirt][buy-techdirt], [GameSpot][buy-gamespot], [Wccftech][buy-wccftech])
 
-**After.** The promise was that day to day nothing would change. What did
-change: a new Platform License Agreement with copyright clauses, aimed at
-servers using real-world car brands and assets ripped from other games. In
-February 2025 the insider Tez2 and community members alleged a messy internal
-takeover, with the core developers sidelined and most of them gone from the
-company, the founder included. These are allegations, neither Rockstar nor
+**After.** The promise was that nothing would change. What did: a new license
+agreement with copyright clauses aimed at servers using real-world car brands. In
+February 2025 community members alleged a messy internal takeover, with the core
+developers sidelined and the founder gone. Allegations only: neither Rockstar nor
 Cfx.re confirmed them.
 ([Rockstar Intel][after-intel], [Gameranx][after-gameranx], [Sportskeeda][after-sk])
 
-**2025: back to the start.** In December 2025 Take-Two filed a DMCA notice against
-Multi Theft Auto's GitHub repository, claiming it contained leaked source code. The
-repository went offline, the developers filed a counter-notice, and GitHub
-[restored it][mta-tf] once Take-Two failed to sue. A 22-year-old mod, for a game
-the publisher had pulled from sale, tolerated for two decades and then not.
+**2025: back to the start.** In December Take-Two filed a DMCA notice against Multi
+Theft Auto's GitHub repository, claiming leaked source code. The developers filed a
+counter-notice and GitHub [restored it][mta-tf] once Take-Two failed to sue. A
+22-year-old mod, tolerated for two decades and then not.
 
 So the wizards worked for free for eight years, under legal threat for part of
 it. The value they created was real enough to be acquired, **but never real
