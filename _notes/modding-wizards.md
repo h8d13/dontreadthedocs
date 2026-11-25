@@ -24,6 +24,8 @@ The world of gaming has always **relied on its users**. This is a strong idea by
 After all, they are the ones paying the product at first
 and **keeping it alive** as they play and **build around common interests**.
 
+## Examples
+
 Cf: Minecraft mods that became part of the game.
 [Bethesda modders fixing bugs on release][bethesda-yt].
 Because they wanted to play one of their favorite titles, **on their own terms.**
@@ -56,6 +58,9 @@ What does matter on the other hand is how releasing on specific platforms only
 is used as a monetisation weapon. I.e. forcing you to buy a console, while
 your perfectly fine working gaming PC is held back, on purpose, to sell you
 hardware you probably did not even want.
+
+And how this external work is deemed "not wanted" whilst it might be the very things
+a normal user would want.
 
 ## It carried you for 13 years
 
